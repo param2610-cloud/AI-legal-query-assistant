@@ -23,15 +23,25 @@ from pathlib import Path
 
 import chromadb
 from sentence_transformers import SentenceTransformer
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_ollama import OllamaLLM
-from langchain.prompts import PromptTemplate
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_ollama import ChatOllama
+from langchain_core.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
-from langchain.vectorstores import Chroma
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.schema import Document
-from langchain.agents import initialize_agent, Tool, AgentType
-from langchain.memory import ConversationBufferMemory
+from langchain_community.vectorstores import Chroma
+# Import from correct locations for modern LangChain
+try:
+    from langchain_huggingface import HuggingFaceEmbeddings
+except ImportError:
+    try:
+        from langchain_community.embeddings import HuggingFaceEmbeddings
+    except ImportError:
+        from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_core.documents import Document
+from langchain_core.tools import tool
+from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
+# Import LangGraph components for modern agent implementation
+from langgraph.graph import StateGraph, MessagesState, START, END
+from langgraph.prebuilt import ToolNode, tools_condition
 import pandas as pd
 from tqdm import tqdm
 
@@ -57,34 +67,102 @@ class LegalDataProcessor:
         for act_dir in tqdm(act_dirs, desc="Loading legal acts"):
             act_name = act_dir.name.replace('_', ' ').title()
             
-            # Look for structured JSON files
-            json_files = list(act_dir.glob("*_sections*.json"))
+            # Look for various JSON file patterns
+            json_files = []
+            json_files.extend(list(act_dir.glob("*_sections*.json")))
+            json_files.extend(list(act_dir.glob("*_structured.json")))
+            json_files.extend(list(act_dir.glob("*_final*.json")))
+            
+            # Remove duplicates
+            json_files = list(set(json_files))
             
             for json_file in json_files:
                 try:
                     with open(json_file, 'r', encoding='utf-8') as f:
-                        sections = json.load(f)
+                        data = json.load(f)
                     
-                    for section_id, section_data in sections.items():
-                        if isinstance(section_data, dict):
-                            title = section_data.get('title', f'Section {section_id}')
-                            content = section_data.get('content', '')
-                            
-                            # Create document with metadata
-                            doc = Document(
-                                page_content=f"Title: {title}\n\nContent: {content}",
-                                metadata={
-                                    'act_name': act_name,
-                                    'section_id': section_id,
-                                    'title': title,
-                                    'source_file': str(json_file),
-                                    'document_type': 'legal_section'
-                                }
-                            )
-                            documents.append(doc)
-                            
+                    # Handle different JSON structures
+                    if isinstance(data, dict):
+                        # Case 1: Object with sections as keys (old format)
+                        sections_found = False
+                        for section_id, section_data in data.items():
+                            if isinstance(section_data, dict) and ('title' in section_data or 'content' in section_data or 'text' in section_data):
+                                sections_found = True
+                                title = section_data.get('title', section_data.get('heading', f'Section {section_id}'))
+                                content = section_data.get('content', section_data.get('text', ''))
+                                
+                                if content:  # Only add if there's actual content
+                                    doc = Document(
+                                        page_content=f"Title: {title}\n\nContent: {content}",
+                                        metadata={
+                                            'act_name': act_name,
+                                            'section_id': section_id,
+                                            'title': title,
+                                            'source_file': str(json_file),
+                                            'document_type': 'legal_section'
+                                        }
+                                    )
+                                    documents.append(doc)
+                        
+                        # Case 2: Object with 'sections' array (new format)
+                        if not sections_found and 'sections' in data and isinstance(data['sections'], list):
+                            sections = data['sections']
+                            for i, section_data in enumerate(sections):
+                                if isinstance(section_data, dict):
+                                    section_id = section_data.get('section', section_data.get('section_number', str(i+1)))
+                                    title = section_data.get('title', section_data.get('heading', f'Section {section_id}'))
+                                    content = section_data.get('content', section_data.get('text', ''))
+                                    
+                                    if content:  # Only add if there's actual content
+                                        doc = Document(
+                                            page_content=f"Title: {title}\n\nContent: {content}",
+                                            metadata={
+                                                'act_name': act_name,
+                                                'section_id': section_id,
+                                                'title': title,
+                                                'source_file': str(json_file),
+                                                'document_type': 'legal_section'
+                                            }
+                                        )
+                                        documents.append(doc)
+                    
+                    # Case 3: Direct array of sections
+                    elif isinstance(data, list):
+                        for i, section_data in enumerate(data):
+                            if isinstance(section_data, dict):
+                                section_id = section_data.get('section', section_data.get('section_number', str(i+1)))
+                                title = section_data.get('title', section_data.get('heading', f'Section {section_id}'))
+                                content = section_data.get('content', section_data.get('text', ''))
+                                
+                                if content:  # Only add if there's actual content
+                                    doc = Document(
+                                        page_content=f"Title: {title}\n\nContent: {content}",
+                                        metadata={
+                                            'act_name': act_name,
+                                            'section_id': section_id,
+                                            'title': title,
+                                            'source_file': str(json_file),
+                                            'document_type': 'legal_section'
+                                        }
+                                    )
+                                    documents.append(doc)
+                            elif isinstance(section_data, str) and section_data.strip():
+                                # Handle simple string content
+                                doc = Document(
+                                    page_content=section_data,
+                                    metadata={
+                                        'act_name': act_name,
+                                        'section_id': str(i+1),
+                                        'title': f'Section {i+1}',
+                                        'source_file': str(json_file),
+                                        'document_type': 'legal_section'
+                                    }
+                                )
+                                documents.append(doc)
+                                
                 except Exception as e:
-                    logger.error(f"Error loading {json_file}: {e}")
+                    logger.warning(f"Could not load {json_file}: {e}")
+                    continue
         
         logger.info(f"Loaded {len(documents)} legal documents")
         return documents
@@ -94,10 +172,26 @@ class LegalRAGSystem:
     
     def __init__(self, model_name: str = "llama3.2:3b"):
         self.model_name = model_name
-        self.embeddings = HuggingFaceEmbeddings(
-            model_name="sentence-transformers/all-MiniLM-L6-v2"
-        )
-        self.llm = OllamaLLM(model=model_name, temperature=0.1)
+        # Use modern HuggingFace embeddings
+        try:
+            from langchain_huggingface import HuggingFaceEmbeddings
+            self.embeddings = HuggingFaceEmbeddings(
+                model_name="sentence-transformers/all-MiniLM-L6-v2"
+            )
+        except ImportError:
+            try:
+                from langchain_community.embeddings import HuggingFaceEmbeddings
+                self.embeddings = HuggingFaceEmbeddings(
+                    model_name="sentence-transformers/all-MiniLM-L6-v2"
+                )
+            except ImportError:
+                from langchain.embeddings import HuggingFaceEmbeddings
+                self.embeddings = HuggingFaceEmbeddings(
+                    model_name="sentence-transformers/all-MiniLM-L6-v2"
+                )
+        
+        # Use ChatOllama instead of OllamaLLM for tool calling support
+        self.llm = ChatOllama(model=model_name, temperature=0.1)
         self.vectorstore = None
         self.retriever = None
         self.qa_chain = None
@@ -156,31 +250,54 @@ Response Guidelines:
 Response:"""
         )
         
-        self.qa_chain = RetrievalQA.from_chain_type(
-            llm=self.llm,
-            chain_type="stuff",
-            retriever=self.retriever,
-            chain_type_kwargs={"prompt": legal_prompt},
-            return_source_documents=True
+        # Create a custom QA chain using modern patterns
+        from langchain_core.runnables import RunnableParallel, RunnablePassthrough
+        from langchain_core.output_parsers import StrOutputParser
+        
+        def format_docs(docs):
+            return "\n\n".join(doc.page_content for doc in docs)
+        
+        legal_prompt = PromptTemplate.from_template("""
+You are an AI Legal Assistant specializing in Indian laws. Your role is to help common people understand legal matters in simple, practical terms.
+
+Context from Legal Documents:
+{context}
+
+User Question: {question}
+
+Response Guidelines:
+- Start with a direct answer to their question
+- Explain relevant legal provisions in plain English
+- Use bullet points for clarity
+- Include practical next steps if applicable
+- Mention if they should consult a lawyer for complex situations
+
+Response:""")
+        
+        # Modern chain using LCEL (LangChain Expression Language)
+        self.qa_chain = (
+            RunnableParallel({
+                "context": self.retriever | format_docs,
+                "question": RunnablePassthrough()
+            })
+            | legal_prompt
+            | self.llm
+            | StrOutputParser()
         )
 
 class LegalAgent:
-    """Agentic system for legal assistance"""
+    """Modern Agentic system for legal assistance using LangGraph"""
     
     def __init__(self, rag_system: LegalRAGSystem):
         self.rag_system = rag_system
-        self.memory = ConversationBufferMemory(
-            memory_key="chat_history",
-            return_messages=True
-        )
-        self.agent = None
-        self.setup_agent()
+        self.graph = None
+        self.setup_graph()
     
     def legal_search_tool(self, query: str) -> str:
         """Tool for searching legal documents"""
         try:
-            result = self.rag_system.qa_chain({"query": query})
-            return result["result"]
+            result = self.rag_system.qa_chain.invoke(query)
+            return result
         except Exception as e:
             return f"Error searching legal documents: {e}"
     
@@ -211,35 +328,218 @@ class LegalAgent:
         """
         
         try:
-            response = self.rag_system.llm(analysis_prompt)
-            return response
+            response = self.rag_system.llm.invoke(analysis_prompt)
+            return response.content if hasattr(response, 'content') else str(response)
         except Exception as e:
             return f"Error analyzing situation: {e}"
     
-    def setup_agent(self):
-        """Set up the legal agent with tools"""
+    def generate_query_or_respond(self, state: MessagesState):
+        """Decide whether to use tools or respond directly"""
         
-        tools = [
-            Tool(
-                name="Legal Document Search",
-                func=self.legal_search_tool,
-                description="Search through Indian legal acts and regulations to find relevant information. Use this when the user asks about specific laws, rights, or legal procedures."
-            ),
-            Tool(
-                name="Situation Analyzer",
-                func=self.situation_analyzer_tool,
-                description="Analyze a person's specific situation to identify relevant legal areas and provide guidance. Use this when the user describes their personal situation or problem."
-            )
-        ]
+        # Create legal search tool using modern @tool decorator
+        @tool
+        def legal_document_search(query: str) -> str:
+            """Search through Indian legal acts and regulations to find relevant information.
+            
+            Args:
+                query: The search query about legal matters
+                
+            Returns:
+                Relevant legal information and guidance
+            """
+            try:
+                return self.rag_system.qa_chain.invoke(query)
+            except Exception as e:
+                return f"Error searching legal documents: {e}"
         
-        self.agent = initialize_agent(
-            tools=tools,
-            llm=self.rag_system.llm,
-            agent=AgentType.CONVERSATIONAL_REACT_DESCRIPTION,
-            memory=self.memory,
-            verbose=True,
-            max_iterations=3
+        # Get the latest message
+        messages = state["messages"]
+        
+        # Use LLM to decide if tools are needed
+        response = self.rag_system.llm.bind_tools([legal_document_search]).invoke(messages)
+        
+        return {"messages": [response]}
+    
+    def grade_documents(self, state: MessagesState):
+        """Grade document relevance"""
+        question = state["messages"][0].content
+        last_message = state["messages"][-1]
+        
+        if hasattr(last_message, 'content'):
+            context = last_message.content
+        else:
+            context = str(last_message)
+        
+        grade_prompt = f"""
+        You are grading document relevance. 
+        Question: {question}
+        Document: {context}
+        
+        Is this document relevant to answering the question? 
+        Answer with ONLY 'yes' or 'no' and nothing else.
+        """
+        
+        try:
+            # Try structured output first
+            try:
+                from pydantic import BaseModel, Field
+                
+                class GradeDocuments(BaseModel):
+                    binary_score: str = Field(description="Relevance score: 'yes' or 'no'")
+                
+                response = self.rag_system.llm.with_structured_output(GradeDocuments).invoke(
+                    [{"role": "user", "content": grade_prompt}]
+                )
+                score = response.binary_score.lower()
+            except:
+                # Fallback to simple text response
+                response = self.rag_system.llm.invoke([{"role": "user", "content": grade_prompt}])
+                score = response.content.lower().strip() if hasattr(response, 'content') else str(response).lower().strip()
+            
+            if "yes" in score:
+                return "generate_answer"
+            else:
+                return "rewrite_question"
+        except Exception as e:
+            logger.warning(f"Document grading failed: {e}, defaulting to generate_answer")
+            # Default to generating answer if grading fails
+            return "generate_answer"
+    
+    def rewrite_question(self, state: MessagesState):
+        """Rewrite unclear questions"""
+        messages = state["messages"]
+        original_question = messages[0].content
+        
+        rewrite_prompt = f"""
+        The original question may need clarification for better search results.
+        Original question: {original_question}
+        
+        Rewrite this question to be more specific and searchable for Indian legal documents:
+        """
+        
+        response = self.rag_system.llm.invoke([{"role": "user", "content": rewrite_prompt}])
+        
+        # Replace the original question with the rewritten one
+        return {"messages": [HumanMessage(content=response.content)]}
+    
+    def generate_answer(self, state: MessagesState):
+        """Generate final answer using retrieved context"""
+        question = state["messages"][0].content
+        
+        # Find the tool message with context
+        context = ""
+        for msg in state["messages"]:
+            if hasattr(msg, 'name') and msg.name == "legal_document_search":
+                context = msg.content
+                break
+            elif hasattr(msg, 'content') and len(msg.content) > 100:
+                context = msg.content
+        
+        answer_prompt = f"""
+        You are an AI Legal Assistant for Indian law. Answer the question using the provided context.
+        
+        Question: {question}
+        Context: {context}
+        
+        Provide a helpful answer that:
+        - Explains the law in simple terms
+        - Gives practical guidance
+        - Uses bullet points for clarity
+        - Mentions when to consult a lawyer
+        
+        Keep it concise and user-friendly.
+        """
+        
+        response = self.rag_system.llm.invoke([{"role": "user", "content": answer_prompt}])
+        return {"messages": [AIMessage(content=response.content)]}
+    
+    def setup_graph(self):
+        """Create the LangGraph workflow"""
+        
+        # Create legal search tool using modern @tool decorator
+        @tool
+        def legal_document_search(query: str) -> str:
+            """Search through Indian legal acts and regulations.
+            
+            Args:
+                query: The search query about legal matters
+                
+            Returns:
+                Relevant legal information and guidance
+            """
+            try:
+                return self.rag_system.qa_chain.invoke(query)
+            except Exception as e:
+                return f"Error searching legal documents: {e}"
+        
+        # Create the graph
+        workflow = StateGraph(MessagesState)
+        
+        # Add nodes
+        workflow.add_node("generate_query_or_respond", self.generate_query_or_respond)
+        workflow.add_node("retrieve", ToolNode([legal_document_search]))
+        workflow.add_node("rewrite_question", self.rewrite_question)
+        workflow.add_node("generate_answer", self.generate_answer)
+        
+        # Add edges
+        workflow.add_edge(START, "generate_query_or_respond")
+        
+        # Conditional edges
+        workflow.add_conditional_edges(
+            "generate_query_or_respond",
+            tools_condition,
+            {
+                "tools": "retrieve",
+                END: END,
+            },
         )
+        
+        workflow.add_conditional_edges(
+            "retrieve",
+            self.grade_documents,
+        )
+        
+        workflow.add_edge("generate_answer", END)
+        workflow.add_edge("rewrite_question", "generate_query_or_respond")
+        
+        # Compile the graph
+        self.graph = workflow.compile()
+    
+    def invoke(self, input_dict):
+        """Process user input through the graph"""
+        try:
+            if isinstance(input_dict.get("input"), str):
+                messages = [HumanMessage(content=input_dict["input"])]
+            else:
+                messages = input_dict.get("messages", [])
+            
+            # Run the graph
+            result = None
+            for chunk in self.graph.stream({"messages": messages}):
+                for node, update in chunk.items():
+                    result = update
+            
+            if result and "messages" in result:
+                final_message = result["messages"][-1]
+                if hasattr(final_message, 'content'):
+                    return {"output": final_message.content}
+                else:
+                    return {"output": str(final_message)}
+            else:
+                return {"output": "No response generated"}
+                
+        except Exception as e:
+            logger.error(f"Graph execution error: {e}")
+            # Fallback to direct RAG
+            try:
+                query = input_dict.get("input", "")
+                if not query and "messages" in input_dict:
+                    query = input_dict["messages"][-1].content if input_dict["messages"] else ""
+                
+                rag_result = self.rag_system.qa_chain.invoke({"query": query})
+                return {"output": rag_result.get("result", "No response generated")}
+            except Exception as fallback_error:
+                return {"output": f"Error: {str(e)} | Fallback error: {str(fallback_error)}"}
 
 class SimpleLegalAssistant:
     """Main interface for the legal assistant"""
@@ -289,22 +589,35 @@ class SimpleLegalAssistant:
                 full_query = question
             
             # Get response from agent
-            response = self.agent.agent.run(full_query)
+            response = self.agent.invoke({"input": full_query})
             
             return {
                 "question": question,
-                "response": response,
+                "response": response.get("output", "No response generated"),
                 "context": context,
                 "status": "success"
             }
             
         except Exception as e:
             logger.error(f"Error processing question: {e}")
-            return {
-                "question": question,
-                "error": str(e),
-                "status": "error"
-            }
+            # Fallback to direct RAG query if agent fails
+            try:
+                logger.info("Falling back to direct RAG query...")
+                rag_result = self.rag_system.qa_chain.invoke({"query": question})
+                return {
+                    "question": question,
+                    "response": rag_result.get("result", "No response generated"),
+                    "context": context,
+                    "status": "success_fallback",
+                    "source_documents": rag_result.get("source_documents", [])
+                }
+            except Exception as fallback_error:
+                logger.error(f"Fallback also failed: {fallback_error}")
+                return {
+                    "question": question,
+                    "error": f"Primary error: {str(e)}, Fallback error: {str(fallback_error)}",
+                    "status": "error"
+                }
     
     def get_relevant_acts(self, topic: str) -> List[Dict]:
         """Get acts relevant to a specific topic"""

@@ -39,13 +39,40 @@ venv.bak/
 conda-env/
 .conda/
 
-# Environment Variables
-# ---------------------
+# Environment Variables & API Keys
+# --------------------------------
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+api_keys.txt
+config/secrets.py
+
+# Vector Database & AI Models
+# ----------------------------
+chroma_db/
+*.chroma
+chromadb/
+models/
+.cache/
+transformers_cache/
+sentence_transformers_cache/
+huggingface_cache/
+ollama_models/
+
+# Logs & Temporary Files
+# ----------------------
+logs/
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+setup_logs/
+config/production.py
+secrets.json
+credentials.json
 
 # IDE & Editor Files
 # ------------------
@@ -67,9 +94,24 @@ Thumbs.db
 .ipynb_checkpoints/
 *.ipynb
 
-# Machine Learning & AI Models
-# -----------------------------
-# Trained models and weights
+# Vector Database & Embeddings (IMPORTANT FOR YOUR RAG SYSTEM)
+# ------------------------------------------------------------
+chroma_db/
+*.index
+*.faiss
+embeddings/
+vector_store/
+chromadb/
+sentence_transformers_cache/
+.chroma/
+
+# Hugging Face & Model Cache
+# ---------------------------
+.cache/
+transformers_cache/
+torch_cache/
+.huggingface/
+models/
 *.pkl
 *.joblib
 *.model
@@ -80,22 +122,6 @@ Thumbs.db
 model_checkpoints/
 saved_models/
 checkpoints/
-legal_classifier/
-legal_classifier_final/
-
-# Hugging Face Transformers cache
-.cache/
-transformers_cache/
-torch_cache/
-
-# Vector Database & Embeddings
-# -----------------------------
-chroma_db/
-*.index
-*.faiss
-embeddings/
-vector_store/
-chromadb/
 
 # Database Files
 # --------------
@@ -120,30 +146,42 @@ tmp/
 *.tmp
 *.temp
 
-# PDF Processing Cache
-# --------------------
+# Legal Documents Processing Cache
+# --------------------------------
 pdf_cache/
 extracted_text/
 processed_pdfs/
+text_processing_temp/
+nlp_cache/
 
-# Legal Documents Processing
-# --------------------------
-/indian_code/page/files
+# Project Specific - Legal Acts Processing
+# ----------------------------------------
+# Keep the JSON files but ignore processing artifacts
 indian_code/acts/*/operation/
 indian_code/acts/*/cache/
 indian_code/acts/*/temp/
+indian_code/acts/*/processed/
+indian_code/page/files/
 
 # Streamlit
 # ---------
 .streamlit/
 streamlit_cache/
 
-# FastAPI
-# -------
-*.pid
+# Ollama & Local LLM
+# ------------------
+ollama_models/
+.ollama/
+llm_cache/
 
-# Testing
-# -------
+# RAG System Files
+# ----------------
+vector_cache/
+embedding_cache/
+retrieval_cache/
+
+# Testing & Coverage
+# ------------------
 .coverage
 .pytest_cache/
 .tox/
@@ -159,13 +197,6 @@ coverage.xml
 # -------------------
 docs/_build/
 site/
-
-# Node.js (if using any JS tools)
-# --------------------------------
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # System Files
 # ------------
@@ -197,22 +228,10 @@ yarn-error.log*
 *.rar
 *.7z
 
-# Configuration Files with Secrets
-# ---------------------------------
-config/secrets.py
-config/production.py
-secrets.json
-credentials.json
-api_keys.txt
-
 # Docker
 # ------
 .dockerignore
-
-# Kubernetes
-# ----------
-k8s/secrets/
-*.yaml.secret
+docker-compose.override.yml
 
 # Operating System Files
 # -----------------------
@@ -248,13 +267,13 @@ dmypy.json
 # -------------------------
 pyrightconfig.json
 
-# Project Specific
-# ----------------
-# Exclude batch launch files created by setup
+# Project Launch Files (Created by Windows setup)
+# -----------------------------------------------
 start_web_app.bat
 start_cli.bat
 
 # Local development files
+# -----------------------
 local_config.py
 dev_settings.py
 test_data/
@@ -264,17 +283,8 @@ test_data/
 .profiling/
 *.prof
 
-# Ollama model cache (if stored locally)
-# --------------------------------------
-ollama_models/
-.ollama/
-
-# RAG System Files
-# ----------------
-# Vector embeddings cache
-vector_cache/
-embedding_cache/
-
-# Legal text processing temporary files
-text_processing_temp/
-nlp_cache/
+# LangChain & LangSmith
+# --------------------
+.langchain/
+.langsmith/
+langchain.log
