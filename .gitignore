@@ -1,0 +1,280 @@
+# AI Legal Assistant - .gitignore
+# =====================================
+
+# Python
+# -------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+# --------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda-env/
+.conda/
+
+# Environment Variables
+# ---------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & Editor Files
+# ------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebooks
+# -----------------
+.ipynb_checkpoints/
+*.ipynb
+
+# Machine Learning & AI Models
+# -----------------------------
+# Trained models and weights
+*.pkl
+*.joblib
+*.model
+*.h5
+*.hdf5
+*.onnx
+*.pb
+model_checkpoints/
+saved_models/
+checkpoints/
+legal_classifier/
+legal_classifier_final/
+
+# Hugging Face Transformers cache
+.cache/
+transformers_cache/
+torch_cache/
+
+# Vector Database & Embeddings
+# -----------------------------
+chroma_db/
+*.index
+*.faiss
+embeddings/
+vector_store/
+chromadb/
+
+# Database Files
+# --------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Logs & Monitoring
+# -----------------
+logs/
+*.log
+*.log.*
+log/
+analytics_logs/
+
+# Temporary Files
+# ---------------
+temp/
+tmp/
+.tmp/
+*.tmp
+*.temp
+
+# PDF Processing Cache
+# --------------------
+pdf_cache/
+extracted_text/
+processed_pdfs/
+
+# Legal Documents Processing
+# --------------------------
+/indian_code/page/files
+indian_code/acts/*/operation/
+indian_code/acts/*/cache/
+indian_code/acts/*/temp/
+
+# Streamlit
+# ---------
+.streamlit/
+streamlit_cache/
+
+# FastAPI
+# -------
+*.pid
+
+# Testing
+# -------
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Documentation Build
+# -------------------
+docs/_build/
+site/
+
+# Node.js (if using any JS tools)
+# --------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+# ------------
+.bash_history
+.profile
+.bashrc
+
+# Data Files (Large datasets)
+# ----------------------------
+# Uncomment if you have large datasets to exclude
+# data/large_datasets/
+# training_data/
+# *.csv.gz
+# *.json.gz
+
+# Backup Files
+# ------------
+*.bak
+*.backup
+*~
+*.orig
+
+# Archives
+# --------
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# Configuration Files with Secrets
+# ---------------------------------
+config/secrets.py
+config/production.py
+secrets.json
+credentials.json
+api_keys.txt
+
+# Docker
+# ------
+.dockerignore
+
+# Kubernetes
+# ----------
+k8s/secrets/
+*.yaml.secret
+
+# Operating System Files
+# -----------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Cache directories
+# -----------------
+.cache/
+cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Language Server Protocol
+# -------------------------
+pyrightconfig.json
+
+# Project Specific
+# ----------------
+# Exclude batch launch files created by setup
+start_web_app.bat
+start_cli.bat
+
+# Local development files
+local_config.py
+dev_settings.py
+test_data/
+
+# Performance monitoring
+# ----------------------
+.profiling/
+*.prof
+
+# Ollama model cache (if stored locally)
+# --------------------------------------
+ollama_models/
+.ollama/
+
+# RAG System Files
+# ----------------
+# Vector embeddings cache
+vector_cache/
+embedding_cache/
+
+# Legal text processing temporary files
+text_processing_temp/
+nlp_cache/
