@@ -47,7 +47,7 @@ function Test-Command {
     return $?
 }
 
-Write-Host "🚀 Setting up AI Legal Assistant for Windows..." -ForegroundColor Cyan
+Write-Host "Setting up AI Legal Assistant for Windows..." -ForegroundColor Cyan
 Write-Host "===============================================" -ForegroundColor Cyan
 
 try {
@@ -187,11 +187,9 @@ echo Starting AI Legal Assistant CLI...
 python agent/legal_assistant.py
 pause
 "@
-    $cliLauncher | Out-File -FilePath "start_cli.bat" -Encoding ASCII
-
-    Write-Success "Setup completed successfully!"
+    $cliLauncher | Out-File -FilePath "start_cli.bat" -Encoding ASCII    Write-Success "Setup completed successfully!"
     Write-Host ""
-    Write-Host "🎉 Your AI Legal Assistant is ready!" -ForegroundColor Green
+    Write-Host "Your AI Legal Assistant is ready!" -ForegroundColor Green
     Write-Host "====================================" -ForegroundColor Green
     Write-Host ""
     Write-Host "To start the application:" -ForegroundColor Cyan
@@ -201,21 +199,19 @@ pause
     Write-Host "Or run manually:" -ForegroundColor Cyan
     Write-Host "  streamlit run streamlit_app.py" -ForegroundColor Yellow
     Write-Host "  python agent/legal_assistant.py" -ForegroundColor Yellow
+    Write-Host ""    Write-Host "What's installed:" -ForegroundColor Cyan
+    Write-Host "  - Python dependencies (LangChain, ChromaDB, etc.)" -ForegroundColor Green
+    Write-Host "  - Ollama (Local LLM server)" -ForegroundColor Green
+    Write-Host "  - AI Model (llama3.2:3b or mistral:7b)" -ForegroundColor Green
+    Write-Host "  - Vector database setup" -ForegroundColor Green
+    Write-Host "  - Windows launch shortcuts" -ForegroundColor Green
+    Write-Host ""    Write-Host "Pro Tips:" -ForegroundColor Cyan
+    Write-Host "  - The first run will take time to process all legal documents" -ForegroundColor Yellow
+    Write-Host "  - Keep Ollama running in the background" -ForegroundColor Yellow
+    Write-Host "  - Check logs/ directory for troubleshooting" -ForegroundColor Yellow
+    Write-Host "  - Run as Administrator if you encounter permission issues" -ForegroundColor Yellow
     Write-Host ""
-    Write-Host "📋 What's installed:" -ForegroundColor Cyan
-    Write-Host "  ✅ Python dependencies (LangChain, ChromaDB, etc.)" -ForegroundColor Green
-    Write-Host "  ✅ Ollama (Local LLM server)" -ForegroundColor Green
-    Write-Host "  ✅ AI Model (llama3.2:3b or mistral:7b)" -ForegroundColor Green
-    Write-Host "  ✅ Vector database setup" -ForegroundColor Green
-    Write-Host "  ✅ Windows launch shortcuts" -ForegroundColor Green
-    Write-Host ""
-    Write-Host "💡 Pro Tips:" -ForegroundColor Cyan
-    Write-Host "  • The first run will take time to process all legal documents" -ForegroundColor Yellow
-    Write-Host "  • Keep Ollama running in the background" -ForegroundColor Yellow
-    Write-Host "  • Check logs/ directory for troubleshooting" -ForegroundColor Yellow
-    Write-Host "  • Run as Administrator if you encounter permission issues" -ForegroundColor Yellow
-    Write-Host ""
-    Write-Host "🚀 Ready to help people understand Indian laws!" -ForegroundColor Green
+    Write-Host "Ready to help people understand Indian laws!" -ForegroundColor Green
 
 } catch {
     Write-Error "An error occurred during setup: $($_.Exception.Message)"
