@@ -219,9 +219,7 @@ class IndianKanoonClient:
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(exist_ok=True)
           # Initialize budget tracker
-        self.budget = BudgetTracker(budget_limit)
-        
-        # Initialize agentic components (using internal classes)
+        self.budget = BudgetTracker(budget_limit)        # Initialize agentic components
         self.query_classifier = self.QueryClassifier()
         self.search_engine = self.AgenticSearchEngine()
         
@@ -257,7 +255,7 @@ class IndianKanoonClient:
             args = Args(self.api_token, self.data_dir)
             storage = FileStorage(str(self.data_dir))
             
-            self.api_client = IKApi(args, storage)
+            self.api_client = IKApi(args, storage)            
             logger.info("Official Indian Kanoon API client initialized successfully")
             
         except Exception as e:
@@ -298,6 +296,216 @@ class IndianKanoonClient:
         except Exception as e:
             logger.error(f"Agentic search failed: {e}")
             return self.generate_error_response(query, str(e))
+    
+    async def _execute_strategic_search(self, query: str, strategy: AgenticSearchStrategy, 
+                                       classification: QueryClassification) -> List[Dict[str, Any]]:
+        """Execute search based on strategy"""
+        try:
+            # Create enhanced query with strategy keywords
+            enhanced_query = self._enhance_query_with_strategy(query, strategy)
+            
+            # Perform API search
+            search_results = await self._perform_api_search(enhanced_query, strategy.max_results)
+            
+            # Filter and rank results based on strategy
+            filtered_results = self._filter_and_rank_results(search_results, classification, strategy)
+            
+            return filtered_results
+            
+        except Exception as e:
+            logger.error(f"Strategic search failed: {e}")
+            # Return empty results on failure
+            return []
+    
+    def _enhance_query_with_strategy(self, query: str, strategy: AgenticSearchStrategy) -> str:
+        """Enhance query with strategic keywords"""
+        enhanced_parts = [query]
+        
+        # Add primary keywords
+        if strategy.primary_keywords:
+            enhanced_parts.extend(strategy.primary_keywords[:2])  # Add top 2 primary keywords
+        
+        # Add legal sections for better context
+        if strategy.legal_sections:
+            enhanced_parts.append(strategy.legal_sections[0])  # Add most relevant legal section
+        
+        return " ".join(enhanced_parts)
+    
+    def _filter_and_rank_results(self, results: List[Dict[str, Any]], 
+                                classification: QueryClassification, 
+                                strategy: AgenticSearchStrategy) -> List[Dict[str, Any]]:
+        """Filter and rank results based on classification and strategy"""
+        if not results:
+            return []
+        
+        # Add relevance scores
+        for result in results:
+            result["relevance_score"] = self._calculate_relevance(result, classification)
+        
+        # Sort by relevance score
+        sorted_results = sorted(results, key=lambda x: x.get("relevance_score", 0), reverse=True)
+        
+        # Apply strategy filters
+        filtered_results = []
+        for result in sorted_results:
+            # Court priority filtering
+            if strategy.priority_courts:
+                court = result.get('court', '').lower()
+                if any(priority_court.lower() in court for priority_court in strategy.priority_courts):
+                    result["relevance_score"] += 0.5  # Boost for priority courts
+            
+            filtered_results.append(result)
+        
+        # Re-sort after filtering
+        filtered_results.sort(key=lambda x: x.get("relevance_score", 0), reverse=True)
+        
+        return filtered_results[:strategy.max_results]
+    
+    async def _perform_api_search(self, query: str, max_results: int = 5) -> List[Dict[str, Any]]:
+        """Perform the actual API search"""
+        try:
+            # Check budget
+            if not self.budget.can_afford('search', 1):
+                logger.warning(f"Budget exceeded - cannot perform search")
+                return []
+            
+            # Check cache first
+            cache_key = f"search_{hash(query)}"
+            if cache_key in self.search_cache:
+                logger.info(f"Returning cached results for query: {query[:50]}...")
+                return self.search_cache[cache_key]
+            
+            # Perform search using the official API
+            logger.info(f"Performing API search for: {query[:50]}...")
+            
+            # Create search parameters
+            search_params = {
+                'query': query,
+                'num': min(max_results, 20),  # Limit to reasonable number
+                'sort': 'relevance'
+            }
+            
+            # Use the official API client to search
+            if hasattr(self.api_client, 'search'):
+                api_results = self.api_client.search(**search_params)
+            else:
+                # Fallback search method
+                api_results = await self._fallback_search(query, max_results)
+            
+            # Record usage
+            self.budget.record_usage('search', 1)
+            
+            # Convert API results to our format
+            results = self._convert_api_results(api_results)
+            
+            # Cache results
+            self.search_cache[cache_key] = results
+            
+            logger.info(f"Found {len(results)} search results")
+            return results
+            
+        except Exception as e:
+            logger.error(f"API search failed: {e}")
+            return []
+    
+    def _convert_api_results(self, api_results: Any) -> List[Dict[str, Any]]:
+        """Convert API results to our standard format"""
+        results = []
+        
+        try:
+            # Handle different API result formats
+            if hasattr(api_results, '__iter__') and not isinstance(api_results, (str, bytes)):
+                # Iterable results
+                for i, result in enumerate(api_results):
+                    if isinstance(result, dict):
+                        # Already in dict format
+                        converted = self._normalize_result_dict(result, i)
+                        results.append(converted)
+                    else:
+                        # Convert object to dict
+                        converted = self._convert_result_object(result, i)
+                        results.append(converted)
+            else:
+                # Single result or unexpected format
+                logger.warning(f"Unexpected API result format: {type(api_results)}")
+                
+        except Exception as e:
+            logger.error(f"Failed to convert API results: {e}")
+        
+        return results
+    
+    def _normalize_result_dict(self, result: Dict[str, Any], position: int) -> Dict[str, Any]:
+        """Normalize a result dictionary to our standard format"""
+        return {
+            "doc_id": str(result.get('doc_id', result.get('id', f'doc_{position}'))),
+            "title": str(result.get('title', result.get('name', 'Untitled'))),
+            "court": str(result.get('court', result.get('jurisdiction', 'Unknown Court'))),
+            "date": str(result.get('date', result.get('judgement_date', 'Unknown Date'))),
+            "snippet": str(result.get('snippet', result.get('summary', str(result.get('content', ''))[:200] + '...'))),
+            "position": position,
+            "relevance_score": 0.0,
+            "url": result.get('url', ''),
+            "citations": result.get('citations', []),
+            "cited_by": result.get('cited_by', [])
+        }
+    
+    def _convert_result_object(self, result: Any, position: int) -> Dict[str, Any]:
+        """Convert a result object to our standard format"""
+        try:
+            return {
+                "doc_id": str(getattr(result, 'doc_id', getattr(result, 'id', f'doc_{position}'))),
+                "title": str(getattr(result, 'title', getattr(result, 'name', 'Untitled'))),
+                "court": str(getattr(result, 'court', getattr(result, 'jurisdiction', 'Unknown Court'))),
+                "date": str(getattr(result, 'date', getattr(result, 'judgement_date', 'Unknown Date'))),
+                "snippet": str(getattr(result, 'snippet', getattr(result, 'summary', str(result)[:200] + '...'))),
+                "position": position,
+                "relevance_score": 0.0,
+                "url": getattr(result, 'url', ''),
+                "citations": getattr(result, 'citations', []),
+                "cited_by": getattr(result, 'cited_by', [])
+            }
+        except Exception as e:
+            logger.error(f"Failed to convert result object: {e}")
+            return {
+                "doc_id": f"doc_{position}",
+                "title": "Conversion Error",
+                "court": "Unknown Court",
+                "date": "Unknown Date",
+                "snippet": str(result)[:200] if result else "No content",
+                "position": position,
+                "relevance_score": 0.0,
+                "url": "",
+                "citations": [],
+                "cited_by": []
+            }
+    
+    async def _fallback_search(self, query: str, max_results: int = 5) -> List[Dict[str, Any]]:
+        """Fallback search when official API is not available"""
+        logger.warning("Using fallback search - limited functionality")
+        
+        # Create mock results for demonstration
+        fallback_results = []
+        for i in range(min(max_results, 3)):  # Limit fallback results
+            fallback_results.append({
+                "doc_id": f"fallback_doc_{i}",
+                "title": f"Fallback Legal Case {i+1} - {query[:30]}",
+                "court": "Fallback Court",
+                "date": "2024-01-01",
+                "snippet": f"This is a fallback result for query: {query}. Please check your API configuration.",
+                "position": i,
+                "url": "",
+                "citations": [],
+                "cited_by": []
+            })
+        
+        return fallback_results
+    
+    def clear_cache(self):
+        """Clear all cached data"""
+        self.search_cache.clear()
+        self.doc_cache.clear()
+        self.classification_cache.clear()
+        logger.info("Caches cleared")
     
     def classify_query(self, query: str) -> QueryClassification:
         """Classify query with caching"""
@@ -897,161 +1105,210 @@ class IndianKanoonClient:
             return any(indicator in query for indicator in legal_counsel_indicators) or urgency == UrgencyLevel.HIGH
     
     class AgenticSearchEngine:
-        """Search strategy engine for optimized legal queries"""
+        """Search engine that creates strategies based on query classification"""
         
-        def __init__(self):
-            pass
+        def create_search_strategy(self, classification: QueryClassification, 
+                             user_context: Optional[str] = None) -> AgenticSearchStrategy:
+            """Create search strategy based on classification"""
             
-        def create_search_strategy(self, classification: QueryClassification, user_context: Optional[str] = None) -> AgenticSearchStrategy:
-            """Create optimal search strategy based on query classification"""
-            query_type = classification.query_type
-            urgency = classification.urgency
+            # Base strategy
+            strategy = AgenticSearchStrategy(
+                primary_keywords=classification.keywords[:3],  # Top 3 keywords
+                secondary_keywords=[],
+                legal_sections=[],
+                case_type_filter="all",
+                max_results=5,
+                search_depth="moderate",
+                priority_courts=[]
+            )
             
-            # Default search parameters
-            primary_keywords = classification.keywords
-            secondary_keywords = []
-            legal_sections = classification.legal_sections
-            case_type_filter = "all"
-            max_results = 5
-            search_depth = "shallow"
-            priority_courts = []
-            
-            # Enhance keywords based on user context if provided
-            if user_context:
-                context_keywords = self._extract_context_keywords(user_context.lower())
-                primary_keywords.extend(context_keywords)
-            
-            # Adjust strategy based on query type
-            if query_type == QueryType.CONSUMER_PROTECTION:
-                secondary_keywords = ["consumer forum", "district commission", "complaint", "compensation"]
-                priority_courts = ["National Consumer Disputes Redressal Commission", "Supreme Court"]
+            # Customize based on query type
+            if classification.query_type == QueryType.CONSUMER_PROTECTION:
+                strategy.legal_sections = ["Consumer Protection Act", "Sale of Goods Act"]
+                strategy.secondary_keywords = ["consumer rights", "deficiency", "unfair trade"]
+                strategy.priority_courts = ["National Consumer Disputes Redressal Commission", "Supreme Court"]
                 
-            elif query_type == QueryType.CRIMINAL_LAW:
-                secondary_keywords = ["bail", "arrest", "custody", "investigation", "evidence"]
-                priority_courts = ["Supreme Court", "High Court"]
+            elif classification.query_type == QueryType.CRIMINAL_LAW:
+                strategy.legal_sections = ["Indian Penal Code", "Code of Criminal Procedure"]
+                strategy.secondary_keywords = ["bail", "sections", "criminal law"]
+                strategy.priority_courts = ["Supreme Court", "High Court"]
+                strategy.search_depth = "deep"  # More thorough for criminal matters
                 
-            elif query_type == QueryType.FAMILY_LAW:
-                secondary_keywords = ["divorce", "maintenance", "custody", "alimony"]
-                priority_courts = ["High Court", "Family Court"]
+            elif classification.query_type == QueryType.FAMILY_LAW:
+                strategy.legal_sections = ["Hindu Marriage Act", "Special Marriage Act", "Guardians and Wards Act"]
+                strategy.secondary_keywords = ["family court", "marriage", "maintenance"]
+                strategy.priority_courts = ["Family Court", "District Court"]
                 
-            elif query_type == QueryType.PROPERTY_LAW:
-                secondary_keywords = ["title", "possession", "registration", "transfer"]
-                priority_courts = ["High Court", "Civil Court"]
+            elif classification.query_type == QueryType.PROPERTY_LAW:
+                strategy.legal_sections = ["Transfer of Property Act", "Registration Act"]
+                strategy.secondary_keywords = ["property rights", "possession", "title"]
+                strategy.priority_courts = ["Civil Court", "District Court"]
             
             # Adjust based on urgency
-            if urgency == UrgencyLevel.HIGH:
-                max_results = 10
-                search_depth = "deep"
-            elif urgency == UrgencyLevel.MEDIUM:
-                max_results = 7
-                search_depth = "moderate"
+            if classification.urgency == UrgencyLevel.CRITICAL:
+                strategy.max_results = 10  # More results for urgent cases
+                strategy.search_depth = "comprehensive"
+                strategy.secondary_keywords.extend(["urgent", "immediate", "emergency"])
+                
+            elif classification.urgency == UrgencyLevel.HIGH:
+                strategy.max_results = 8
+                strategy.search_depth = "deep"
             
-            # Create and return strategy
-            return AgenticSearchStrategy(
-                primary_keywords=primary_keywords,
-                secondary_keywords=secondary_keywords,
-                legal_sections=legal_sections,
-                case_type_filter=case_type_filter,
-                max_results=max_results,
-                search_depth=search_depth,
-                priority_courts=priority_courts
-            )
-        
-        def _extract_context_keywords(self, context: str) -> List[str]:
-            """Extract relevant keywords from user context"""
-            context_keywords = []
-            
-            # Common legal context indicators
-            legal_indicators = {
-                "contract": ["agreement", "breach", "terms"],
-                "injury": ["accident", "medical", "negligence"],
-                "property": ["ownership", "title", "dispute"],
-                "employment": ["workplace", "salary", "termination"],
-                "family": ["spouse", "children", "inheritance"]
-            }
-            
-            for indicator, related_keywords in legal_indicators.items():
-                if indicator in context:
-                    context_keywords.extend(related_keywords)
-            
-            return context_keywords[:3]  # Limit to avoid query bloat
+            return strategy
 
-    async def _execute_strategic_search(self, query: str, search_strategy: AgenticSearchStrategy, 
-                                   classification: QueryClassification) -> List[Dict[str, Any]]:
-        """Execute search using the strategic approach"""
-        try:
-            # Construct enhanced query using strategy
-            enhanced_query = self._build_strategic_query(query, search_strategy)
-            
-            # Perform the actual API search
-            results = await self._perform_api_search(enhanced_query, search_strategy.max_results)
-            
-            # Score and rank results based on strategy
-            scored_results = self._score_results_with_strategy(results, search_strategy, classification)
-            
-            return scored_results
-            
-        except Exception as e:
-            logger.error(f"Strategic search execution failed: {e}")
-            # Fallback to simple search
-            return await self._perform_api_search(query, 5)
+# Factory function for creating Indian Kanoon client
+def create_indian_kanoon_client(api_token: str, budget_limit: float = 500.0, 
+                               data_dir: str = "temp_data") -> IndianKanoonClient:
+    """
+    Factory function to create an Indian Kanoon client.
+    
+    Args:
+        api_token: Indian Kanoon API token
+        budget_limit: Budget limit in Rs (default: 500)
+        data_dir: Directory for temporary data storage
+        
+    Returns:
+        IndianKanoonClient instance
+    """
+    return IndianKanoonClient(api_token, budget_limit, data_dir)
 
-    def _build_strategic_query(self, query: str, strategy: AgenticSearchStrategy) -> str:
-        """Build enhanced query using search strategy"""
-        query_parts = [query]
-        
-        # Add primary keywords
-        if strategy.primary_keywords:
-            query_parts.extend(strategy.primary_keywords[:3])  # Limit to avoid query length issues
-        
-        # Add secondary keywords based on search depth
-        if strategy.search_depth in ["moderate", "deep"] and strategy.secondary_keywords:
-            query_parts.extend(strategy.secondary_keywords[:2])
-        
-        return " ".join(query_parts)
 
-    def _score_results_with_strategy(self, results: List[Dict[str, Any]], 
-                               strategy: AgenticSearchStrategy, 
-                               classification: QueryClassification) -> List[Dict[str, Any]]:
-        """Score results based on strategic alignment"""
-        scored_results = []
+# Utility function for agentic legal search
+async def agentic_legal_search(api_token: str, query: str, 
+                              user_context: Optional[str] = None,
+                              budget_limit: float = 500.0) -> Dict[str, Any]:
+    """
+    Perform agentic legal search using the Indian Kanoon API.
+    
+    Args:
+        api_token: Indian Kanoon API token
+        query: User's legal query
+        user_context: Additional context about user's situation
+        budget_limit: Budget limit in Rs
         
-        for result in results:
-            # Base score from relevance calculation
-            base_score = self._calculate_relevance(result, classification)
-            
-            # Court priority bonus
-            court = result.get('court', '').lower()
-            if court in [c.lower() for c in strategy.priority_courts]:
-                base_score += 1.5  # Bonus for priority courts
-            
-            # Recency bonus
-            date = result.get('date', '')
-            try:
-                if date and len(date) > 4:  # Valid date format
-                    year = int(date[-4:])  # Extract year from end of date string
-                    current_year = datetime.now().year
-                    # More recent cases get higher scores
-                    recency_bonus = max(0, 1.0 - (0.05 * (current_year - year)))  # 5% deduction per year
-                    base_score += recency_bonus
-            except (ValueError, TypeError):
-                pass  # Ignore date parsing errors
-            
-            # Strategic scoring adjustments
-            if strategy.search_depth == "deep":
-                base_score *= 1.1  # Slightly increase weight for deep searches
-            elif strategy.search_depth == "shallow":
-                base_score *= 0.9  # Decrease weight for shallow searches
-            
-            # Ensure non-negative score
-            final_score = max(0, base_score)
-            
-            # Add score to result
-            result["strategic_score"] = final_score
-            scored_results.append(result)
+    Returns:
+        Dictionary containing search results and recommendations
+    """
+    try:
+        client = create_indian_kanoon_client(api_token, budget_limit)
+        return await client.agentic_search(query, user_context)
+    except Exception as e:
+        logger.error(f"Agentic legal search failed: {e}")
+        return {
+            'error': str(e),
+            'query': query,
+            'classification': {'query_type': 'unknown', 'urgency': 'unknown'},
+            'search_results': {'results': []},
+            'recommendations': []
+        }
+
+
+# Query classifier for standalone use
+class QueryClassifier:
+    """Standalone query classifier following the mermaid flow"""
+    
+    def classify_query(self, query: str) -> QueryClassification:
+        """Classify a legal query into type and urgency level"""
+        query_lower = query.lower()
         
-        # Sort results by strategic score (highest first)
-        sorted_scored_results = sorted(scored_results, key=lambda x: x.get("strategic_score", 0), reverse=True)
+        # Initialize classification
+        query_type = QueryType.GENERAL
+        urgency = UrgencyLevel.LOW
+        confidence = 0.0
+        requires_legal_counsel = False
+        keywords = []
         
-        # Return top results
-        return sorted_scored_results[:strategy.max_results]
+        # Consumer Protection Keywords
+        consumer_keywords = [
+            'defective', 'product', 'refund', 'warranty', 'consumer', 
+            'service', 'complaint', 'shop', 'buy', 'purchase', 'sold',
+            'damaged', 'faulty', 'replacement', 'exchange'
+        ]
+        
+        # Criminal Law / Threat Keywords (High urgency)
+        criminal_keywords = [
+            'threat', 'false case', 'extortion', 'blackmail', 'dowry',
+            'harassment', 'abuse', 'violence', 'rape case', 'police case',
+            'fir', 'arrest', 'custody', 'bail', 'criminal'
+        ]
+        
+        # Family Law Keywords
+        family_keywords = [
+            'marriage', 'divorce', 'husband', 'wife', 'child', 'custody',
+            'maintenance', 'alimony', 'family', 'domestic', 'marital'
+        ]
+        
+        # Property Law Keywords
+        property_keywords = [
+            'property', 'land', 'house', 'dispute', 'neighbor', 'boundary',
+            'encroachment', 'possession', 'title', 'deed', 'sale', 'rent'
+        ]
+        
+        # Check for matches and classify
+        consumer_score = sum(1 for kw in consumer_keywords if kw in query_lower)
+        criminal_score = sum(1 for kw in criminal_keywords if kw in query_lower)
+        family_score = sum(1 for kw in family_keywords if kw in query_lower)
+        property_score = sum(1 for kw in property_keywords if kw in query_lower)
+        
+        # Find the highest scoring category
+        scores = {
+            QueryType.CONSUMER_PROTECTION: consumer_score,
+            QueryType.CRIMINAL_LAW: criminal_score,
+            QueryType.FAMILY_LAW: family_score,
+            QueryType.PROPERTY_LAW: property_score
+        }
+        
+        max_score = max(scores.values())
+        if max_score > 0:
+            query_type = max(scores, key=scores.get)
+            confidence = min(0.9, max_score * 0.3)  # Cap at 0.9
+        
+        # Determine urgency
+        if criminal_score > 0:
+            urgency = UrgencyLevel.CRITICAL if criminal_score >= 2 else UrgencyLevel.HIGH
+            requires_legal_counsel = True
+        elif family_score >= 2:
+            urgency = UrgencyLevel.MEDIUM
+            requires_legal_counsel = True
+        elif property_score >= 2:
+            urgency = UrgencyLevel.MEDIUM
+        elif consumer_score >= 1:
+            urgency = UrgencyLevel.LOW
+        
+        # Extract keywords from query
+        all_keywords = consumer_keywords + criminal_keywords + family_keywords + property_keywords
+        keywords = [kw for kw in all_keywords if kw in query_lower]
+        
+        return QueryClassification(
+            query_type=query_type,
+            urgency=urgency,
+            confidence=confidence,
+            requires_legal_counsel=requires_legal_counsel,
+            keywords=keywords,
+            priority_score=urgency.value * confidence
+        )
+
+
+# Main execution example
+if __name__ == "__main__":
+    # Example usage
+    import asyncio
+    
+    async def main():
+        api_token = os.getenv('INDIAN_KANOON_API_TOKEN')
+        if not api_token:
+            print("Please set INDIAN_KANOON_API_TOKEN environment variable")
+            return
+        
+        test_query = "I bought a defective phone, what should I do?"
+        
+        result = await agentic_legal_search(api_token, test_query)
+        
+        print("Agentic Legal Search Results:")
+        print(f"Query: {test_query}")
+        print(f"Classification: {result.get('classification', {})}")
+        print(f"Search Results: {len(result.get('search_results', {}).get('results', []))} found")
+        print(f"Recommendations: {len(result.get('recommendations', []))} provided")
+    
+    # Run example
+    asyncio.run(main())

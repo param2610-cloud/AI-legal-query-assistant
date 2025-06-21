@@ -34,8 +34,8 @@ def initialize_system():
     """Initialize the legal assistant system"""
     try:
         # Try to import enhanced system first
-        from enhanced_case_law_analyzer import CaseLawAnalyzer
-        from legal_assistant import SimpleLegalAssistant, LegalDataProcessor, LegalRAGSystem
+        from agent.enhanced_case_law_analyzer import CaseLawAnalyzer
+        from agent.legal_assistant import SimpleLegalAssistant, LegalDataProcessor, LegalRAGSystem
         
         # Initialize case law analyzer
         case_analyzer = CaseLawAnalyzer()

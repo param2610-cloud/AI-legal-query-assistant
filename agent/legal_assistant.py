@@ -76,12 +76,30 @@ except ImportError as e:
 
 # Import enhanced case law analyzer
 try:
-    from enhanced_case_law_analyzer import CaseLawAnalyzer, analyze_legal_case, find_similar_precedents
+    # Try relative import first
+    from .enhanced_case_law_analyzer import CaseLawAnalyzer, analyze_legal_case, find_similar_precedents
     CASE_LAW_ANALYZER_AVAILABLE = True
     logger.info("Enhanced case law analyzer loaded successfully")
-except ImportError as e:
-    logger.warning(f"Enhanced case law analyzer not available: {e}")
-    CASE_LAW_ANALYZER_AVAILABLE = False
+except ImportError:
+    try:
+        # Try absolute import from agent package
+        from agent.enhanced_case_law_analyzer import CaseLawAnalyzer, analyze_legal_case, find_similar_precedents
+        CASE_LAW_ANALYZER_AVAILABLE = True
+        logger.info("Enhanced case law analyzer loaded successfully")
+    except ImportError:
+        try:
+            # Try direct import (for streamlit)
+            import sys
+            from pathlib import Path
+            current_dir = Path(__file__).parent
+            if str(current_dir) not in sys.path:
+                sys.path.insert(0, str(current_dir))
+            from enhanced_case_law_analyzer import CaseLawAnalyzer, analyze_legal_case, find_similar_precedents
+            CASE_LAW_ANALYZER_AVAILABLE = True
+            logger.info("Enhanced case law analyzer loaded successfully")
+        except ImportError as e:
+            logger.warning(f"Enhanced case law analyzer not available: {e}")
+            CASE_LAW_ANALYZER_AVAILABLE = False
 
 
 class LegalTermsIntegrator:
