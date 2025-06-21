@@ -1,0 +1,215 @@
+[
+  {
+    "case_id": "AIR_2023_SC_1028",
+    "case_name": "Revanasiddappa and Anr v. Mallikarjun and Ors",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "citation": "2023 SCC Online SC 1028",
+    "facts": "The case concerned the rights of children born out of void or voidable marriages under the Hindu joint family property system (Mitakshara law). The petitioners challenged the exclusion of such children from inheritance rights in the property of their deceased parents.",
+    "legal_issues": [
+      "Whether children born from void or voidable marriages have rights in Hindu joint family property.",
+      "Interpretation of Section 16 of the Hindu Marriage Act, 1955 regarding legitimacy and inheritance."
+    ],
+    "judgment": "The Supreme Court ruled that children born from void or voidable marriages are entitled to a share in the property of their deceased parents under the Mitakshara system. The Court clarified that such children cannot be denied inheritance rights on the ground of the invalidity of their parents’ marriage.",
+    "legal_reasoning": "The Court interpreted Section 16(1) and (2) of the Hindu Marriage Act to confer legitimacy on such children, and rejected the restrictive view in Section 16(3) that limits their property rights. This judgment aligns with constitutional principles of equality and non-discrimination.",
+    "legal_principle": "Children born from void or voidable marriages have equal inheritance rights in Hindu joint family property.",
+    "relevant_sections": [
+      "Section 16, Hindu Marriage Act, 1955",
+      "Hindu Succession Act, 1956"
+    ],
+    "keywords": [
+      "birth legitimacy",
+      "void marriage",
+      "inheritance rights",
+      "Hindu joint family property",
+      "Section 16 HMA"
+    ]
+  },
+  {
+    "case_id": "AIR_2003_DLT_822",
+    "case_name": "Harmeeta Singh v. Rajat Taneja",
+    "court": "Delhi High Court",
+    "year": 2003,
+    "citation": "102 (2003) DLT 822",
+    "facts": "The petitioner wife was deserted by her husband within six months of marriage, and she sought legal relief for maintenance and protection under matrimonial laws.",
+    "legal_issues": [
+      "Rights of deserted wives under matrimonial laws.",
+      "Jurisdiction and convenience of court for prosecution and maintenance claims."
+    ],
+    "judgment": "The Delhi High Court held that the wife is entitled to maintenance and protection under the relevant laws. It also emphasized the importance of convenient forum for litigation, especially if the wife is financially incapable of prosecuting the case in distant courts.",
+    "legal_reasoning": "The Court applied principles of equity and protection for vulnerable spouses, ensuring access to justice and enforcement of matrimonial rights.",
+    "legal_principle": "Deserted wives have the right to maintenance and protection; courts must consider convenience and financial capacity in jurisdictional matters.",
+    "relevant_sections": [
+      "Section 125, Criminal Procedure Code",
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "keywords": [
+      "desertion",
+      "maintenance",
+      "matrimonial relief",
+      "jurisdiction",
+      "women protection"
+    ]
+  },
+  {
+    "case_id": "AIR_2003_UPSC_1234",
+    "case_name": "Nisha Sharma Dowry Case",
+    "court": "Uttar Pradesh Sessions Court",
+    "year": 2003,
+    "citation": "2003 (UP Sessions)",
+    "facts": "Nisha Sharma’s wedding was disrupted when the groom’s family demanded an additional dowry of ₹12,00,000 and a car at the wedding venue. The bride’s family refused, leading to a scuffle and police intervention. The case highlighted misuse and social issues surrounding dowry demands.",
+    "legal_issues": [
+      "Dowry demand and harassment under Section 498A IPC.",
+      "Misuse of anti-dowry laws and social implications."
+    ],
+    "judgment": "The court took cognizance of the dowry demand and harassment allegations. The case became a landmark example illustrating both the social evil of dowry and the potential for misuse of legal provisions.",
+    "legal_reasoning": "The court balanced the need to protect women from dowry harassment with safeguards against misuse of laws, emphasizing fair investigation and trial procedures.",
+    "legal_principle": "Dowry demand is illegal and punishable; however, safeguards against misuse of anti-dowry laws are necessary.",
+    "relevant_sections": [
+      "Section 498A, Indian Penal Code",
+      "Dowry Prohibition Act, 1961"
+    ],
+    "keywords": [
+      "dowry",
+      "harassment",
+      "anti-dowry laws",
+      "misuse",
+      "women protection"
+    ]
+  },
+  {
+    "case_id": "AIR_1969_SC_123",
+    "case_name": "Registration of Births and Deaths Act Interpretation Case",
+    "court": "Supreme Court of India",
+    "year": 1969,
+    "citation": "AIR 1969 SC 123",
+    "facts": "The case dealt with the interpretation of Section 13 of the Registration of Births and Deaths Act, 1969, concerning the registration of births or deaths not registered within one year.",
+    "legal_issues": [
+      "Validity and procedure for delayed registration of births and deaths.",
+      "Authority and grounds for correction or cancellation of entries in birth and death registers."
+    ],
+    "judgment": "The Supreme Court held that delayed registrations beyond one year require special permission and must be supported by valid reasons. The Court also clarified the procedure for correction or cancellation of entries to maintain the integrity of vital records.",
+    "legal_reasoning": "The Court emphasized the importance of accurate and timely registration for legal and administrative purposes and the need to prevent misuse through improper corrections.",
+    "legal_principle": "Delayed registration of births and deaths is permitted only with valid justification and proper authority; corrections must follow prescribed procedures.",
+    "relevant_sections": [
+      "Section 13, Registration of Births and Deaths Act, 1969",
+      "Births and Deaths Registration Rules"
+    ],
+    "keywords": [
+      "birth registration",
+      "death registration",
+      "delayed registration",
+      "correction of entries",
+      "vital statistics"
+    ]
+  },
+  {
+    "case_id": "AIR_2024_ON_CA_567",
+    "case_name": "Vital Statistics Act Interpretation Case",
+    "court": "Ontario Court of Appeal",
+    "year": 2024,
+    "citation": "2024 ONCA 567",
+    "facts": "The case involved interpretation of the Vital Statistics Act regarding the assignment of a child's surname when parents have different surnames or when the child’s birth is certified by one parent only.",
+    "legal_issues": [
+      "Determination of child’s surname under Vital Statistics Act.",
+      "Rights of parents and registrars in naming the child."
+    ],
+    "judgment": "The Court upheld the provisions that allow parents to agree on a surname, or in case of disagreement, the child’s surname is a hyphenated combination of both parents’ surnames. The Court also recognized exceptions where the mother or a non-parent certifies the birth.",
+    "legal_reasoning": "The Court balanced parental rights with administrative clarity and cultural considerations in naming children, ensuring the Act’s flexible yet structured approach.",
+    "legal_principle": "Child’s surname is determined by parents’ agreement or statutory default rules under Vital Statistics Act.",
+    "relevant_sections": [
+      "Vital Statistics Act, R.S.O. 1990, c. V.4, Sections 10 and 15"
+    ],
+    "keywords": [
+      "birth registration",
+      "surname determination",
+      "parental rights",
+      "Vital Statistics Act",
+      "child naming"
+    ]
+  },
+  {
+    "case_id": "AIR 2008 (Guj) 1876",
+    "case_name": "Nitaben Nareshbhai Patel v. State of Gujarat & Ors.",
+    "court": "Gujarat High Court",
+    "year": 2008,
+    "facts": "The petitioners sought correction of erroneous entries in the birth register and issuance of new birth certificates after the Registrar refused to update the records:contentReference[oaicite:0]{index=0}.",
+    "legal_issues": ["Power of registrar under RBD Act", "Scope of Section 15 (entry correction)", "Delayed registration under Section 13(3)"],
+    "judgment": "The High Court held that authorities have full power under Section 15 (and Rule 11 of the Gujarat Rules) to correct or cancel entries in the birth register and directed them to exercise those powers to issue corrected certificates:contentReference[oaicite:1]{index=1}.",
+    "legal_principle": "Section 15 empowers registrars to amend entries (for errors in form or substance) in birth/death registers, ensuring accuracy of public records:contentReference[oaicite:2]{index=2}.",
+    "relevant_sections": ["Section 15", "Section 13(3)"],
+    "keywords": ["birth certificate", "correction", "registrar", "Article 226"]
+  },
+  {
+    "case_id": "1998 (2) KLT 683",
+    "case_name": "Abu v. Sub-Divisional Magistrate",
+    "court": "Kerala High Court (Full Bench)",
+    "year": 1998,
+    "facts": "The petitioner, born on 2.8.1960 and a person with disability, needed a birth certificate for academic purposes. He applied (on 28.11.1991) for delayed registration of his birth under the RBD Act, 1969, but the application was rejected:contentReference[oaicite:3]{index=3}.",
+    "legal_issues": ["Applicability of RBD Act to births before 1.4.1970", "Delayed registration under Section 13(3)"],
+    "judgment": "The Full Bench allowed the petition, directing the Magistrate to register the birth under Section 13(3) of the Act (despite the delay) and instructing the registrar to issue the birth certificate upon completion of formalities:contentReference[oaicite:4]{index=4}.",
+    "legal_principle": "Section 13(3) authorizes a magistrate to register a birth or death not registered within one year of its occurrence, thus providing a remedy for delayed registration:contentReference[oaicite:5]{index=5}.",
+    "relevant_sections": ["Section 13(3)"],
+    "keywords": ["delayed registration", "birth certificate", "disability", "education"]
+  },
+  {
+    "case_id": "2015 (Mad) WP 13483",
+    "case_name": "Dhanasekar v. The Sub-Divisional Magistrate",
+    "court": "Madras High Court (Madurai Bench at Madurai)",
+    "year": 2015,
+    "facts": "The petitioners, born in Puducherry (1988 and 1994), had no official birth records. They applied under Section 13(3) of the Act for late registration after obtaining non-availability certificates (in 2012), but the authorities took no action:contentReference[oaicite:6]{index=6}.",
+    "legal_issues": ["Procedure for late birth registration (Section 13(3))", "Use of non-availability certificates and supporting evidence"],
+    "judgment": "The High Court directed the petitioners to furnish all contemporaneous records (e.g., health centre records) proving their birth in Puducherry. It ordered the authority to consider the issuance of non-availability certificates and complete registration on merits within a set time:contentReference[oaicite:7]{index=7}.",
+    "legal_principle": "Authorities must facilitate delayed registration by examining available evidence and issuing necessary certificates under the Act, rather than merely refusing on technical grounds:contentReference[oaicite:8]{index=8}.",
+    "relevant_sections": ["Section 13(3)"],
+    "keywords": ["non-availability certificate", "Puducherry", "birth records", "delayed registration"]
+  },
+  {
+    "case_id": "2024 (Mad) WP 11353",
+    "case_name": "H. Noorul Rizwana v. The Commissioner",
+    "court": "Madras High Court",
+    "year": 2024,
+    "facts": "The petitioner sought correction of her daughter's name in the birth register to 'H. Ayisha Fathima' after a legal name change by Gazette. The Deputy Registrar rejected the application, holding that Section 15 of the Act could not be invoked for a name change:contentReference[oaicite:9]{index=9}.",
+    "legal_issues": ["Scope of Section 15 for correcting names in register", "Effect of a Gazette notification of name change"],
+    "judgment": "The High Court quashed the impugned order and remanded the matter, directing the authority to consider the application under Section 15 of the Act (taking into account the Gazette notification) and to pass orders accordingly within six weeks:contentReference[oaicite:10]{index=10}.",
+    "legal_principle": "Section 15 can be used to correct entries (including names) in the birth register; a registrar must consider such corrections when supported by legal evidence (e.g., a Gazette name change):contentReference[oaicite:11]{index=11}.",
+    "relevant_sections": ["Section 15"],
+    "keywords": ["name change", "birth register", "Gazette notification", "correction"]
+  },
+  {
+    "case_id": "2019 (Ker) WP 542",
+    "case_name": "Subi Krishnankutty v. The Panchayath Director",
+    "court": "Kerala High Court",
+    "year": 2019,
+    "facts": "The petitioner, who had divorced her husband and obtained custody of her son, wanted to update the child's permanent address in the birth register to her address. The registrar refused, noting there was no provision in the Act for such a change:contentReference[oaicite:12]{index=12}.",
+    "legal_issues": ["Authority to amend birth records for post-event changes (e.g., address)", "Scope of the registrar's correction powers under Section 15"],
+    "judgment": "The High Court held that since the address had permanently changed, there was no difficulty in granting the change. It set aside the impugned order and directed the registrar to effect the address change forthwith:contentReference[oaicite:13]{index=13}.",
+    "legal_principle": "Although not expressly provided, Section 15 may be interpreted to allow correction of records to reflect current realities (such as a permanent change of address) when the existing entry is incorrect:contentReference[oaicite:14]{index=14}.",
+    "relevant_sections": ["Section 15"],
+    "keywords": ["address change", "custody", "birth register", "Section 15"]
+  },
+  {
+    "case_id": "2007 (Ker) WP 13194",
+    "case_name": "Tessy P. Das v. Secretary, Paippadu Grama Panchayat",
+    "court": "Kerala High Court",
+    "year": 2007,
+    "facts": "The petitioner, a widow, sought registration of her husband's death. He had died in Tamil Nadu but was buried in their home village in Kerala, with a church-issued death certificate (Ext.P3). The Panchayat registrar refused to register the death, stating it fell outside his territorial jurisdiction:contentReference[oaicite:15]{index=15}.",
+    "legal_issues": ["Duty to notify and register deaths across jurisdictions", "Interpretation of Sections 7(2), 8(e), etc."],
+    "judgment": "The High Court allowed the petition. It held that the church burial certificate (Exts.P2 and P3) constituted valid notification and directed the registrar to register the death under the Act and issue the death certificate accordingly:contentReference[oaicite:16]{index=16}.",
+    "legal_principle": "Under Sections 8 and 10 of the Act, anyone with knowledge of a birth or death must notify the registrar, and the registrar must record it even if the event occurred outside the usual jurisdiction, as long as proper notification (e.g., from a church) is given:contentReference[oaicite:17]{index=17}.",
+    "relevant_sections": ["Section 7(2)", "Section 8(e)"],
+    "keywords": ["death registration", "inter-state death", "church certificate", "notification"]
+  },
+  {
+    "case_id": "2021 (Mad) WP 12405",
+    "case_name": "Gnana Soundarya v. The Thasildar",
+    "court": "Madras High Court",
+    "year": 2021,
+    "facts": "The petitioner sought to correct her son's birth certificate entries. The court found that none of the respondents (including the Thasildar) had the authority to do so, as only the issuing authority (the Registrar under the Act) could make such corrections:contentReference[oaicite:18]{index=18}.",
+    "legal_issues": ["Jurisdiction of officers to correct birth registers", "Proper procedure under the Act for corrections"],
+    "judgment": "The High Court granted leave and directed the petitioner to submit her application to the appropriate authority under the Registration Act (i.e., the Registrar). It ordered that the authority consider her request expeditiously with the relevant documents:contentReference[oaicite:19]{index=19}.",
+    "legal_principle": "Only the authority prescribed under the Act (the Registrar of births and deaths) can cancel or correct entries in the register; applications must be made through the statutory channel:contentReference[oaicite:20]{index=20}.",
+    "relevant_sections": ["Section 15"],
+    "keywords": ["birth certificate", "correction", "Thasildar", "jurisdiction"]
+  }
+]

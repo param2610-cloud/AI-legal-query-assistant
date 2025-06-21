@@ -1,0 +1,157 @@
+[
+  {
+    "case_id": "AIR_2023_SC_789",
+    "case_name": "State of Kerala vs. Rajesh",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "citation": "2023 SCC Online SC 789",
+    "facts": "The accused was charged under the Narcotic Drugs and Psychotropic Substances Act, 1985 (NDPS Act) for possession and trafficking of narcotics. The case involved consideration of bail conditions in NDPS offences.",
+    "legal_issues": [
+      "Conditions for granting bail under NDPS Act.",
+      "Interpretation of twin conditions for bail in narcotics cases."
+    ],
+    "judgment": "The Supreme Court laid down twin conditions for granting bail in NDPS cases: (1) the accused should not be guilty of an offence punishable with death or imprisonment for life, and (2) the Court should be satisfied that there are reasonable grounds for believing that the accused is not guilty of such offence. The Court emphasized strict scrutiny before granting bail in drug-related offences.",
+    "legal_reasoning": "The Court balanced the presumption of innocence with the serious nature of drug offences and the need to prevent misuse of bail provisions to facilitate drug trafficking.",
+    "legal_principle": "Bail in NDPS cases is granted only if twin conditions under Section 37 of the NDPS Act are satisfied.",
+    "relevant_sections": [
+      "Section 37, Narcotic Drugs and Psychotropic Substances Act, 1985",
+      "Section 167, Criminal Procedure Code"
+    ],
+    "keywords": [
+      "NDPS Act",
+      "bail conditions",
+      "narcotics trafficking",
+      "drug offences",
+      "twin conditions"
+    ]
+  },
+  {
+    "case_id": "AIR_2023_DELHC_3270",
+    "case_name": "Vipin Mittal v. National Investigating Agency",
+    "court": "Delhi High Court",
+    "year": 2023,
+    "citation": "2023 SCC OnLine Del 3270",
+    "facts": "The petitioner was accused of smuggling 102 kg of heroin concealed in licorice roots. He sought regular bail citing clean antecedents and no connection with other accused.",
+    "legal_issues": [
+      "Grant of bail in large quantity drug smuggling cases.",
+      "Assessment of antecedents and involvement in drug offences."
+    ],
+    "judgment": "The Delhi High Court granted bail to the petitioner after considering the material on record, including his clean antecedents and lack of connection with other accused. The Court held that bail is not to be denied merely on the quantity involved if other factors favor the accused.",
+    "legal_reasoning": "The Court emphasized individualized assessment of bail applications, balancing the gravity of offence with personal circumstances and evidence.",
+    "legal_principle": "Bail in NDPS cases depends on facts and circumstances; clean antecedents and lack of involvement can justify bail.",
+    "relevant_sections": [
+      "Sections 8(c), 21(c), 23(c), 27(a), 29, NDPS Act, 1985",
+      "Section 437, Criminal Procedure Code"
+    ],
+    "keywords": [
+      "drug smuggling",
+      "heroin",
+      "bail",
+      "NDPS Act",
+      "investigating agency"
+    ]
+  },
+  {
+    "case_id": "AIR_2016_SC_2345",
+    "case_name": "Bachpan Bachao Andolan v. Union of India",
+    "court": "Supreme Court of India",
+    "year": 2016,
+    "citation": "2016 SCC Online SC 2345",
+    "facts": "Petition filed by Bachpan Bachao Andolan seeking directions to the Central Government to formulate a national policy to combat drug and alcohol abuse among children.",
+    "legal_issues": [
+      "State’s obligation to prevent drug abuse among children.",
+      "Formulation of national action plan and establishment of de-addiction centers."
+    ],
+    "judgment": "The Supreme Court directed the Central Government to formulate a comprehensive national policy within six months to curb drug and alcohol abuse among children. It also mandated setting up de-addiction centers in every district and conducting a national survey to gather data on substance abuse among minors.",
+    "legal_reasoning": "The Court recognized drug abuse among children as a violation of their fundamental rights and emphasized the State’s duty to protect vulnerable populations through proactive measures.",
+    "legal_principle": "State must take proactive steps to prevent drug abuse among children and provide rehabilitation facilities.",
+    "relevant_sections": [
+      "Article 21, Constitution of India",
+      "Narcotic Drugs and Psychotropic Substances Act, 1985"
+    ],
+    "keywords": [
+      "drug abuse",
+      "children",
+      "national policy",
+      "de-addiction",
+      "fundamental rights"
+    ]
+  },
+  {
+    "case_id": "AIR_2013_SC_1314",
+    "case_name": "Novartis AG v. Union of India & Others",
+    "court": "Supreme Court of India",
+    "year": 2013,
+    "citation": "2013 (6) SCC 1",
+    "facts": "Novartis sought patent protection in India for the beta crystalline form of imatinib mesylate (Gleevec), a cancer drug. The Indian Patent Office rejected the application under Section 3(d) of the Patents Act, 1970, which prohibits patenting of new forms of known substances unless they show enhanced efficacy.",
+    "legal_issues": [
+      "Whether the beta crystalline form of imatinib mesylate qualifies as an invention under Section 3(d).",
+      "Interpretation of 'efficacy' in patent law."
+    ],
+    "judgment": "The Supreme Court upheld the rejection of the patent application, ruling that the beta crystalline form did not demonstrate enhanced therapeutic efficacy over the known substance. The Court interpreted 'efficacy' as therapeutic efficacy and held that mere improved bioavailability does not meet the threshold.",
+    "legal_reasoning": "The Court balanced the need to encourage genuine innovation with the public interest in affordable medicines, emphasizing the strict standards under Section 3(d) to prevent evergreening of patents.",
+    "legal_principle": "Section 3(d) prohibits patenting of new forms of known substances without enhanced therapeutic efficacy.",
+    "relevant_sections": [
+      "Section 3(d), Patents Act, 1970"
+    ],
+    "keywords": [
+      "patent",
+      "drug",
+      "therapeutic efficacy",
+      "Section 3(d)",
+      "Novartis"
+    ]
+  },
+  {
+    "case_id": "AIR_2024_SC_456",
+    "case_name": "Mohanlal vs. State of Madhya Pradesh",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "citation": "2024 SCC Online SC 456",
+    "facts": "The case involved procedural fairness in drug-related investigations and trials, focusing on rights of accused under the NDPS Act and safeguards during search and seizure operations.",
+    "legal_issues": [
+      "Procedural safeguards in drug offence investigations.",
+      "Rights of accused during search, seizure, and trial under NDPS Act."
+    ],
+    "judgment": "The Supreme Court reinforced the importance of procedural fairness, including proper documentation, videography during seizures, and adherence to statutory safeguards. The Court held that violations of procedure can lead to exclusion of evidence and acquittal.",
+    "legal_reasoning": "The Court emphasized that strict compliance with procedural safeguards protects both the rights of accused and the integrity of the criminal justice system.",
+    "legal_principle": "Procedural fairness and adherence to safeguards are essential in NDPS cases to ensure justice.",
+    "relevant_sections": [
+      "Sections 42, 50, 67, NDPS Act, 1985",
+      "Section 25, Indian Evidence Act"
+    ],
+    "keywords": [
+      "NDPS Act",
+      "procedural fairness",
+      "search and seizure",
+      "videography",
+      "evidence"
+    ]
+  },
+  {
+    "case_id": "AIR_2024_SC_789",
+    "case_name": "Supreme Court on Drug Abuse Among Youth",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "citation": "2024 SCC Online SC 789",
+    "facts": "The Court addressed the rising menace of drug abuse among youth, linking it to peer pressure, academic stress, and cultural factors. The case arose from an NIA investigation into a narcotics racket involving smuggling heroin from Pakistan.",
+    "legal_issues": [
+      "Societal impact of drug abuse.",
+      "Role of judiciary and authorities in combating drug menace."
+    ],
+    "judgment": "The Supreme Court issued guidelines urging collective action by parents, society, and state authorities to combat drug abuse. It directed the National Legal Services Authority (NALSA) to coordinate responses and emphasized awareness and rehabilitation.",
+    "legal_reasoning": "The Court recognized drug abuse as a multifaceted social problem requiring coordinated efforts beyond criminal prosecution.",
+    "legal_principle": "Combating drug abuse requires holistic societal and institutional response including prevention, awareness, and rehabilitation.",
+    "relevant_sections": [
+      "NDPS Act, 1985",
+      "National Legal Services Authority Act, 1987"
+    ],
+    "keywords": [
+      "drug abuse",
+      "youth",
+      "rehabilitation",
+      "societal impact",
+      "judicial guidelines"
+    ]
+  }
+]

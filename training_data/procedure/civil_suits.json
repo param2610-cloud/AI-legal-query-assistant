@@ -1,0 +1,77 @@
+{
+  "procedure_type": "Civil Suit Filing",
+  "legal_framework": {
+    "primary_act": "Code of Civil Procedure, 1908",
+    "applicable_sections": ["Order VII, VIII, IX, XIV, XVIII, XXI CPC"],
+    "governing_laws": ["Limitation Act, Court Fees Act"]
+  },
+  "applicable_scenarios": [
+    "Contract disputes",
+    "Property disputes",
+    "Tort claims",
+    "Recovery of money",
+    "Family matters"
+  ],
+  "steps": [
+    "Consult lawyer & determine jurisdiction",
+    "Send legal notice (optional)",
+    "Draft plaint (Order VII)",
+    "Pay court fees",
+    "File plaint in appropriate court",
+    "Court issues summons (within ~30 days)",
+    "Defendant files written statement (30–90 days)",
+    "Plaintiff may file replication",
+    "Court frames issues (Order XIV)",
+    "Discovery & inspection of documents (Order XI)",
+    "Examination of parties (Order IX/X)",
+    "Exam & cross-exam of witnesses (Order XVIII)",
+    "Final arguments",
+    "Judgment & decree (Order XX)",
+    "Execution of decree (Order XXI)",
+    "Appeal (Order XLI: 30–90 days), Review (XLVII), Revision (Sec 115)"
+  ],
+  "required_documents": [
+    "Plaint with jurisdiction & cause of action",
+    "Vakalatnama (if lawyer)",
+    "Court-fee receipt",
+    "Supporting evidence (contracts, invoices)",
+    "Witness statements",
+    "Execution application (if needed)"
+  ],
+  "timeline": {
+    "written_statement": "30–90 days after summons",
+    "discovery & framing": "3–6 months",
+    "trial to judgment": "6 months–2 years",
+    "full process": "1–5 years (context-specific)"
+  },
+  "fees": {
+    "court_fee": "Percentage of claim amount (varies by state)",
+    "process_fee": "Per summons/warrant (~₹100–500)",
+    "advocate_fee": "₹5k–50k+ (case-dependent)"
+  },
+  "jurisdiction": {
+    "territorial": "Where cause arose/defendant resides (CPC Sec 15–20; Sec 20)",
+    "pecuniary": "Depends on claim amount & court level"
+  },
+  "relief_available": [
+    "Monetary damages (compensation, interest)",
+    "Specific performance",
+    "Injunctions",
+    "Recovery orders"
+  ],
+  "special_provisions": {
+    "summary_suit": "Order XXXVII for speedy recovery (6–12 months)",
+    "ex-parte_decree": "If defendant absents (Order IX)"
+  },
+  "appeals": {
+    "to_higher_court": "Within 30 days of decree",
+    "review": "Within 30 days (Order XLVII)",
+    "revision": "Under Sec 115 CPC"
+  },
+  "important_notes": [
+    "Suit must fall within Limitation Act period",
+    "Correct court & jurisdiction essential",
+    "Legal notices help avoid litigation",
+    "Proper evidence/documentation vital"
+  ]
+}

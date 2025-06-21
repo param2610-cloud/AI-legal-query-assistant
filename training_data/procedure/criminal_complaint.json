@@ -1,0 +1,64 @@
+{
+  "procedure_type": "Criminal Complaint / FIR",
+  "legal_framework": {
+    "primary_act": "Criminal Procedure Code (CrPC), 1973 / BNSS, 2023",
+    "sections": ["Section 154 (CrPC)", "Section 173 (BNSS)"],
+    "defines": ["Cognizable vs non-cognizable offences"]
+  },
+  "applicable_scenarios": [
+    "Serious offences (murder, theft, assault, rape)",
+    "Public nuisance (non-cognizable)"
+  ],
+  "steps": [
+    "Determine appropriate police station jurisdiction",
+    "Report incident verbally/in writing to officer",
+    "Officer records and reads FIR; informant signs",
+    "Provide copy of FIR free of cost",
+    "Police investigation begins",
+    "Preparation & filing of charge sheet",
+    "Charges framed & court summons issued",
+    "Evidence & witness examination during trial",
+    "Final arguments",
+    "Judgment",
+    "Appeal fileable within 30 days"
+  ],
+  "required_documents": [
+    "Written complaint or FIR copy",
+    "Identity proof",
+    "Incident details (date, time, place)",
+    "Evidence (photos, videos, witness list)",
+    "Medical/legal documents (if applicable)"
+  ],
+  "timeline": {
+    "FIR": "Immediate (within hours/days)",
+    "Investigation": "Months to years",
+    "Trial": "1–5 years depending on case complexity"
+  },
+  "fees": {
+    "FIR_registration": "Free",
+    "Magistrate_complaint": "₹10–100 (if FIR not registered)"
+  },
+  "jurisdiction": {
+    "police_territorial": "Where offence occurred",
+    "zero_FIR": "In urgent cases (e.g. serious crimes)",
+    "magistrate": "For non-cognizable complaints (CrPC Sec 190)"
+  },
+  "rights_of_complainant": [
+    "Copy of FIR free under Sec 154(3)",
+    "Approach higher police authority if FIR rejected",
+    "File complaint to Magistrate (CrPC Sec 156(3))"
+  ],
+  "special_provisions": {
+    "non-cognizable_offences": "Require Magistrate's direction",
+    "zero_FIR": "Can be filed anywhere & transferred later"
+  },
+  "appeals": {
+    "to_sessions_court": "If convicting magistrate",
+    "special_leave_petition": "To Supreme Court after appeal"
+  },
+  "important_notes": [
+    "Provide accurate facts only",
+    "Delay in FIR needs justification",
+    "False FIR attracts legal consequences"
+  ]
+}

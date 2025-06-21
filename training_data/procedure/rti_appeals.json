@@ -1,0 +1,52 @@
+{
+  "procedure_type": "RTI Appeals",
+  "legal_framework": {
+    "primary_act": "Right to Information Act, 2005",
+    "reference_sections": ["Section 19 (first & second appeals)", "Section 20 (penalty)"]
+  },
+  "applicable_scenarios": [
+    "No response from PIO within 30 days (48 hours for life/liberty)",
+    "Unsatisfactory or incomplete response",
+    "Overcharging of RTI fees"
+  ],
+  "steps": [
+    "First Appeal to FAA of same public authority within 30 days",
+    "FAA disposes within 30 days (extendable to 45 days)",
+    "Second Appeal to CIC/SIC within 90 days",
+    "Hearing scheduled by Commission",
+    "Commission issues final order or directives"
+  ],
+  "required_documents": [
+    "RTI application copy & PIO response",
+    "First appeal submission and FAA response (if any)",
+    "Proof of sending fee and communication"
+  ],
+  "timeline": {
+    "first_appeal": "Decision in 30 days (up to 45 days)",
+    "second_appeal": "Decision within months depending on backlog"
+  },
+  "fees": {
+    "application_fee": "Nominal (Postal Order/DD/court fee). Free for BPL",
+    "commission_fee": "Often nominal"
+  },
+  "jurisdiction": {
+    "first_appeal": "Within same public authority",
+    "second_appeal": "Central or State Information Commission"
+  },
+  "relief_available": [
+    "Directions to provide information",
+    "Waiver/refund of excess fee",
+    "Imposition of penalty on PIO",
+    "Recommend disciplinary action"
+  ],
+  "special_provisions": {
+    "proactive_disclosure": "PIO must proactively publish info (Sec 4)",
+    "penalty": "Up to ₹25,000 for non-compliance"
+  },
+  "important_notes": [
+    "Strict timelines are essential",
+    "Penalties encourage PIO compliance",
+    "Merging appeals can delay process",
+    "Backlogs can extend delays at SIC/CIC"
+  ]
+}

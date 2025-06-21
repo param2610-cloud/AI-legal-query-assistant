@@ -1,0 +1,34 @@
+{
+  "case_id": "W.P.(C) No. 494 of 2012",
+  "case_name": "Justice K.S. Puttaswamy (Retd.) vs Union of India",
+  "court": "Supreme Court of India",
+  "year": 2018,
+  "facts": "A 91-year-old retired High Court judge, Justice K.S. Puttaswamy, challenged the constitutional validity of the Aadhaar Act and UIDAI regulations, arguing that the Aadhaar scheme violated the fundamental right to privacy and was against the rule of law. The government had made Aadhaar mandatory for accessing various welfare benefits, opening bank accounts, and obtaining PAN cards.",
+  "legal_issues": [
+    "Constitutionality of the Aadhaar Act, 2016",
+    "Right to privacy under Article 21 of the Constitution",
+    "Legitimacy of mandatory Aadhaar linking for welfare schemes, bank accounts, and mobile connections",
+    "Scope of data collection and protection against mass surveillance",
+    "Validity of provisions allowing private entities to request Aadhaar data"
+  ],
+  "judgment": "The Supreme Court, in a 4:1 majority judgment delivered on September 26, 2018, upheld the constitutional validity of the Aadhaar Act, recognizing that the State can impose reasonable restrictions on the right to privacy if proportional to a legitimate state aim. The Court held that Aadhaar facilitates efficient and transparent delivery of welfare benefits to disadvantaged citizens and does not violate the fundamental right to privacy. However, certain provisions were struck down as unconstitutional, including mandatory linking of Aadhaar with bank accounts and mobile phones, and the clause allowing private companies to request Aadhaar data (Section 57). The Court also barred the government from assigning Aadhaar to unauthorized immigrants and mandated the enactment of a data protection law. Justice D.Y. Chandrachud dissented, expressing concerns about the invasive collection of biometric data and the manner of passing the Aadhaar Act as a money bill.",
+  "legal_principle": "The right to privacy is a fundamental right under Article 21 but can be reasonably restricted for legitimate state aims such as efficient delivery of welfare. Aadhaar is constitutionally valid as a tool for social welfare and identity verification, provided adequate safeguards against misuse and mass surveillance are in place. Mandatory linking of Aadhaar with bank accounts and mobile phones is unconstitutional. Private entities cannot compel Aadhaar disclosure unless authorized by a valid law. Data protection and privacy safeguards must be strengthened through legislation.",
+  "relevant_sections": [
+    "Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016 Sections 7, 29, 33, 47, 57, 59",
+    "Article 21 of the Constitution of India"
+  ],
+  "keywords": [
+    "Aadhaar",
+    "Right to Privacy",
+    "Constitutional Validity",
+    "Biometric Data",
+    "Social Welfare",
+    "Data Protection",
+    "Mandatory Linking",
+    "Section 57",
+    "Mass Surveillance",
+    "Justice K.S. Puttaswamy",
+    "UIDAI",
+    "Supreme Court of India"
+  ]
+}

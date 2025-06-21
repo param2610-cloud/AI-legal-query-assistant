@@ -10,6 +10,7 @@ cryptography>=41.0.0
 langchain>=0.2.0
 langchain-community>=0.2.0
 langchain-core>=0.2.0
+langchain-hub>=0.1.15
 langchain-text-splitters>=0.2.0
 
 # Modern Embeddings Support
@@ -21,10 +22,12 @@ ollama>=0.1.7
 langchain-ollama>=0.1.0
 
 # Agent Framework (LangGraph) - Latest
+langgraph>=0.1.0
 langchain-experimental>=0.0.60
 
 # Vector Database
 chromadb>=0.4.22
+langchain-chroma>=0.1.0
 
 # Text Processing
 tiktoken>=0.5.0

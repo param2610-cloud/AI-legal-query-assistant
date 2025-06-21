@@ -1,0 +1,247 @@
+[
+  {
+    "fee_type": "Consumer Forum Court Fee (District Commission)",
+    "calculation": {
+      "up_to_5_lakh": "₹200",
+      "5_lakh_to_10_lakh": "₹400",
+      "10_lakh_to_20_lakh": "₹500",
+      "above_20_lakh": "₹1000"
+    },
+    "additional_fees": {
+      "urgent_hearing": "₹500 extra",
+      "certified_copies_per_page": "₹10",
+      "process_fee": "₹100"
+    },
+    "specialization_area": "consumer acts",
+    "notes": "Applicable for cases filed at the District Consumer Disputes Redressal Commission."
+  },
+  {
+    "fee_type": "Consumer Forum Court Fee (State Commission)",
+    "calculation": {
+      "20_lakh_to_1_crore": "₹2000",
+      "above_1_crore_to_2_crore": "₹4000",
+      "above_2_crore_to_5_crore": "₹5000",
+      "above_5_crore": "₹10000"
+    },
+    "additional_fees": {
+      "urgent_hearing": "₹1000 extra",
+      "certified_copies_per_page": "₹15",
+      "process_fee": "₹200"
+    },
+    "specialization_area": "consumer acts",
+    "notes": "Applicable for cases filed at the State Consumer Disputes Redressal Commission."
+  },
+  {
+    "fee_type": "Civil Suit Filing Fee (General - High Court)",
+    "calculation": {
+      "claim_value_up_to_10_lakh": "1% of claim value (min ₹500, max ₹10000)",
+      "claim_value_10_lakh_to_50_lakh": "0.75% of claim value (min ₹10000, max ₹30000)",
+      "claim_value_above_50_lakh": "0.5% of claim value (min ₹30000, max ₹100000)"
+    },
+    "additional_fees": {
+      "court_announcement": "₹200 per announcement",
+      "certified_copies_per_page": "₹20",
+      "summons_issuance_per_party": "₹150"
+    },
+    "specialization_area": "civil procedure",
+    "notes": "These are illustrative fees for a civil suit in a High Court. Actual fees vary significantly by state and specific type of civil case."
+  },
+  {
+    "fee_type": "Divorce Petition Filing Fee",
+    "calculation": {
+      "fixed_fee": "₹500"
+    },
+    "additional_fees": {
+      "mediation_fee": "₹1000 (if applicable)",
+      "certified_copies_per_page": "₹10",
+      "process_fee": "₹100"
+    },
+    "specialization_area": "marriage",
+    "notes": "Relatively lower fixed fees for divorce petitions in family courts."
+  },
+  {
+    "fee_type": "Birth Certificate Correction Application Fee",
+    "calculation": {
+      "initial_application": "₹50",
+      "late_fee_per_year_delay": "₹10 (if applicable)"
+    },
+    "additional_fees": {
+      "affidavit_attestation": "₹200",
+      "certified_copy": "₹20"
+    },
+    "specialization_area": "birth",
+    "notes": "Fees for correcting errors or making amendments to a birth certificate."
+  },
+  {
+    "fee_type": "Death Certificate Application Fee",
+    "calculation": {
+      "initial_application": "₹50",
+      "late_fee_after_30_days": "₹100"
+    },
+    "additional_fees": {
+      "certified_copy": "₹20"
+    },
+    "specialization_area": "death",
+    "notes": "Fees for obtaining a death certificate."
+  },
+  {
+    "fee_type": "Adoption Petition Filing Fee",
+    "calculation": {
+      "fixed_fee": "₹1000"
+    },
+    "additional_fees": {
+      "home_study_report_charges": "₹5000 (if required by agency)",
+      "certified_copies_per_page": "₹15"
+    },
+    "specialization_area": "child labour",
+    "notes": "Covers adoption petitions filed in appropriate courts, often involving specialized agencies."
+  },
+  {
+    "fee_type": "Legal Notice Cost (Simple)",
+    "description": "For straightforward matters not requiring extensive legal research.",
+    "calculation": {
+      "advocate_drafting_fee": "₹2000 - ₹5000",
+      "postage_registered_post_acknowledgement_due": "₹50 - ₹100"
+    },
+    "specialization_area": "civil procedure",
+    "notes": "A basic legal notice for recovery of small debts or minor disputes."
+  },
+  {
+    "fee_type": "Legal Notice Cost (Complex - Property Dispute)",
+    "description": "Involving detailed facts, legal precedents, and potentially multiple parties.",
+    "calculation": {
+      "advocate_drafting_fee": "₹7000 - ₹15000",
+      "postage_registered_post_acknowledgement_due": "₹100 - ₹200",
+      "courier_charges_international": "₹500 - ₹2000 (if applicable)"
+    },
+    "specialization_area": "civil procedure",
+    "notes": "Could be for property boundary disputes, landlord-tenant issues, or specific performance."
+  },
+  {
+    "fee_type": "Legal Notice Cost (Dowry Harassment)",
+    "description": "Specialized legal notice for dowry-related offenses, often sent by the victim's family.",
+    "calculation": {
+      "advocate_drafting_fee": "₹5000 - ₹12000",
+      "postage_registered_post_acknowledgement_due": "₹50 - ₹100"
+    },
+    "specialization_area": "dowry",
+    "notes": "Requires careful drafting and understanding of relevant sections of IPC and Dowry Prohibition Act."
+  },
+  {
+    "fee_type": "Advocate Fee Guideline (Consultation)",
+    "description": "Initial consultation for legal advice without engagement.",
+    "calculation": {
+      "per_hour_rate": "₹1000 - ₹3000",
+      "fixed_rate_30_min": "₹500 - ₹1500"
+    },
+    "notes": "Varies based on advocate's experience and location."
+  },
+  {
+    "fee_type": "Advocate Fee Guideline (Case Representation - Civil Suit, District Court)",
+    "description": "Comprehensive representation for a civil case from filing to judgment.",
+    "calculation": {
+      "lump_sum_retainer": "₹30000 - ₹100000",
+      "per_hearing_fee": "₹3000 - ₹8000 (after retainer exhausted)",
+      "success_fee_percentage_of_claim": "5% - 10% (negotiable for specific cases)"
+    },
+    "specialization_area": "civil procedure",
+    "notes": "Highly variable based on complexity, duration, and advocate's reputation."
+  },
+  {
+    "fee_type": "Advocate Fee Guideline (Case Representation - Consumer Forum)",
+    "description": "Representation for a consumer dispute.",
+    "calculation": {
+      "lump_sum_retainer": "₹15000 - ₹40000",
+      "per_hearing_fee": "₹2000 - ₹5000",
+      "drafting_charges_fixed": "₹5000 - ₹10000"
+    },
+    "specialization_area": "consumer acts",
+    "notes": "Typically lower than high court civil suits due to faster resolution times."
+  },
+  {
+    "fee_type": "Advocate Fee Guideline (Drafting - Deed/Agreement)",
+    "description": "Drafting of legal documents like sale deeds, gift deeds, rental agreements.",
+    "calculation": {
+      "fixed_rate_simple_agreement": "₹5000 - ₹15000",
+      "fixed_rate_complex_deed": "₹20000 - ₹50000 (or 0.1% - 0.5% of property value)"
+    },
+    "specialization_area": "civil procedure",
+    "notes": "Depends on the complexity and value of the transaction."
+  },
+  {
+    "fee_type": "Advocate Fee Guideline (Adhaar Related Litigation)",
+    "description": "For issues related to Aadhaar, e.g., correction, linking, privacy concerns.",
+    "calculation": {
+      "fixed_fee_correction_issue": "₹5000 - ₹10000",
+      "per_hearing_privacy_case": "₹3000 - ₹7000",
+      "lump_sum_writ_petition": "₹30000 - ₹80000"
+    },
+    "specialization_area": "adhar",
+    "notes": "Highly specialized area, often involving constitutional law."
+  },
+  {
+    "fee_type": "Advocate Fee Guideline (Drug & Cosmetic Act Compliance)",
+    "description": "Advising on compliance, licensing, and litigation under the Drugs & Cosmetics Act.",
+    "calculation": {
+      "retainer_for_annual_compliance": "₹50000 - ₹200000 (monthly/quarterly)",
+      "per_case_litigation": "₹100000 - ₹500000 (lump sum)",
+      "advisory_per_hour": "₹5000 - ₹10000"
+    },
+    "specialization_area": "drug cosmetic",
+    "notes": "Highly specialized and complex area, often involving corporate clients."
+  },
+  {
+    "fee_type": "Stamp Duty Rates (Illustrative - Karnataka)",
+    "description": "Example stamp duty rates for property transactions in Karnataka.",
+    "calculation": {
+      "urban_areas": "5% of property value",
+      "rural_areas": "3% of property value",
+      "women_buyers_discount": "0.5% (on certain properties)"
+    },
+    "notes": "These are illustrative and actual rates vary by property type, location, and specific schemes. Excludes registration charges."
+  },
+  {
+    "fee_type": "Stamp Duty Rates (Illustrative - Maharashtra)",
+    "description": "Example stamp duty rates for property transactions in Maharashtra.",
+    "calculation": {
+      "municipal_corporation_areas": "6% of property value",
+      "other_areas": "5% of property value",
+      "gift_deed_to_family": "3% of property value (max ₹200)"
+    },
+    "notes": "Highly variable, subject to local body taxes and specific notifications."
+  },
+  {
+    "fee_type": "Registration Charges (Illustrative - General)",
+    "description": "General registration charges for property documents.",
+    "calculation": {
+      "fixed_percentage_of_value": "1% of property value (minimum ₹100, maximum ₹30000)",
+      "fixed_fee_certain_documents": "₹500 - ₹1000 (for wills, powers of attorney)"
+    },
+    "notes": "In addition to stamp duty, typically capped at a certain amount."
+  },
+  {
+    "fee_type": "Child Labour Case Filing Fee (Juvenile Justice Board)",
+    "calculation": {
+      "fixed_fee": "₹100"
+    },
+    "additional_fees": {
+      "certified_copies_per_page": "₹5",
+      "social_investigation_report_fee": "₹200 (if applicable)"
+    },
+    "specialization_area": "child labour",
+    "notes": "Low fees to ensure access to justice for child-related offenses."
+  },
+  {
+    "fee_type": "PIL Filing Fee (High Court)",
+    "description": "Public Interest Litigation filing fees.",
+    "calculation": {
+      "fixed_fee": "₹2000"
+    },
+    "additional_fees": {
+      "process_fee_per_respondent": "₹50",
+      "certified_copies_per_page": "₹15"
+    },
+    "specialization_area": "civil procedure",
+    "notes": "Relatively low to encourage public interest cases."
+  }
+]

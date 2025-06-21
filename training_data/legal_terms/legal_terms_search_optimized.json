@@ -1,0 +1,6834 @@
+{
+  "terms": [
+    {
+      "term": "Accomplice",
+      "definition": "A person who has taken part in or aided the commission of a crime.",
+      "keywords": [
+        "taken",
+        "part",
+        "aided",
+        "commission",
+        "crime"
+      ],
+      "variants": [
+        "accomplice",
+        "Accomplice"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Accused person",
+      "definition": "A person or persons accused of committing a crime but not yet tried for it.",
+      "keywords": [
+        "persons",
+        "accused",
+        "committing",
+        "crime",
+        "but",
+        "not",
+        "yet",
+        "tried"
+      ],
+      "variants": [
+        "accused person",
+        "Accused Person",
+        "Accused-person",
+        "Accused person"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Acknowledgement",
+      "definition": "It is a method to certify or declare one’s knowledge of some document. It is a statement of acceptance.",
+      "keywords": [
+        "method",
+        "certify",
+        "declare",
+        "one",
+        "knowledge",
+        "some",
+        "document",
+        "statement",
+        "acceptance"
+      ],
+      "variants": [
+        "Acknowledgement",
+        "acknowledgement"
+      ],
+      "categories": [
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Acquaintance Rape",
+      "definition": "When rape is being committed by a person known/related to the victim.",
+      "keywords": [
+        "rape",
+        "being",
+        "committed",
+        "known",
+        "related",
+        "victim"
+      ],
+      "variants": [
+        "Acquaintance-Rape",
+        "Acquaintance Rape",
+        "acquaintance rape"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Acquittal",
+      "definition": "A conclusion by a judge that the accused person/s are not guilty of the commission of the charged offence/s.",
+      "keywords": [
+        "conclusion",
+        "judge",
+        "accused",
+        "not",
+        "guilty",
+        "commission",
+        "charged",
+        "offence"
+      ],
+      "variants": [
+        "Acquittal",
+        "acquittal"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Actus Reus",
+      "definition": "It is the unlawful, physical act that constitutes an essential element of a crime and which, in most cases, must be combined with mens rea (criminal intent) to prove that a crime has been committed.",
+      "keywords": [
+        "crime",
+        "unlawful",
+        "physical",
+        "act",
+        "constitutes",
+        "essential",
+        "element",
+        "most",
+        "cases",
+        "combined"
+      ],
+      "variants": [
+        "Actus-Reus",
+        "Actus Reus",
+        "actus reus"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Adjournment",
+      "definition": "The postponement of a case hearing to a later date.",
+      "keywords": [
+        "postponement",
+        "hearing",
+        "later",
+        "date"
+      ],
+      "variants": [
+        "adjournment",
+        "Adjournment"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Adjudication",
+      "definition": "The legal process of deciding a dispute between two or more parties by a competent authority.",
+      "keywords": [
+        "legal",
+        "process",
+        "deciding",
+        "dispute",
+        "between",
+        "two",
+        "more",
+        "parties",
+        "competent",
+        "authority"
+      ],
+      "variants": [
+        "adjudication",
+        "Adjudication"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Admissible Evidence",
+      "definition": "The evidence that a trial judge may consider based on the provisions of the Indian Evidence Act. All the evidence submitted by the parties to the court may not be admissible.",
+      "keywords": [
+        "evidence",
+        "trial",
+        "judge",
+        "consider",
+        "based",
+        "provisions",
+        "indian",
+        "act",
+        "all",
+        "submitted"
+      ],
+      "variants": [
+        "admissible evidence",
+        "Admissible Evidence",
+        "Admissible-Evidence"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Admission",
+      "definition": "The acceptance of document, fact, or statement by a party before the court.",
+      "keywords": [
+        "acceptance",
+        "document",
+        "fact",
+        "statement",
+        "party",
+        "before"
+      ],
+      "variants": [
+        "Admission",
+        "admission"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Advocate",
+      "definition": "A law graduate entered in any roll under the provisions of the Advocates Act, 1961.",
+      "keywords": [
+        "law",
+        "graduate",
+        "entered",
+        "any",
+        "roll",
+        "under",
+        "provisions",
+        "advocates",
+        "act"
+      ],
+      "variants": [
+        "Advocate",
+        "advocate"
+      ],
+      "categories": [
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Affidavit",
+      "definition": "A document sworn by a party before a notary asserting that the contents of the document are made to the best of the signatory’s knowledge, information and belief. Pleadings filed in court cases usually need to be supported by affidavits.",
+      "keywords": [
+        "document",
+        "sworn",
+        "party",
+        "before",
+        "notary",
+        "asserting",
+        "contents",
+        "made",
+        "best",
+        "signatory"
+      ],
+      "variants": [
+        "Affidavit",
+        "affidavit"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Appeal",
+      "definition": "A process by which a litigant can approach a higher court/authority challenging the order or judgment of a lower court, tribunal or authority",
+      "keywords": [
+        "authority",
+        "process",
+        "litigant",
+        "approach",
+        "higher",
+        "challenging",
+        "order",
+        "judgment",
+        "lower",
+        "tribunal"
+      ],
+      "variants": [
+        "appeal",
+        "Appeal"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Appearance",
+      "definition": "A party showing up in court in response to summons or notice. A party can make an appearance either in person or through their lawyer, depending on the case. In criminal proceedings, the complainant and the accused needs to be personally present at every hearing, unless the Court exempts them.",
+      "keywords": [
+        "party",
+        "showing",
+        "response",
+        "summons",
+        "notice",
+        "make",
+        "appearance",
+        "either",
+        "through",
+        "lawyer"
+      ],
+      "variants": [
+        "Appearance",
+        "appearance"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Appellant",
+      "definition": "A person who files an appeal i.e. applies to a higher court for a reconsideration of the decision made by a lower court.",
+      "keywords": [
+        "files",
+        "appeal",
+        "applies",
+        "higher",
+        "reconsideration",
+        "decision",
+        "made",
+        "lower"
+      ],
+      "variants": [
+        "appellant",
+        "Appellant"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Appellate (also see Jurisdiction)",
+      "definition": "In a court, those applications that are concerned with decisions made by a lower court, tribunal or authority.",
+      "keywords": [
+        "those",
+        "applications",
+        "concerned",
+        "decisions",
+        "made",
+        "lower",
+        "tribunal",
+        "authority"
+      ],
+      "variants": [
+        "Appellate (Also See Jurisdiction)",
+        "Appellate-(also-see-Jurisdiction)",
+        "Appellate (also see Jurisdiction)",
+        "appellate (also see jurisdiction)",
+        "Appellate also see Jurisdiction"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Arrears",
+      "definition": "Some delayed cases might be in the system for longer than the normal time, for valid reasons. Those cases that show unwarranted delay will be referred to as arrears.",
+      "keywords": [
+        "cases",
+        "some",
+        "delayed",
+        "might",
+        "system",
+        "longer",
+        "than",
+        "normal",
+        "time",
+        "valid"
+      ],
+      "variants": [
+        "arrears",
+        "Arrears"
+      ],
+      "categories": [
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Arrest",
+      "definition": "An arrest is an act of taking a person into custody as he/she may be suspected of a crime or an offence. It is done because a person is apprehended for doing something wrong.",
+      "keywords": [
+        "arrest",
+        "act",
+        "taking",
+        "into",
+        "custody",
+        "she",
+        "suspected",
+        "crime",
+        "offence",
+        "done"
+      ],
+      "variants": [
+        "arrest",
+        "Arrest"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Arrest Warrant",
+      "definition": "An order passed by a magistrate or judge authorising a law enforcement agency to arrest a person suspected of committing a crime.",
+      "keywords": [
+        "order",
+        "passed",
+        "magistrate",
+        "judge",
+        "authorising",
+        "law",
+        "enforcement",
+        "agency",
+        "arrest",
+        "suspected"
+      ],
+      "variants": [
+        "arrest warrant",
+        "Arrest-Warrant",
+        "Arrest Warrant"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Documents",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Arson",
+      "definition": "It is a voluntary act of burning a property or setting a property on fire.",
+      "keywords": [
+        "property",
+        "voluntary",
+        "act",
+        "burning",
+        "setting",
+        "fire"
+      ],
+      "variants": [
+        "Arson",
+        "arson"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Assault",
+      "definition": "It is a threat or attempt to use criminal force on an individual. Actual physical contact is not required to prove assault.",
+      "keywords": [
+        "threat",
+        "attempt",
+        "use",
+        "criminal",
+        "force",
+        "individual",
+        "actual",
+        "physical",
+        "contact",
+        "not"
+      ],
+      "variants": [
+        "Assault",
+        "assault"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Attachment",
+      "definition": "An order seizing or attaching property/assets (including bank accounts) to satisfy the demands or claims made by a party. Courts may attach a debtor’s property to pay their creditors or to secure the creditors’ interests during the pendency of proceedings.",
+      "keywords": [
+        "property",
+        "creditors",
+        "order",
+        "seizing",
+        "attaching",
+        "assets",
+        "including",
+        "bank",
+        "accounts",
+        "satisfy"
+      ],
+      "variants": [
+        "attachment",
+        "Attachment"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Backlog",
+      "definition": "As per the 245th Law Commission report, when the institution of new cases in any given time period is higher than the disposal of cases in that time period, the difference between institution and disposal is the backlog. This figure represents the accumulation of cases in the system due to the system’s inability to dispose of as many cases as are being filed.",
+      "keywords": [
+        "cases",
+        "institution",
+        "time",
+        "period",
+        "disposal",
+        "system",
+        "per",
+        "law",
+        "commission",
+        "report"
+      ],
+      "variants": [
+        "backlog",
+        "Backlog"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Bail",
+      "definition": "Bail is referred to as the temporary release of the accused person in a criminal case in which the trial has not started or the trial is going on and the court is yet to reach a decision. The court granting bail usually imposes conditions such as sureties, personal bond, participation in investigation, as conditions for release.",
+      "keywords": [
+        "bail",
+        "release",
+        "trial",
+        "conditions",
+        "referred",
+        "temporary",
+        "accused",
+        "criminal",
+        "not",
+        "started"
+      ],
+      "variants": [
+        "bail",
+        "Bail"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Beyond Reasonable Doubt",
+      "definition": "It is the level of proof that is required to be proved to convict an accused person in a criminal case. In criminal cases, the prosecution bears the burden of proving that the accused person is guilty beyond all reasonable doubt. The judge needs to be convinced beyond reasonable doubt, based on their consideration of the evidence, that the accused is guilty of the crime charged in order to convict them.",
+      "keywords": [
+        "accused",
+        "convict",
+        "criminal",
+        "guilty",
+        "beyond",
+        "reasonable",
+        "doubt",
+        "level",
+        "proof",
+        "required"
+      ],
+      "variants": [
+        "beyond reasonable doubt",
+        "Beyond Reasonable Doubt",
+        "Beyond-Reasonable-Doubt"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure",
+        "Legal Documents",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Burden of proof",
+      "definition": "The burden of proof is the standard that the parties have to satisfy to prove a fact in court. In criminal cases, the burden of proving the accused person’s guilt is on the prosecution, and they must prove it beyond reasonable doubt. In civil cases, the burden of proof is on the plaintiff and they have to prove their case by a preponderance of probabilities. This means that a fact is said to be proved when the court either believes it to exist or considers its existence so probable that a prudent man ought, under the circumstances of the particular case, to act upon the supposition that it exists (Narayan Ganesh Dastane v. Sucheta Narayan Dastane 1975 AIR 1534).",
+      "keywords": [
+        "burden",
+        "prove",
+        "proof",
+        "fact",
+        "cases",
+        "narayan",
+        "dastane",
+        "standard",
+        "parties",
+        "satisfy"
+      ],
+      "variants": [
+        "Burden-of-proof",
+        "burden of proof",
+        "Burden Of Proof",
+        "Burden of proof"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Capital punishment",
+      "definition": "Capital punishment or the death penalty is the punishment for a crime which involves taking the convicted person’s life. In India capital punishment is awarded in the rarest of rare cases.",
+      "keywords": [
+        "punishment",
+        "capital",
+        "death",
+        "penalty",
+        "crime",
+        "involves",
+        "taking",
+        "convicted",
+        "life",
+        "india"
+      ],
+      "variants": [
+        "Capital Punishment",
+        "Capital-punishment",
+        "Capital punishment",
+        "capital punishment"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Case Number",
+      "definition": "A unique identification number provided by the court for each case, made up of three components: a case type, the said number, and the year in which the case was instituted.",
+      "keywords": [
+        "number",
+        "unique",
+        "identification",
+        "provided",
+        "each",
+        "made",
+        "three",
+        "components",
+        "type",
+        "said"
+      ],
+      "variants": [
+        "Case-Number",
+        "case number",
+        "Case Number"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Case Status",
+      "definition": "The stage at which a case is, within the process in the court.",
+      "keywords": [
+        "stage",
+        "within",
+        "process"
+      ],
+      "variants": [
+        "Case Status",
+        "Case-Status",
+        "case status"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Cause List",
+      "definition": "A list issued by the registry of the matters to be heard by the court on any day. The bench, court hall number and the position of the matter are indicated on the cause list. This list appears in print form in every court, and is made available on the website of several courts.",
+      "keywords": [
+        "list",
+        "issued",
+        "registry",
+        "matters",
+        "heard",
+        "any",
+        "day",
+        "bench",
+        "hall",
+        "number"
+      ],
+      "variants": [
+        "cause list",
+        "Cause List",
+        "Cause-List"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Cause of action",
+      "definition": "A set of facts and circumstances sufficient for a party to initiate legal action against another party.",
+      "keywords": [
+        "party",
+        "set",
+        "facts",
+        "circumstances",
+        "sufficient",
+        "initiate",
+        "legal",
+        "action",
+        "against",
+        "another"
+      ],
+      "variants": [
+        "Cause-of-action",
+        "cause of action",
+        "Cause of action",
+        "Cause Of Action"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Charge sheet",
+      "definition": "Charge sheet refers to a formal police record presented to the court showing the names of each person accused of the criminal offence/s, the nature of the accusations and the crimes, and the evidence. If the person accused of a crime is in prison, the police has to file a chargesheet in 60 days (where the punishment for the crime is less than 10 years) or 90 days (where the punishment of the crime is more than 10 years).",
+      "keywords": [
+        "crime",
+        "police",
+        "accused",
+        "days",
+        "punishment",
+        "than",
+        "years",
+        "charge",
+        "sheet",
+        "refers"
+      ],
+      "variants": [
+        "charge sheet",
+        "Charge sheet",
+        "Charge-sheet",
+        "Charge Sheet"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Circumstantial Evidence",
+      "definition": "Circumstantial evidence is indirect evidence that is not based on direct observation. On its face circumstantial evidence does not prove a fact in issue but gives rise to a logical inference that the fact exists. A person can be convicted on the basis of circumstantial evidence only if the circumstances taken cumulatively form a chain so complete that there is no escape from the conclusion that in all human probability, the crime was committed by them.",
+      "keywords": [
+        "evidence",
+        "circumstantial",
+        "not",
+        "fact",
+        "indirect",
+        "based",
+        "direct",
+        "observation",
+        "face",
+        "does"
+      ],
+      "variants": [
+        "Circumstantial Evidence",
+        "Circumstantial-Evidence",
+        "circumstantial evidence"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Civil Procedure Code",
+      "definition": "Codified procedural law related to administration of Indian civil law.",
+      "keywords": [
+        "law",
+        "codified",
+        "procedural",
+        "related",
+        "administration",
+        "indian",
+        "civil"
+      ],
+      "variants": [
+        "Civil Procedure Code",
+        "civil procedure code",
+        "Civil-Procedure-Code"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Civil",
+      "definition": "That part of the law that encompasses business, contracts, estates, domestic (family) relations, accidents, negligence, and everything related to legal issues, statutes, and lawsuits, that is not criminal law.",
+      "keywords": [
+        "law",
+        "part",
+        "encompasses",
+        "business",
+        "contracts",
+        "estates",
+        "domestic",
+        "family",
+        "relations",
+        "accidents"
+      ],
+      "variants": [
+        "Civil",
+        "civil"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Civil Law"
+      ]
+    },
+    {
+      "term": "Commissions",
+      "definition": "A commission is appointed by a court to ascertain or investigate facts needed to decide a case. A commission is usually given specific terms of reference. Members of a commission can be academics, social activists/workers, advocates, or judges.",
+      "keywords": [
+        "commission",
+        "appointed",
+        "ascertain",
+        "investigate",
+        "facts",
+        "needed",
+        "decide",
+        "usually",
+        "given",
+        "specific"
+      ],
+      "variants": [
+        "commissions",
+        "Commissions"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Commutation",
+      "definition": "The action of an executive officer to substitute a punishment given to a convicted person, with a less severe punishment. Under the Constitution, the President and Governor have the power to commute sentences.",
+      "keywords": [
+        "punishment",
+        "action",
+        "executive",
+        "officer",
+        "substitute",
+        "given",
+        "convicted",
+        "less",
+        "severe",
+        "under"
+      ],
+      "variants": [
+        "commutation",
+        "Commutation"
+      ],
+      "categories": [
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Complaint",
+      "definition": "Any allegation made orally or in writing to the police or a magistrate stating that a criminal offence has been committed, with a view to them taking action to investigate the alleged offence.",
+      "keywords": [
+        "offence",
+        "any",
+        "allegation",
+        "made",
+        "orally",
+        "writing",
+        "police",
+        "magistrate",
+        "stating",
+        "criminal"
+      ],
+      "variants": [
+        "Complaint",
+        "complaint"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Documents",
+        "Constitutional Law",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Conviction",
+      "definition": "It is a final adjudication of finding an accused person guilty of the commission of s crime by a Court.",
+      "keywords": [
+        "final",
+        "adjudication",
+        "finding",
+        "accused",
+        "guilty",
+        "commission",
+        "crime"
+      ],
+      "variants": [
+        "Conviction",
+        "conviction"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Counterclaim",
+      "definition": "A claim made by the defendant against the plaintiff in answer to the claim raised by the plaintiff.",
+      "keywords": [
+        "claim",
+        "plaintiff",
+        "made",
+        "defendant",
+        "against",
+        "answer",
+        "raised"
+      ],
+      "variants": [
+        "counterclaim",
+        "Counterclaim"
+      ],
+      "categories": [
+        "Civil Law",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Court Hall",
+      "definition": "The room in which the judicial proceedings of the court are carried out. Court halls are usually described by the numbers assigned to them e.g. Courthall No. 3.",
+      "keywords": [
+        "room",
+        "judicial",
+        "proceedings",
+        "carried",
+        "out",
+        "halls",
+        "usually",
+        "described",
+        "numbers",
+        "assigned"
+      ],
+      "variants": [
+        "court hall",
+        "Court-Hall",
+        "Court Hall"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Court Notice/Summons",
+      "definition": "An official document that a court sends to a party informing them that a case has been filed against them, and which indicates the date and time of the next hearing.",
+      "keywords": [
+        "official",
+        "document",
+        "sends",
+        "party",
+        "informing",
+        "filed",
+        "against",
+        "indicates",
+        "date",
+        "time"
+      ],
+      "variants": [
+        "Court Notice/Summons",
+        "court notice/summons",
+        "Court-Notice/Summons",
+        "Court NoticeSummons"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Criminal Procedure Code",
+      "definition": "The main legislation on procedure for administration of substantive criminal law in India.",
+      "keywords": [
+        "main",
+        "legislation",
+        "procedure",
+        "administration",
+        "substantive",
+        "criminal",
+        "law",
+        "india"
+      ],
+      "variants": [
+        "Criminal Procedure Code",
+        "Criminal-Procedure-Code",
+        "criminal procedure code"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Criminal",
+      "definition": "That which pertains to crimes, and requires the administration of penal justice. Involving those cases that deal with a violation of a law in which a citizen inflicts injury upon another citizen or the state. Punishable with the curtailment of liberty, via imprisonment or detention, or fines.",
+      "keywords": [
+        "citizen",
+        "pertains",
+        "crimes",
+        "requires",
+        "administration",
+        "penal",
+        "justice",
+        "involving",
+        "those",
+        "cases"
+      ],
+      "variants": [
+        "Criminal",
+        "criminal"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Cross",
+      "definition": "examination- The examination of witness by the opposite party shall be called a cross-examination. Cross-examination gives the opposing party an opportunity to point out the weaknesses of a witness’ testimony. The lawyer conducting the cross-examination cannot ask questions outside the scope of the witness’s prior direct examination.",
+      "keywords": [
+        "examination",
+        "witness",
+        "cross",
+        "party",
+        "opposite",
+        "called",
+        "gives",
+        "opposing",
+        "opportunity",
+        "point"
+      ],
+      "variants": [
+        "Cross",
+        "cross"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Culpable homicide not amounting to murder",
+      "definition": "An act which has caused death done with the intention of causing death, or causing such bodily injury which is likely to cause death, or done by someone having the knowledge that they can, by their act, likely cause death, amounts to culpable homicide.",
+      "keywords": [
+        "death",
+        "act",
+        "done",
+        "causing",
+        "likely",
+        "cause",
+        "caused",
+        "intention",
+        "bodily",
+        "injury"
+      ],
+      "variants": [
+        "culpable homicide not amounting to murder",
+        "Culpable Homicide Not Amounting To Murder",
+        "Culpable-homicide-not-amounting-to-murder",
+        "Culpable homicide not amounting to murder"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Date of Hearing",
+      "definition": "The date on which a case is heard in court.",
+      "keywords": [
+        "date",
+        "heard"
+      ],
+      "variants": [
+        "date of hearing",
+        "Date-of-Hearing",
+        "Date Of Hearing",
+        "Date of Hearing"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Date of Institution",
+      "definition": "The date when a case is filed and registered in a court.",
+      "keywords": [
+        "date",
+        "filed",
+        "registered"
+      ],
+      "variants": [
+        "Date Of Institution",
+        "Date-of-Institution",
+        "Date of Institution",
+        "date of institution"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Decree Holder",
+      "definition": "The person in favour of whom the judgment and decree is given by a court, directing the other party to take action or desist from acting in terms of the decree.",
+      "keywords": [
+        "decree",
+        "favour",
+        "whom",
+        "judgment",
+        "given",
+        "directing",
+        "other",
+        "party",
+        "take",
+        "action"
+      ],
+      "variants": [
+        "Decree-Holder",
+        "decree holder",
+        "Decree Holder"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Decree",
+      "definition": "The formal order of a court that conclusively resolves the issues in a case and determines the rights of the parties.",
+      "keywords": [
+        "formal",
+        "order",
+        "conclusively",
+        "resolves",
+        "issues",
+        "determines",
+        "rights",
+        "parties"
+      ],
+      "variants": [
+        "decree",
+        "Decree"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Defendant",
+      "definition": "The party against whom a civil suit is filed",
+      "keywords": [
+        "party",
+        "against",
+        "whom",
+        "civil",
+        "suit",
+        "filed"
+      ],
+      "variants": [
+        "Defendant",
+        "defendant"
+      ],
+      "categories": [
+        "Civil Law"
+      ]
+    },
+    {
+      "term": "Deferred Sentence",
+      "definition": "Postponement or delay of a sentence to a future date.",
+      "keywords": [
+        "postponement",
+        "delay",
+        "sentence",
+        "future",
+        "date"
+      ],
+      "variants": [
+        "Deferred Sentence",
+        "deferred sentence",
+        "Deferred-Sentence"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Delay",
+      "definition": "A case that has been in the court or judicial system for longer than the normal time that it should take for a case of that type to be disposed of.",
+      "keywords": [
+        "judicial",
+        "system",
+        "longer",
+        "than",
+        "normal",
+        "time",
+        "take",
+        "type",
+        "disposed"
+      ],
+      "variants": [
+        "Delay",
+        "delay"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Disposal",
+      "definition": "The resolution of a case. This could either be the dismissal or a charge, or a final judgement. Court records often specify the nature of resolution.",
+      "keywords": [
+        "resolution",
+        "either",
+        "dismissal",
+        "charge",
+        "final",
+        "judgement",
+        "records",
+        "often",
+        "specify",
+        "nature"
+      ],
+      "variants": [
+        "disposal",
+        "Disposal"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Dispute",
+      "definition": "A conflict of claims or rights that has given rise to the subject of litigation.",
+      "keywords": [
+        "conflict",
+        "claims",
+        "rights",
+        "given",
+        "rise",
+        "subject",
+        "litigation"
+      ],
+      "variants": [
+        "Dispute",
+        "dispute"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "District",
+      "definition": "An administrative unit within a state. Each district is headed by an official called the District Magistrate/Deputy Commissioner/Collector.",
+      "keywords": [
+        "district",
+        "administrative",
+        "unit",
+        "within",
+        "state",
+        "each",
+        "headed",
+        "official",
+        "called",
+        "magistrate"
+      ],
+      "variants": [
+        "district",
+        "District"
+      ],
+      "categories": [
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Evidence",
+      "definition": "Evidence are things or information brought before the court to prove a fact. Evidence can be documents, computers, witness testimony, videos, audio recordings, weapons etc. The Indian Evidence Act governs the admissibility of evidence and burden of proof.",
+      "keywords": [
+        "evidence",
+        "things",
+        "information",
+        "brought",
+        "before",
+        "prove",
+        "fact",
+        "documents",
+        "computers",
+        "witness"
+      ],
+      "variants": [
+        "evidence",
+        "Evidence"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Ex Parte",
+      "definition": "A hearing or trial conducted in the absence of one party.",
+      "keywords": [
+        "hearing",
+        "trial",
+        "conducted",
+        "absence",
+        "one",
+        "party"
+      ],
+      "variants": [
+        "ex parte",
+        "Ex-Parte",
+        "Ex Parte"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Examination in chief",
+      "definition": "Examination-in-chief is the examination of a witness by the lawyer of the side who called that witness. It is usually followed by a cross-examination of the witness by the lawyers of the opposite side.",
+      "keywords": [
+        "examination",
+        "witness",
+        "side",
+        "chief",
+        "lawyer",
+        "called",
+        "usually",
+        "followed",
+        "cross",
+        "lawyers"
+      ],
+      "variants": [
+        "examination in chief",
+        "Examination In Chief",
+        "Examination-in-chief",
+        "Examination in chief"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Exculpatory Evidence",
+      "definition": "Evidence that establishes the innocence of the defendant.",
+      "keywords": [
+        "evidence",
+        "establishes",
+        "innocence",
+        "defendant"
+      ],
+      "variants": [
+        "Exculpatory Evidence",
+        "Exculpatory-Evidence",
+        "exculpatory evidence"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Executing court",
+      "definition": "The court which executes the decree. It is generally the court which passed the decree.",
+      "keywords": [
+        "decree",
+        "executes",
+        "generally",
+        "passed"
+      ],
+      "variants": [
+        "executing court",
+        "Executing-court",
+        "Executing Court",
+        "Executing court"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Execution",
+      "definition": "In a civil case execution is the process of enforcement of the decree to enable the decree-holder to claim the benefits of the decree. In a criminal case execution is the implementation of death sentence given by a court.",
+      "keywords": [
+        "decree",
+        "execution",
+        "civil",
+        "process",
+        "enforcement",
+        "enable",
+        "holder",
+        "claim",
+        "benefits",
+        "criminal"
+      ],
+      "variants": [
+        "execution",
+        "Execution"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Executive",
+      "definition": "The executive is the part of the government that has sole authority and responsibility for the effecting and enforcing laws.",
+      "keywords": [
+        "executive",
+        "part",
+        "government",
+        "sole",
+        "authority",
+        "responsibility",
+        "effecting",
+        "enforcing",
+        "laws"
+      ],
+      "variants": [
+        "executive",
+        "Executive"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Exhibit",
+      "definition": "A document, electronic device or other item introduced in evidence during a trial or hearing.",
+      "keywords": [
+        "document",
+        "electronic",
+        "device",
+        "other",
+        "item",
+        "introduced",
+        "evidence",
+        "during",
+        "trial",
+        "hearing"
+      ],
+      "variants": [
+        "Exhibit",
+        "exhibit"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Fine",
+      "definition": "A fine is a sum of money imposed on a convicted person by a court as a punishment.",
+      "keywords": [
+        "fine",
+        "sum",
+        "money",
+        "imposed",
+        "convicted",
+        "punishment"
+      ],
+      "variants": [
+        "Fine",
+        "fine"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "FIR",
+      "definition": "First Information Report (FIR) is a written document prepared by the police when they first receive information about the commission of an offence.",
+      "keywords": [
+        "first",
+        "information",
+        "report",
+        "fir",
+        "written",
+        "document",
+        "prepared",
+        "police",
+        "receive",
+        "about"
+      ],
+      "variants": [
+        "FIR",
+        "fir",
+        "Fir"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Forgery",
+      "definition": "The act of making false documents or false electronic records to cause damage or injury to the public or any person.",
+      "keywords": [
+        "false",
+        "act",
+        "making",
+        "documents",
+        "electronic",
+        "records",
+        "cause",
+        "damage",
+        "injury",
+        "public"
+      ],
+      "variants": [
+        "Forgery",
+        "forgery"
+      ],
+      "categories": [
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Fundamental Rights",
+      "definition": "A charter of rights contained in the Constitution of India which can be enforced against the state.",
+      "keywords": [
+        "charter",
+        "rights",
+        "contained",
+        "constitution",
+        "india",
+        "enforced",
+        "against",
+        "state"
+      ],
+      "variants": [
+        "fundamental rights",
+        "Fundamental Rights",
+        "Fundamental-Rights"
+      ],
+      "categories": [
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Garnishee",
+      "definition": "Garnishee is a debtor of judgment debtor whose debt is attached by the court.",
+      "keywords": [
+        "debtor",
+        "garnishee",
+        "judgment",
+        "whose",
+        "debt",
+        "attached"
+      ],
+      "variants": [
+        "garnishee",
+        "Garnishee"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Gram Nyayalayas",
+      "definition": "Village courts instituted by the Gram Nyayalayas Act, 2008 for speedy and easy access to justice system in the rural areas of India.",
+      "keywords": [
+        "village",
+        "courts",
+        "instituted",
+        "gram",
+        "nyayalayas",
+        "act",
+        "speedy",
+        "easy",
+        "access",
+        "justice"
+      ],
+      "variants": [
+        "gram nyayalayas",
+        "Gram-Nyayalayas",
+        "Gram Nyayalayas"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Habeas corpus",
+      "definition": "This is a writ that can be filed before the High Court or Supreme Court when a person is in unlawful detention. A writ of habeas corpus is used to bring a prisoner or other detainee before the court to determine if their imprisonment or detention is lawful.",
+      "keywords": [
+        "writ",
+        "before",
+        "detention",
+        "filed",
+        "high",
+        "supreme",
+        "unlawful",
+        "habeas",
+        "corpus",
+        "used"
+      ],
+      "variants": [
+        "Habeas Corpus",
+        "habeas corpus",
+        "Habeas corpus",
+        "Habeas-corpus"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Hand Summons/dasti summons",
+      "definition": "Giving summons “by hand” by the plaintiff or his lawyer personally to the defendant.",
+      "keywords": [
+        "giving",
+        "summons",
+        "hand",
+        "plaintiff",
+        "lawyer",
+        "personally",
+        "defendant"
+      ],
+      "variants": [
+        "Hand Summons/dasti summons",
+        "Hand Summonsdasti summons",
+        "Hand-Summons/dasti-summons",
+        "hand summons/dasti summons",
+        "Hand Summons/Dasti Summons"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Hearsay",
+      "definition": "A testimony or evidence by an individual not from his personal knowledge but what he heard another person saying. Hearsay evidence is usually not admissible in a trial.",
+      "keywords": [
+        "evidence",
+        "not",
+        "testimony",
+        "individual",
+        "personal",
+        "knowledge",
+        "but",
+        "heard",
+        "another",
+        "saying"
+      ],
+      "variants": [
+        "Hearsay",
+        "hearsay"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Homicide",
+      "definition": "The act of killing a human being.",
+      "keywords": [
+        "act",
+        "killing",
+        "human",
+        "being"
+      ],
+      "variants": [
+        "Homicide",
+        "homicide"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Implied bar",
+      "definition": "A claim/right barred by necessary implication of statute, contract, or general principles of law.",
+      "keywords": [
+        "claim",
+        "right",
+        "barred",
+        "necessary",
+        "implication",
+        "statute",
+        "contract",
+        "general",
+        "principles",
+        "law"
+      ],
+      "variants": [
+        "Implied-bar",
+        "Implied bar",
+        "implied bar",
+        "Implied Bar"
+      ],
+      "categories": [
+        "Civil Law"
+      ]
+    },
+    {
+      "term": "Indigent person",
+      "definition": ". An individual who does not possess the financial means to afford the court fees to be paid with the plaint in a particular suit.",
+      "keywords": [
+        "individual",
+        "does",
+        "not",
+        "possess",
+        "financial",
+        "means",
+        "afford",
+        "fees",
+        "paid",
+        "plaint"
+      ],
+      "variants": [
+        "Indigent-person",
+        "Indigent person",
+        "Indigent Person",
+        "indigent person"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Inquiry",
+      "definition": "It is every inquiry, other than a trial, conducted by a Magistrate.",
+      "keywords": [
+        "every",
+        "inquiry",
+        "other",
+        "than",
+        "trial",
+        "conducted",
+        "magistrate"
+      ],
+      "variants": [
+        "Inquiry",
+        "inquiry"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Indian Penal Code",
+      "definition": "Main criminal code of India that covers all aspects of substantive criminal law in India.",
+      "keywords": [
+        "criminal",
+        "india",
+        "main",
+        "code",
+        "covers",
+        "all",
+        "aspects",
+        "substantive",
+        "law"
+      ],
+      "variants": [
+        "Indian-Penal-Code",
+        "indian penal code",
+        "Indian Penal Code"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Interpretation",
+      "definition": "The process of determining the intended meaning of a written document, such as the constitution, or a statute.",
+      "keywords": [
+        "process",
+        "determining",
+        "intended",
+        "meaning",
+        "written",
+        "document",
+        "constitution",
+        "statute"
+      ],
+      "variants": [
+        "Interpretation",
+        "interpretation"
+      ],
+      "categories": [
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Interlocutory Application",
+      "definition": "An application filed by either party during the pendency of a civil proceeding seeking relief of an interim/temporary nature.",
+      "keywords": [
+        "application",
+        "filed",
+        "either",
+        "party",
+        "during",
+        "pendency",
+        "civil",
+        "proceeding",
+        "seeking",
+        "relief"
+      ],
+      "variants": [
+        "interlocutory application",
+        "Interlocutory Application",
+        "Interlocutory-Application"
+      ],
+      "categories": [
+        "Civil Law",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Interrogation",
+      "definition": "The process of law enforcement agencies questioning a person accused of a crime. The accused person is not obligated to answer the questions asked by the law enforcement agency, and the fact that they have remained silent generally cannot be used by the prosecution to help prove guilt. It is illegal for the police to use violence in the process of interrogation.",
+      "keywords": [
+        "process",
+        "law",
+        "enforcement",
+        "accused",
+        "agencies",
+        "questioning",
+        "crime",
+        "not",
+        "obligated",
+        "answer"
+      ],
+      "variants": [
+        "interrogation",
+        "Interrogation"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Investigation",
+      "definition": "Investigation includes all the proceedings required for the collection of evidence to ascertain whether a crime has been committed, who has committed the crime and to provide evidence to prove the guilt of the accused person. Investigation usually involves collecting physical evidence like fingerprints, computers, weapons etc and information from people like witnesses, informants and suspects. It is conducted by the law enforcement agency or by any person other than a magistrate, who has been authorized by the magistrate on this behalf.",
+      "keywords": [
+        "evidence",
+        "investigation",
+        "crime",
+        "committed",
+        "like",
+        "magistrate",
+        "includes",
+        "all",
+        "proceedings",
+        "required"
+      ],
+      "variants": [
+        "Investigation",
+        "investigation"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Issues",
+      "definition": "The question of fact or law that is in dispute.",
+      "keywords": [
+        "question",
+        "fact",
+        "law",
+        "dispute"
+      ],
+      "variants": [
+        "issues",
+        "Issues"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Judge",
+      "definition": "A public official authorised to hear and decide cases in a court of law.",
+      "keywords": [
+        "public",
+        "official",
+        "authorised",
+        "hear",
+        "decide",
+        "cases",
+        "law"
+      ],
+      "variants": [
+        "Judge",
+        "judge"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Judgment debtor",
+      "definition": "The party against whom a court has given a judgement and who is liable to pay/perform in terms of the decree passed by the court in favour of the decree holder.",
+      "keywords": [
+        "decree",
+        "party",
+        "against",
+        "whom",
+        "given",
+        "judgement",
+        "liable",
+        "pay",
+        "perform",
+        "terms"
+      ],
+      "variants": [
+        "judgment debtor",
+        "Judgment-debtor",
+        "Judgment debtor",
+        "Judgment Debtor"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Judgment",
+      "definition": "The final decision in a case determining the rights of parties and the reasoning for this decision given by a court.",
+      "keywords": [
+        "decision",
+        "final",
+        "determining",
+        "rights",
+        "parties",
+        "reasoning",
+        "given"
+      ],
+      "variants": [
+        "Judgment",
+        "judgment"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Judicial Custody",
+      "definition": "Judicial custody means the detention of an accused person in the custody of the concerned Magistrate. The accused person is lodged in a prison. Magistrates usually order judicial custody after the accused person has been in police custody for fourteen days or less.",
+      "keywords": [
+        "custody",
+        "accused",
+        "judicial",
+        "means",
+        "detention",
+        "concerned",
+        "magistrate",
+        "lodged",
+        "prison",
+        "magistrates"
+      ],
+      "variants": [
+        "Judicial Custody",
+        "Judicial-Custody",
+        "judicial custody"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Documents",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Judiciary",
+      "definition": "The judiciary is one of the three main organs of the government (also known as the judicial system or court system). It is the system of courts that interprets and applies the law in the name of the state.",
+      "keywords": [
+        "system",
+        "judiciary",
+        "one",
+        "three",
+        "main",
+        "organs",
+        "government",
+        "also",
+        "known",
+        "judicial"
+      ],
+      "variants": [
+        "Judiciary",
+        "judiciary"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Jurisdiction",
+      "definition": "Jurisdiction refers to the legal authority or power of a court to hear and decide a case. It is the power to interpret and apply the law, and to determine the facts of a case and to deliver a binding judgment and enforce it. Jurisdiction can be based on a number of factors, including the location of the parties or the subject matter of the dispute, and may be limited by geography, subject matter, and other legal principles.",
+      "keywords": [
+        "jurisdiction",
+        "legal",
+        "power",
+        "subject",
+        "matter",
+        "refers",
+        "authority",
+        "hear",
+        "decide",
+        "interpret"
+      ],
+      "variants": [
+        "Jurisdiction",
+        "jurisdiction"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Juvenile",
+      "definition": "A juvenile is a person who is under the age of 16 years in the case of boys, or the age of 18 years in the case of girls. A juvenile has to serve their sentence until the age of twenty-one years in a remand home. A person between the ages of sixteen and eighteen, accused of committing ‘heinous offences’ may be tried as an adult",
+      "keywords": [
+        "age",
+        "years",
+        "juvenile",
+        "under",
+        "boys",
+        "girls",
+        "serve",
+        "sentence",
+        "until",
+        "twenty"
+      ],
+      "variants": [
+        "juvenile",
+        "Juvenile"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Lawyer",
+      "definition": "A person who practices law.",
+      "keywords": [
+        "practices",
+        "law"
+      ],
+      "variants": [
+        "lawyer",
+        "Lawyer"
+      ],
+      "categories": [
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Legal representative",
+      "definition": "The legal heir(s) of a deceased person, or the person(s) who represents the deceased person after his death.",
+      "keywords": [
+        "deceased",
+        "legal",
+        "heir",
+        "represents",
+        "after",
+        "death"
+      ],
+      "variants": [
+        "Legal Representative",
+        "Legal-representative",
+        "legal representative",
+        "Legal representative"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Legislative Assembly",
+      "definition": "The name given in some countries to either a legislature, or to one of its branch. In India, legislative assembly usually refers to the legislature at the state-level.",
+      "keywords": [
+        "legislature",
+        "name",
+        "given",
+        "some",
+        "countries",
+        "either",
+        "one",
+        "branch",
+        "india",
+        "legislative"
+      ],
+      "variants": [
+        "Legislative Assembly",
+        "legislative assembly",
+        "Legislative-Assembly"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Legislature",
+      "definition": "A branch of the government that has the power to make laws in a country.",
+      "keywords": [
+        "branch",
+        "government",
+        "power",
+        "make",
+        "laws",
+        "country"
+      ],
+      "variants": [
+        "legislature",
+        "Legislature"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Litigant",
+      "definition": "A party to a lawsuit in a court.",
+      "keywords": [
+        "party",
+        "lawsuit"
+      ],
+      "variants": [
+        "Litigant",
+        "litigant"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Lok Adalats",
+      "definition": "A system of alternative dispute resolution developed in India. It roughly means people’s court and it is a forum where disputes/cases pending in the court of law or at pre-litigation stage are settled/ compromised amicably. Lok Adalats have been given statutory status under the Legal Services Authorities Act, 1987.",
+      "keywords": [
+        "system",
+        "alternative",
+        "dispute",
+        "resolution",
+        "developed",
+        "india",
+        "roughly",
+        "means",
+        "people",
+        "forum"
+      ],
+      "variants": [
+        "Lok-Adalats",
+        "lok adalats",
+        "Lok Adalats"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Alternative Dispute Resolution"
+      ]
+    },
+    {
+      "term": "Malice",
+      "definition": "Intention to commit a criminal offence.",
+      "keywords": [
+        "intention",
+        "commit",
+        "criminal",
+        "offence"
+      ],
+      "variants": [
+        "Malice",
+        "malice"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Mandatory minimum sentence",
+      "definition": "It is a minimum sentence prescribed for certain serious offences irrespective of the circumstances of the crime. It reduces a judge’s discretion since they cannot reduce the sentence below the minimum. E.g. Section 376-DB of IPC provides for a mandatory minimum punishment of life imprisonment without remission for persons convicted for rape/gangrape of a girl under the age of 12 years.",
+      "keywords": [
+        "minimum",
+        "sentence",
+        "prescribed",
+        "certain",
+        "serious",
+        "offences",
+        "irrespective",
+        "circumstances",
+        "crime",
+        "reduces"
+      ],
+      "variants": [
+        "mandatory minimum sentence",
+        "Mandatory-minimum-sentence",
+        "Mandatory minimum sentence",
+        "Mandatory Minimum Sentence"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Mediation",
+      "definition": "It is a form of alternative dispute resolution where parties choose a third party who is neutral to help them to resolve their dispute through compromise and discussion.",
+      "keywords": [
+        "dispute",
+        "form",
+        "alternative",
+        "resolution",
+        "parties",
+        "choose",
+        "third",
+        "party",
+        "neutral",
+        "help"
+      ],
+      "variants": [
+        "Mediation",
+        "mediation"
+      ],
+      "categories": [
+        "Alternative Dispute Resolution"
+      ]
+    },
+    {
+      "term": "Mens Rea",
+      "definition": "It means guilty mind in Latin. Mens rea refers to criminal intent required in order to convict a person, and it is an essential element that has to be proved in criminal proceedings.",
+      "keywords": [
+        "criminal",
+        "means",
+        "guilty",
+        "mind",
+        "latin",
+        "mens",
+        "rea",
+        "refers",
+        "intent",
+        "required"
+      ],
+      "variants": [
+        "Mens-Rea",
+        "mens rea",
+        "Mens Rea"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Merits",
+      "definition": "The substantive grounds of dispute between the parties.",
+      "keywords": [
+        "substantive",
+        "grounds",
+        "dispute",
+        "between",
+        "parties"
+      ],
+      "variants": [
+        "Merits",
+        "merits"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Mitigating Circumstances",
+      "definition": "Mitigating circumstances are facts that appear to mitigate the seriousness of a crime by rendering the actions of the accused less severe and influences the sentence given by the judge. E.g. the age of the accused person and their previous criminal record are considered mitigating cricumstances.",
+      "keywords": [
+        "mitigating",
+        "accused",
+        "circumstances",
+        "facts",
+        "appear",
+        "mitigate",
+        "seriousness",
+        "crime",
+        "rendering",
+        "actions"
+      ],
+      "variants": [
+        "mitigating circumstances",
+        "Mitigating Circumstances",
+        "Mitigating-Circumstances"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Modus Operandi",
+      "definition": "The mode or way in which a person commits a crime.",
+      "keywords": [
+        "mode",
+        "way",
+        "commits",
+        "crime"
+      ],
+      "variants": [
+        "Modus Operandi",
+        "modus operandi",
+        "Modus-Operandi"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Notice",
+      "definition": "The legal notification by which a party or person is made aware of a legal process affecting their rights, obligations, or duties.",
+      "keywords": [
+        "legal",
+        "notification",
+        "party",
+        "made",
+        "aware",
+        "process",
+        "affecting",
+        "rights",
+        "obligations",
+        "duties"
+      ],
+      "variants": [
+        "Notice",
+        "notice"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Objection",
+      "definition": "An argument or contention raised in response to the actions of the other party in a court or tribunal.",
+      "keywords": [
+        "argument",
+        "contention",
+        "raised",
+        "response",
+        "actions",
+        "other",
+        "party",
+        "tribunal"
+      ],
+      "variants": [
+        "objection",
+        "Objection"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Order",
+      "definition": "A direction issued by a court against one of more parties to a case. Orders can be given during the proceedings or after the case has been decided.",
+      "keywords": [
+        "direction",
+        "issued",
+        "against",
+        "one",
+        "more",
+        "parties",
+        "orders",
+        "given",
+        "during",
+        "proceedings"
+      ],
+      "variants": [
+        "order",
+        "Order"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Original Jurisdiction",
+      "definition": "A court’s power to hear a case in the first instance. It is the first court that hears a matter. This depends on the nature of the case and the value of the dispute in the case.Chief Judicial Magistrate, Judicial Magistrate First Class and Judicial Magistrate Second Class, Civil Judge (Junior Division), Civil Judge (Senior Division) and Sessions Courts typically have original jurisdiction at the district court level depending on the nature of the case. In some cities like Bangalore, District Judges will typically have original jurisdiction.The High Courts of Delhi, Bombay, Calcutta, and Madras however have original jurisdiction in civil cases of certain monetary value / nature. Every High Court has original jurisdiction in revenue matters as well as those relating to admiralty, probate, contempt of court and election petitions. High Courts have original writ jurisdiction for enforcing fundamental rights as well as for other purposes under the Constitution under article 226 of the Constitution.The Supreme Court of India has exclusive original jurisdiction over any dispute between the Government of India and one or more states or between the Government of India and any state or states on one side and one or more states on the other or between two or more states. Article 32 of the Constitution gives original jurisdiction to the Supreme Court for the enforcement of fundamental rights",
+      "keywords": [
+        "original",
+        "jurisdiction",
+        "states",
+        "first",
+        "nature",
+        "judicial",
+        "magistrate",
+        "civil",
+        "courts",
+        "high"
+      ],
+      "variants": [
+        "Original Jurisdiction",
+        "Original-Jurisdiction",
+        "original jurisdiction"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents",
+        "Constitutional Law",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Pecuniary jurisdiction",
+      "definition": "The pecuniary jurisdiction of a court refers to the monetary value of cases that can be adjudicated by it.",
+      "keywords": [
+        "pecuniary",
+        "jurisdiction",
+        "refers",
+        "monetary",
+        "value",
+        "cases",
+        "adjudicated"
+      ],
+      "variants": [
+        "pecuniary jurisdiction",
+        "Pecuniary-jurisdiction",
+        "Pecuniary Jurisdiction",
+        "Pecuniary jurisdiction"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Pendency",
+      "definition": "As per the 245th Law Commission report pendency refers to all cases instituted but not disposed of, regardless of when the case was instituted.",
+      "keywords": [
+        "instituted",
+        "per",
+        "law",
+        "commission",
+        "report",
+        "pendency",
+        "refers",
+        "all",
+        "cases",
+        "but"
+      ],
+      "variants": [
+        "pendency",
+        "Pendency"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Personal Bond",
+      "definition": "A personal bond is an agreement by the accused person as a condition for release on bail that they will appear for court hearings and will comply with the conditions placed on their release.",
+      "keywords": [
+        "release",
+        "personal",
+        "bond",
+        "agreement",
+        "accused",
+        "condition",
+        "bail",
+        "appear",
+        "hearings",
+        "comply"
+      ],
+      "variants": [
+        "Personal Bond",
+        "personal bond",
+        "Personal-Bond"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Petitioner",
+      "definition": "The party who presents a petition in court of law.",
+      "keywords": [
+        "party",
+        "presents",
+        "petition",
+        "law"
+      ],
+      "variants": [
+        "Petitioner",
+        "petitioner"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Plaint",
+      "definition": "A legal document which contains plaintiff’s claims and, and the remedies prayed for from the court.",
+      "keywords": [
+        "legal",
+        "document",
+        "contains",
+        "plaintiff",
+        "claims",
+        "remedies",
+        "prayed"
+      ],
+      "variants": [
+        "Plaint",
+        "plaint"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Plaintiff",
+      "definition": "The party who initiates a lawsuit (also known as an action) before a court of law.",
+      "keywords": [
+        "party",
+        "initiates",
+        "lawsuit",
+        "also",
+        "known",
+        "action",
+        "before",
+        "law"
+      ],
+      "variants": [
+        "plaintiff",
+        "Plaintiff"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Plea bargain",
+      "definition": "Plea bargaining is a negotiation between the accused and the prosecution where the accused agrees to plead guilty in exchange for certain concessions by the prosecution. It is a bargain where an accused person pleads guilty to a lesser charge and the prosecutors in return drop more serious charges.",
+      "keywords": [
+        "accused",
+        "prosecution",
+        "guilty",
+        "plea",
+        "bargaining",
+        "negotiation",
+        "between",
+        "agrees",
+        "plead",
+        "exchange"
+      ],
+      "variants": [
+        "Plea bargain",
+        "Plea-bargain",
+        "Plea Bargain",
+        "plea bargain"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Plea",
+      "definition": "In a court of law, a person’s plea is the answer that they give when they have been charged with a crime, saying whether or not they are guilty of that crime. It is usually taken at the initial stage of the trial.",
+      "keywords": [
+        "crime",
+        "law",
+        "plea",
+        "answer",
+        "give",
+        "charged",
+        "saying",
+        "whether",
+        "not",
+        "guilty"
+      ],
+      "variants": [
+        "Plea",
+        "plea"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Pleadings",
+      "definition": "Written presentation by litigants in a case, setting forth the facts upon which they are claiming legal relief or challenging the claims of the opposite party.",
+      "keywords": [
+        "written",
+        "presentation",
+        "litigants",
+        "setting",
+        "forth",
+        "facts",
+        "upon",
+        "claiming",
+        "legal",
+        "relief"
+      ],
+      "variants": [
+        "Pleadings",
+        "pleadings"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Police Custody",
+      "definition": "-Police custody means that the physical custody of the accused person is with the police. The accused person is lodged in a lock-up of a police station. Police custody is ordered for a maximum of fourteen days after which the accused person has to be kept in judicial custody.",
+      "keywords": [
+        "police",
+        "custody",
+        "accused",
+        "means",
+        "physical",
+        "lodged",
+        "lock",
+        "station",
+        "ordered",
+        "maximum"
+      ],
+      "variants": [
+        "Police-Custody",
+        "Police Custody",
+        "police custody"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Prayer",
+      "definition": "A prayer for relief is a portion of a complaint in which the plaintiff describes the remedies that they seek from the court.",
+      "keywords": [
+        "prayer",
+        "relief",
+        "portion",
+        "complaint",
+        "plaintiff",
+        "describes",
+        "remedies",
+        "seek"
+      ],
+      "variants": [
+        "Prayer",
+        "prayer"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Precedent",
+      "definition": "A precedent or authority is a principle or rule established in a previous legal case that is either binding on a court or other tribunal when deciding subsequent cases with similar issues or facts.",
+      "keywords": [
+        "precedent",
+        "authority",
+        "principle",
+        "rule",
+        "established",
+        "previous",
+        "legal",
+        "either",
+        "binding",
+        "other"
+      ],
+      "variants": [
+        "precedent",
+        "Precedent"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Pre",
+      "definition": "emption– It is the preferential right to purchase or enjoy property before another.",
+      "keywords": [
+        "emption",
+        "preferential",
+        "right",
+        "purchase",
+        "enjoy",
+        "property",
+        "before",
+        "another"
+      ],
+      "variants": [
+        "Pre",
+        "pre"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Prima facie",
+      "definition": "It means at first sight in Latin. It is a way to evaluate a case at an initial stage to see if there is enough material for it to go to trial.",
+      "keywords": [
+        "means",
+        "first",
+        "sight",
+        "latin",
+        "way",
+        "evaluate",
+        "initial",
+        "stage",
+        "see",
+        "there"
+      ],
+      "variants": [
+        "Prima-facie",
+        "Prima Facie",
+        "Prima facie",
+        "prima facie"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Procedural",
+      "definition": "Procedural law comprises the rules by which a court prescribes the steps for having a right or duty that is judicially enforced, and determines what happens in civil lawsuit, criminal or administrative proceedings.",
+      "keywords": [
+        "procedural",
+        "law",
+        "comprises",
+        "rules",
+        "prescribes",
+        "steps",
+        "having",
+        "right",
+        "duty",
+        "judicially"
+      ],
+      "variants": [
+        "procedural",
+        "Procedural"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Proceedings",
+      "definition": "It is the form and manner in which a court of law or judicial officer conducts business.",
+      "keywords": [
+        "form",
+        "manner",
+        "law",
+        "judicial",
+        "officer",
+        "conducts",
+        "business"
+      ],
+      "variants": [
+        "Proceedings",
+        "proceedings"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Rape",
+      "definition": "Sexual intercourse with a woman against her will, without her consent, by coercion, misrepresentation or fraud or at a time when she has been intoxicated or duped, or is of unsound mental health and in any case if she is under the age of 18 years.",
+      "keywords": [
+        "she",
+        "sexual",
+        "intercourse",
+        "woman",
+        "against",
+        "without",
+        "consent",
+        "coercion",
+        "misrepresentation",
+        "fraud"
+      ],
+      "variants": [
+        "rape",
+        "Rape"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Record",
+      "definition": "It is the record maintained by the court for each case, including pleadings, documents and evidence.",
+      "keywords": [
+        "record",
+        "maintained",
+        "each",
+        "including",
+        "pleadings",
+        "documents",
+        "evidence"
+      ],
+      "variants": [
+        "Record",
+        "record"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Recusal",
+      "definition": "It is an action of a judge to withdraw himself from a case in which his bias to one of the parties may be called into question.",
+      "keywords": [
+        "action",
+        "judge",
+        "withdraw",
+        "himself",
+        "bias",
+        "one",
+        "parties",
+        "called",
+        "into",
+        "question"
+      ],
+      "variants": [
+        "Recusal",
+        "recusal"
+      ],
+      "categories": [
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Registry",
+      "definition": "An office of the court which receives and maintains documents for filing with the court.",
+      "keywords": [
+        "office",
+        "receives",
+        "maintains",
+        "documents",
+        "filing"
+      ],
+      "variants": [
+        "Registry",
+        "registry"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Rejoinder",
+      "definition": "A pleading in which the plaintiff explains or rebuts the additional facts brought up by the defendant in their written statement.",
+      "keywords": [
+        "pleading",
+        "plaintiff",
+        "explains",
+        "rebuts",
+        "additional",
+        "facts",
+        "brought",
+        "defendant",
+        "written",
+        "statement"
+      ],
+      "variants": [
+        "Rejoinder",
+        "rejoinder"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Remand",
+      "definition": "Police custody of an accused person ordered by a magistrate when the investigation is not completed within 24 hours of arrest.",
+      "keywords": [
+        "police",
+        "custody",
+        "accused",
+        "ordered",
+        "magistrate",
+        "investigation",
+        "not",
+        "completed",
+        "within",
+        "hours"
+      ],
+      "variants": [
+        "remand",
+        "Remand"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Documents",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Remand",
+      "definition": "To send back the case to the lower court.",
+      "keywords": [
+        "send",
+        "back",
+        "lower"
+      ],
+      "variants": [
+        "remand",
+        "Remand"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Representative suit",
+      "definition": "It is a suit that is filed by one person on behalf of themselves and on behalf of others who have the same interest in the suit.",
+      "keywords": [
+        "suit",
+        "behalf",
+        "filed",
+        "one",
+        "themselves",
+        "others",
+        "same",
+        "interest"
+      ],
+      "variants": [
+        "Representative Suit",
+        "representative suit",
+        "Representative suit",
+        "Representative-suit"
+      ],
+      "categories": [
+        "Civil Law"
+      ]
+    },
+    {
+      "term": "Respondent",
+      "definition": "A party against whom a petition is filed. This term is generally used in appeals. A respondent can be the plaintiff or defendant from lower court.",
+      "keywords": [
+        "party",
+        "against",
+        "whom",
+        "petition",
+        "filed",
+        "term",
+        "generally",
+        "used",
+        "appeals",
+        "respondent"
+      ],
+      "variants": [
+        "respondent",
+        "Respondent"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Review",
+      "definition": "A proceeding in a court to review its own judgement in case of any error or mistake made with regard to the decision rendered, to rectify the same.",
+      "keywords": [
+        "proceeding",
+        "review",
+        "own",
+        "judgement",
+        "any",
+        "error",
+        "mistake",
+        "made",
+        "regard",
+        "decision"
+      ],
+      "variants": [
+        "Review",
+        "review"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Right",
+      "definition": "A legally protected interest.",
+      "keywords": [
+        "legally",
+        "protected",
+        "interest"
+      ],
+      "variants": [
+        "right",
+        "Right"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Robbery",
+      "definition": "Theft is a robbery when in order to commit theft, the offender voluntarily causes or attempts to cause to any person death, subject him to wrongful restraint, cause hurt or induce fear of instant death, instant wrongful restraint or cause instant hurt.",
+      "keywords": [
+        "cause",
+        "instant",
+        "theft",
+        "death",
+        "wrongful",
+        "restraint",
+        "hurt",
+        "robbery",
+        "order",
+        "commit"
+      ],
+      "variants": [
+        "robbery",
+        "Robbery"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Search Warrant",
+      "definition": "An order signed by a judge for probable cause that directs owners of private property to allow the police to enter and search for items named in the warrant.",
+      "keywords": [
+        "order",
+        "signed",
+        "judge",
+        "probable",
+        "cause",
+        "directs",
+        "owners",
+        "private",
+        "property",
+        "allow"
+      ],
+      "variants": [
+        "search warrant",
+        "Search Warrant",
+        "Search-Warrant"
+      ],
+      "categories": [
+        "Legal Documents",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Separation of Powers",
+      "definition": "A constitutional government with three separate branches: the legislative, executive, and judicial.",
+      "keywords": [
+        "constitutional",
+        "government",
+        "three",
+        "separate",
+        "branches",
+        "legislative",
+        "executive",
+        "judicial"
+      ],
+      "variants": [
+        "separation of powers",
+        "Separation-of-Powers",
+        "Separation of Powers",
+        "Separation Of Powers"
+      ],
+      "categories": [
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Set off",
+      "definition": "It is a kind of cross-claim for the recovery of money which the defendant raises against the claim of the plaintiff subtract dues owed to the defendant by the plaintiff from the dues claimed by the plaintiff.",
+      "keywords": [
+        "plaintiff",
+        "claim",
+        "defendant",
+        "dues",
+        "kind",
+        "cross",
+        "recovery",
+        "money",
+        "raises",
+        "against"
+      ],
+      "variants": [
+        "Set-off",
+        "Set off",
+        "set off",
+        "Set Off"
+      ],
+      "categories": [
+        "Civil Law",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Settlement",
+      "definition": "It is an agreement reached by the parties in a case to resolve their dispute",
+      "keywords": [
+        "agreement",
+        "reached",
+        "parties",
+        "resolve",
+        "dispute"
+      ],
+      "variants": [
+        "settlement",
+        "Settlement"
+      ],
+      "categories": [
+        "Alternative Dispute Resolution"
+      ]
+    },
+    {
+      "term": "Special Courts",
+      "definition": "Bodies within the judicial branch of government that generally address only one area of law or have specifically defined powers.",
+      "keywords": [
+        "bodies",
+        "within",
+        "judicial",
+        "branch",
+        "government",
+        "generally",
+        "address",
+        "only",
+        "one",
+        "area"
+      ],
+      "variants": [
+        "Special Courts",
+        "Special-Courts",
+        "special courts"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Stage of the Case",
+      "definition": "The steps in process through which a case passes.",
+      "keywords": [
+        "steps",
+        "process",
+        "through",
+        "passes"
+      ],
+      "variants": [
+        "stage of the case",
+        "Stage-of-the-Case",
+        "Stage Of The Case",
+        "Stage of the Case"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Statute",
+      "definition": "Any law passed by a legislative body at the municipal, state, or central level.",
+      "keywords": [
+        "any",
+        "law",
+        "passed",
+        "legislative",
+        "body",
+        "municipal",
+        "state",
+        "central",
+        "level"
+      ],
+      "variants": [
+        "Statute",
+        "statute"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Substantive",
+      "definition": "A statutory, or written law, that creates and defines rights and duties and powers of parties, such as crimes and punishments in criminal law, civil rights and responsibilities in civil law.",
+      "keywords": [
+        "law",
+        "rights",
+        "civil",
+        "statutory",
+        "written",
+        "creates",
+        "defines",
+        "duties",
+        "powers",
+        "parties"
+      ],
+      "variants": [
+        "substantive",
+        "Substantive"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Civil Law",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Suit",
+      "definition": "A civil action brought by a party/parties against another in a court of law.",
+      "keywords": [
+        "civil",
+        "action",
+        "brought",
+        "party",
+        "parties",
+        "against",
+        "another",
+        "law"
+      ],
+      "variants": [
+        "Suit",
+        "suit"
+      ],
+      "categories": [
+        "Civil Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Summons",
+      "definition": "Summon is a document that commands a person to whom it is served to appear before the court. and to answer the complaint made against him",
+      "keywords": [
+        "summon",
+        "document",
+        "commands",
+        "whom",
+        "served",
+        "appear",
+        "before",
+        "answer",
+        "complaint",
+        "made"
+      ],
+      "variants": [
+        "summons",
+        "Summons"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents"
+      ]
+    },
+    {
+      "term": "Surety",
+      "definition": "A surety is a person that guarantees the accused person will attend their court hearing after being granted bail. The surety is required to deposit a security which is forfeited if the accused person fails to appear in court.",
+      "keywords": [
+        "surety",
+        "accused",
+        "guarantees",
+        "attend",
+        "hearing",
+        "after",
+        "being",
+        "granted",
+        "bail",
+        "required"
+      ],
+      "variants": [
+        "Surety",
+        "surety"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Testimony",
+      "definition": "It is evidence presented under oath by a witness in court",
+      "keywords": [
+        "evidence",
+        "presented",
+        "under",
+        "oath",
+        "witness"
+      ],
+      "variants": [
+        "Testimony",
+        "testimony"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Theft",
+      "definition": "Theft means the dishonest removal of moveable property out of the possession of any person without their consent",
+      "keywords": [
+        "theft",
+        "means",
+        "dishonest",
+        "removal",
+        "moveable",
+        "property",
+        "out",
+        "possession",
+        "any",
+        "without"
+      ],
+      "variants": [
+        "theft",
+        "Theft"
+      ],
+      "categories": [
+        "Criminal Law"
+      ]
+    },
+    {
+      "term": "Tort",
+      "definition": "A civil wrong in which an injury is caused by one person to another, and which may be intentional or unintentional. Prominent examples of torts include negligent injury, battery, deceit, and defamation.",
+      "keywords": [
+        "injury",
+        "civil",
+        "wrong",
+        "caused",
+        "one",
+        "another",
+        "intentional",
+        "unintentional",
+        "prominent",
+        "examples"
+      ],
+      "variants": [
+        "Tort",
+        "tort"
+      ],
+      "categories": [
+        "Civil Law"
+      ]
+    },
+    {
+      "term": "Transcript",
+      "definition": "It is a record of official proceedings of a hearing.",
+      "keywords": [
+        "record",
+        "official",
+        "proceedings",
+        "hearing"
+      ],
+      "variants": [
+        "transcript",
+        "Transcript"
+      ],
+      "categories": [
+        "Court Procedure"
+      ]
+    },
+    {
+      "term": "Trial",
+      "definition": "It is a process to determine the guilt or innocence of the accused person. It is a structured process where the facts of a case are presented to the judge, and they decide if the accused person is guilty or not.",
+      "keywords": [
+        "process",
+        "accused",
+        "determine",
+        "guilt",
+        "innocence",
+        "structured",
+        "facts",
+        "presented",
+        "judge",
+        "decide"
+      ],
+      "variants": [
+        "trial",
+        "Trial"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Tribunals",
+      "definition": "Tribunals are dispute resolution institutions established for discharging judicial or quasi-judicial duties related to certain areas of law.",
+      "keywords": [
+        "judicial",
+        "tribunals",
+        "dispute",
+        "resolution",
+        "institutions",
+        "established",
+        "discharging",
+        "quasi",
+        "duties",
+        "related"
+      ],
+      "variants": [
+        "Tribunals",
+        "tribunals"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Vakalatnama",
+      "definition": "A document by which an advocate is empowered to appear or plead before any court, tribunal or other authority on behalf of a party.",
+      "keywords": [
+        "document",
+        "advocate",
+        "empowered",
+        "appear",
+        "plead",
+        "before",
+        "any",
+        "tribunal",
+        "other",
+        "authority"
+      ],
+      "variants": [
+        "vakalatnama",
+        "Vakalatnama"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents",
+        "Legal Professionals"
+      ]
+    },
+    {
+      "term": "Waiver",
+      "definition": "It is a voluntary renunciation of a person’s rights, claims or privileges.",
+      "keywords": [
+        "voluntary",
+        "renunciation",
+        "rights",
+        "claims",
+        "privileges"
+      ],
+      "variants": [
+        "waiver",
+        "Waiver"
+      ],
+      "categories": [
+        "General Legal"
+      ]
+    },
+    {
+      "term": "Written statement",
+      "definition": "It is a statement of defence filed by the defendant countering the allegations of the plaintiff.",
+      "keywords": [
+        "statement",
+        "defence",
+        "filed",
+        "defendant",
+        "countering",
+        "allegations",
+        "plaintiff"
+      ],
+      "variants": [
+        "Written Statement",
+        "Written statement",
+        "Written-statement",
+        "written statement"
+      ],
+      "categories": [
+        "Civil Law",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Writs",
+      "definition": "A writ is a formal written order issued by a high court or the Supreme Court asking the state to refrain from or perform a specific act.",
+      "keywords": [
+        "writ",
+        "formal",
+        "written",
+        "order",
+        "issued",
+        "high",
+        "supreme",
+        "asking",
+        "state",
+        "refrain"
+      ],
+      "variants": [
+        "writs",
+        "Writs"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Mandamus",
+      "definition": "An order that is issued by a court of superior jurisdiction to ask a lower court, tribunal, commission, or individual, to perform or refrain from performing an action that is required by law.",
+      "keywords": [
+        "order",
+        "issued",
+        "superior",
+        "jurisdiction",
+        "ask",
+        "lower",
+        "tribunal",
+        "commission",
+        "individual",
+        "perform"
+      ],
+      "variants": [
+        "mandamus",
+        "Mandamus"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Habeas Corpus",
+      "definition": "A court order that commands an individual or a government official who has restrained another to produce the prisoner at a designated time and place so that the court can determine the legality of custody.",
+      "keywords": [
+        "order",
+        "commands",
+        "individual",
+        "government",
+        "official",
+        "restrained",
+        "another",
+        "produce",
+        "prisoner",
+        "designated"
+      ],
+      "variants": [
+        "Habeas-Corpus",
+        "Habeas Corpus",
+        "habeas corpus"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Prohibition",
+      "definition": "An extraordinary writ issued by a higher court commanding an inferior court or quasi-judicial body to keep within its jurisdiction.",
+      "keywords": [
+        "extraordinary",
+        "writ",
+        "issued",
+        "higher",
+        "commanding",
+        "inferior",
+        "quasi",
+        "judicial",
+        "body",
+        "keep"
+      ],
+      "variants": [
+        "Prohibition",
+        "prohibition"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Quo Warranto",
+      "definition": "A writ issued with a view to restrain a person from holding a civil office to which he/she is not entitled",
+      "keywords": [
+        "writ",
+        "issued",
+        "view",
+        "restrain",
+        "holding",
+        "civil",
+        "office",
+        "she",
+        "not",
+        "entitled"
+      ],
+      "variants": [
+        "quo warranto",
+        "Quo-Warranto",
+        "Quo Warranto"
+      ],
+      "categories": [
+        "Civil Law",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Certiorari",
+      "definition": "A writ to quash the order already passed by an inferior court, tribunal or quasi-judicial body.",
+      "keywords": [
+        "writ",
+        "quash",
+        "order",
+        "already",
+        "passed",
+        "inferior",
+        "tribunal",
+        "quasi",
+        "judicial",
+        "body"
+      ],
+      "variants": [
+        "Certiorari",
+        "certiorari"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Mandamus",
+      "definition": "An order that is issued by a court of superior jurisdiction to ask a lower court, tribunal, commission, or individual, to perform or refrain from performing an action that is required by law.",
+      "keywords": [
+        "order",
+        "issued",
+        "superior",
+        "jurisdiction",
+        "ask",
+        "lower",
+        "tribunal",
+        "commission",
+        "individual",
+        "perform"
+      ],
+      "variants": [
+        "mandamus",
+        "Mandamus"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Habeas Corpus",
+      "definition": "A court order that commands an individual or a government official who has restrained another to produce the prisoner at a designated time and place so that the court can determine the legality of custody.",
+      "keywords": [
+        "order",
+        "commands",
+        "individual",
+        "government",
+        "official",
+        "restrained",
+        "another",
+        "produce",
+        "prisoner",
+        "designated"
+      ],
+      "variants": [
+        "Habeas-Corpus",
+        "Habeas Corpus",
+        "habeas corpus"
+      ],
+      "categories": [
+        "Criminal Law",
+        "Court Procedure",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Prohibition",
+      "definition": "An extraordinary writ issued by a higher court commanding an inferior court or quasi-judicial body to keep within its jurisdiction.",
+      "keywords": [
+        "extraordinary",
+        "writ",
+        "issued",
+        "higher",
+        "commanding",
+        "inferior",
+        "quasi",
+        "judicial",
+        "body",
+        "keep"
+      ],
+      "variants": [
+        "Prohibition",
+        "prohibition"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Quo Warranto",
+      "definition": "A writ issued with a view to restrain a person from holding a civil office to which he/she is not entitled",
+      "keywords": [
+        "writ",
+        "issued",
+        "view",
+        "restrain",
+        "holding",
+        "civil",
+        "office",
+        "she",
+        "not",
+        "entitled"
+      ],
+      "variants": [
+        "quo warranto",
+        "Quo-Warranto",
+        "Quo Warranto"
+      ],
+      "categories": [
+        "Civil Law",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    },
+    {
+      "term": "Certiorari",
+      "definition": "A writ issued by the Supreme Court or High Court to quash the order already passed by an inferior court, tribunal or quasi-judicial body.",
+      "keywords": [
+        "writ",
+        "issued",
+        "supreme",
+        "high",
+        "quash",
+        "order",
+        "already",
+        "passed",
+        "inferior",
+        "tribunal"
+      ],
+      "variants": [
+        "Certiorari",
+        "certiorari"
+      ],
+      "categories": [
+        "Court Procedure",
+        "Legal Documents",
+        "Constitutional Law"
+      ]
+    }
+  ],
+  "keyword_index": {
+    "taken": [
+      "Accomplice"
+    ],
+    "part": [
+      "Accomplice",
+      "Civil",
+      "Executive"
+    ],
+    "aided": [
+      "Accomplice"
+    ],
+    "commission": [
+      "Accomplice",
+      "Acquittal",
+      "Backlog",
+      "Commissions",
+      "Conviction",
+      "Pendency",
+      "Mandamus",
+      "Mandamus"
+    ],
+    "crime": [
+      "Accomplice",
+      "Accused person",
+      "Actus Reus",
+      "Arrest",
+      "Capital punishment",
+      "Charge sheet",
+      "Conviction",
+      "Interrogation",
+      "Investigation",
+      "Mandatory minimum sentence",
+      "Mitigating Circumstances",
+      "Modus Operandi",
+      "Plea"
+    ],
+    "persons": [
+      "Accused person"
+    ],
+    "accused": [
+      "Accused person",
+      "Acquittal",
+      "Bail",
+      "Beyond Reasonable Doubt",
+      "Charge sheet",
+      "Conviction",
+      "Interrogation",
+      "Judicial Custody",
+      "Mitigating Circumstances",
+      "Personal Bond",
+      "Plea bargain",
+      "Police Custody",
+      "Remand",
+      "Surety",
+      "Trial"
+    ],
+    "committing": [
+      "Accused person"
+    ],
+    "but": [
+      "Accused person",
+      "Hearsay",
+      "Pendency"
+    ],
+    "not": [
+      "Accused person",
+      "Acquittal",
+      "Assault",
+      "Bail",
+      "Circumstantial Evidence",
+      "Hearsay",
+      "Indigent person",
+      "Interrogation",
+      "Plea",
+      "Remand",
+      "Quo Warranto",
+      "Quo Warranto"
+    ],
+    "yet": [
+      "Accused person"
+    ],
+    "tried": [
+      "Accused person"
+    ],
+    "method": [
+      "Acknowledgement"
+    ],
+    "certify": [
+      "Acknowledgement"
+    ],
+    "declare": [
+      "Acknowledgement"
+    ],
+    "one": [
+      "Acknowledgement",
+      "Ex Parte",
+      "Judiciary",
+      "Legislative Assembly",
+      "Order",
+      "Recusal",
+      "Representative suit",
+      "Special Courts",
+      "Tort"
+    ],
+    "knowledge": [
+      "Acknowledgement",
+      "Hearsay"
+    ],
+    "some": [
+      "Acknowledgement",
+      "Arrears",
+      "Legislative Assembly"
+    ],
+    "document": [
+      "Acknowledgement",
+      "Admission",
+      "Affidavit",
+      "Court Notice/Summons",
+      "Exhibit",
+      "FIR",
+      "Interpretation",
+      "Plaint",
+      "Summons",
+      "Vakalatnama"
+    ],
+    "statement": [
+      "Acknowledgement",
+      "Admission",
+      "Rejoinder",
+      "Written statement"
+    ],
+    "acceptance": [
+      "Acknowledgement",
+      "Admission"
+    ],
+    "rape": [
+      "Acquaintance Rape"
+    ],
+    "being": [
+      "Acquaintance Rape",
+      "Homicide",
+      "Surety"
+    ],
+    "committed": [
+      "Acquaintance Rape",
+      "Investigation"
+    ],
+    "known": [
+      "Acquaintance Rape",
+      "Judiciary",
+      "Plaintiff"
+    ],
+    "related": [
+      "Acquaintance Rape",
+      "Civil Procedure Code",
+      "Tribunals"
+    ],
+    "victim": [
+      "Acquaintance Rape"
+    ],
+    "conclusion": [
+      "Acquittal"
+    ],
+    "judge": [
+      "Acquittal",
+      "Admissible Evidence",
+      "Arrest Warrant",
+      "Recusal",
+      "Search Warrant",
+      "Trial"
+    ],
+    "guilty": [
+      "Acquittal",
+      "Beyond Reasonable Doubt",
+      "Conviction",
+      "Mens Rea",
+      "Plea bargain",
+      "Plea"
+    ],
+    "charged": [
+      "Acquittal",
+      "Plea"
+    ],
+    "offence": [
+      "Acquittal",
+      "Arrest",
+      "Complaint",
+      "Malice"
+    ],
+    "unlawful": [
+      "Actus Reus",
+      "Habeas corpus"
+    ],
+    "physical": [
+      "Actus Reus",
+      "Assault",
+      "Police Custody"
+    ],
+    "act": [
+      "Actus Reus",
+      "Admissible Evidence",
+      "Advocate",
+      "Arrest",
+      "Arson",
+      "Culpable homicide not amounting to murder",
+      "Forgery",
+      "Gram Nyayalayas",
+      "Homicide"
+    ],
+    "constitutes": [
+      "Actus Reus"
+    ],
+    "essential": [
+      "Actus Reus"
+    ],
+    "element": [
+      "Actus Reus"
+    ],
+    "most": [
+      "Actus Reus"
+    ],
+    "cases": [
+      "Actus Reus",
+      "Arrears",
+      "Backlog",
+      "Burden of proof",
+      "Criminal",
+      "Judge",
+      "Pecuniary jurisdiction",
+      "Pendency"
+    ],
+    "combined": [
+      "Actus Reus"
+    ],
+    "postponement": [
+      "Adjournment",
+      "Deferred Sentence"
+    ],
+    "hearing": [
+      "Adjournment",
+      "Ex Parte",
+      "Exhibit",
+      "Surety",
+      "Transcript"
+    ],
+    "later": [
+      "Adjournment"
+    ],
+    "date": [
+      "Adjournment",
+      "Court Notice/Summons",
+      "Date of Hearing",
+      "Date of Institution",
+      "Deferred Sentence"
+    ],
+    "legal": [
+      "Adjudication",
+      "Cause of action",
+      "Jurisdiction",
+      "Legal representative",
+      "Notice",
+      "Plaint",
+      "Pleadings",
+      "Precedent"
+    ],
+    "process": [
+      "Adjudication",
+      "Appeal",
+      "Case Status",
+      "Execution",
+      "Interpretation",
+      "Interrogation",
+      "Notice",
+      "Stage of the Case",
+      "Trial"
+    ],
+    "deciding": [
+      "Adjudication"
+    ],
+    "dispute": [
+      "Adjudication",
+      "Issues",
+      "Lok Adalats",
+      "Mediation",
+      "Merits",
+      "Settlement",
+      "Tribunals"
+    ],
+    "between": [
+      "Adjudication",
+      "Merits",
+      "Plea bargain"
+    ],
+    "two": [
+      "Adjudication"
+    ],
+    "more": [
+      "Adjudication",
+      "Order"
+    ],
+    "parties": [
+      "Adjudication",
+      "Burden of proof",
+      "Decree",
+      "Judgment",
+      "Mediation",
+      "Merits",
+      "Order",
+      "Recusal",
+      "Settlement",
+      "Substantive",
+      "Suit"
+    ],
+    "competent": [
+      "Adjudication"
+    ],
+    "authority": [
+      "Adjudication",
+      "Appeal",
+      "Appellate (also see Jurisdiction)",
+      "Executive",
+      "Jurisdiction",
+      "Precedent",
+      "Vakalatnama"
+    ],
+    "evidence": [
+      "Admissible Evidence",
+      "Circumstantial Evidence",
+      "Evidence",
+      "Exculpatory Evidence",
+      "Exhibit",
+      "Hearsay",
+      "Investigation",
+      "Record",
+      "Testimony"
+    ],
+    "trial": [
+      "Admissible Evidence",
+      "Bail",
+      "Ex Parte",
+      "Exhibit",
+      "Inquiry"
+    ],
+    "consider": [
+      "Admissible Evidence"
+    ],
+    "based": [
+      "Admissible Evidence",
+      "Circumstantial Evidence"
+    ],
+    "provisions": [
+      "Admissible Evidence",
+      "Advocate"
+    ],
+    "indian": [
+      "Admissible Evidence",
+      "Civil Procedure Code"
+    ],
+    "all": [
+      "Admissible Evidence",
+      "Indian Penal Code",
+      "Investigation",
+      "Pendency"
+    ],
+    "submitted": [
+      "Admissible Evidence"
+    ],
+    "fact": [
+      "Admission",
+      "Burden of proof",
+      "Circumstantial Evidence",
+      "Evidence",
+      "Issues"
+    ],
+    "party": [
+      "Admission",
+      "Affidavit",
+      "Appearance",
+      "Cause of action",
+      "Court Notice/Summons",
+      "Cross",
+      "Decree Holder",
+      "Defendant",
+      "Ex Parte",
+      "Interlocutory Application",
+      "Judgment debtor",
+      "Litigant",
+      "Mediation",
+      "Notice",
+      "Objection",
+      "Petitioner",
+      "Plaintiff",
+      "Respondent",
+      "Suit"
+    ],
+    "before": [
+      "Admission",
+      "Affidavit",
+      "Evidence",
+      "Habeas corpus",
+      "Plaintiff",
+      "Pre",
+      "Summons",
+      "Vakalatnama"
+    ],
+    "law": [
+      "Advocate",
+      "Arrest Warrant",
+      "Backlog",
+      "Civil Procedure Code",
+      "Civil",
+      "Criminal Procedure Code",
+      "Implied bar",
+      "Indian Penal Code",
+      "Interrogation",
+      "Issues",
+      "Judge",
+      "Lawyer",
+      "Pendency",
+      "Petitioner",
+      "Plaintiff",
+      "Plea",
+      "Procedural",
+      "Proceedings",
+      "Statute",
+      "Substantive",
+      "Suit"
+    ],
+    "graduate": [
+      "Advocate"
+    ],
+    "entered": [
+      "Advocate"
+    ],
+    "any": [
+      "Advocate",
+      "Cause List",
+      "Complaint",
+      "Review",
+      "Statute",
+      "Theft",
+      "Vakalatnama"
+    ],
+    "roll": [
+      "Advocate"
+    ],
+    "under": [
+      "Advocate",
+      "Commutation",
+      "Juvenile",
+      "Testimony"
+    ],
+    "advocates": [
+      "Advocate"
+    ],
+    "sworn": [
+      "Affidavit"
+    ],
+    "notary": [
+      "Affidavit"
+    ],
+    "asserting": [
+      "Affidavit"
+    ],
+    "contents": [
+      "Affidavit"
+    ],
+    "made": [
+      "Affidavit",
+      "Appellant",
+      "Appellate (also see Jurisdiction)",
+      "Case Number",
+      "Complaint",
+      "Counterclaim",
+      "Notice",
+      "Review",
+      "Summons"
+    ],
+    "best": [
+      "Affidavit"
+    ],
+    "signatory": [
+      "Affidavit"
+    ],
+    "litigant": [
+      "Appeal"
+    ],
+    "approach": [
+      "Appeal"
+    ],
+    "higher": [
+      "Appeal",
+      "Appellant",
+      "Prohibition",
+      "Prohibition"
+    ],
+    "challenging": [
+      "Appeal"
+    ],
+    "order": [
+      "Appeal",
+      "Arrest Warrant",
+      "Attachment",
+      "Decree",
+      "Robbery",
+      "Search Warrant",
+      "Writs",
+      "Mandamus",
+      "Habeas Corpus",
+      "Certiorari",
+      "Mandamus",
+      "Habeas Corpus",
+      "Certiorari"
+    ],
+    "judgment": [
+      "Appeal",
+      "Decree Holder",
+      "Garnishee"
+    ],
+    "lower": [
+      "Appeal",
+      "Appellant",
+      "Appellate (also see Jurisdiction)",
+      "Remand",
+      "Mandamus",
+      "Mandamus"
+    ],
+    "tribunal": [
+      "Appeal",
+      "Appellate (also see Jurisdiction)",
+      "Objection",
+      "Vakalatnama",
+      "Mandamus",
+      "Certiorari",
+      "Mandamus",
+      "Certiorari"
+    ],
+    "showing": [
+      "Appearance"
+    ],
+    "response": [
+      "Appearance",
+      "Objection"
+    ],
+    "summons": [
+      "Appearance",
+      "Hand Summons/dasti summons"
+    ],
+    "notice": [
+      "Appearance"
+    ],
+    "make": [
+      "Appearance",
+      "Legislature"
+    ],
+    "appearance": [
+      "Appearance"
+    ],
+    "either": [
+      "Appearance",
+      "Disposal",
+      "Interlocutory Application",
+      "Legislative Assembly",
+      "Precedent"
+    ],
+    "through": [
+      "Appearance",
+      "Stage of the Case"
+    ],
+    "lawyer": [
+      "Appearance",
+      "Examination in chief",
+      "Hand Summons/dasti summons"
+    ],
+    "files": [
+      "Appellant"
+    ],
+    "appeal": [
+      "Appellant"
+    ],
+    "applies": [
+      "Appellant"
+    ],
+    "reconsideration": [
+      "Appellant"
+    ],
+    "decision": [
+      "Appellant",
+      "Judgment",
+      "Review"
+    ],
+    "those": [
+      "Appellate (also see Jurisdiction)",
+      "Criminal"
+    ],
+    "applications": [
+      "Appellate (also see Jurisdiction)"
+    ],
+    "concerned": [
+      "Appellate (also see Jurisdiction)",
+      "Judicial Custody"
+    ],
+    "decisions": [
+      "Appellate (also see Jurisdiction)"
+    ],
+    "delayed": [
+      "Arrears"
+    ],
+    "might": [
+      "Arrears"
+    ],
+    "system": [
+      "Arrears",
+      "Backlog",
+      "Delay",
+      "Judiciary",
+      "Lok Adalats"
+    ],
+    "longer": [
+      "Arrears",
+      "Delay"
+    ],
+    "than": [
+      "Arrears",
+      "Charge sheet",
+      "Delay",
+      "Inquiry"
+    ],
+    "normal": [
+      "Arrears",
+      "Delay"
+    ],
+    "time": [
+      "Arrears",
+      "Backlog",
+      "Court Notice/Summons",
+      "Delay"
+    ],
+    "valid": [
+      "Arrears"
+    ],
+    "arrest": [
+      "Arrest",
+      "Arrest Warrant"
+    ],
+    "taking": [
+      "Arrest",
+      "Capital punishment"
+    ],
+    "into": [
+      "Arrest",
+      "Recusal"
+    ],
+    "custody": [
+      "Arrest",
+      "Judicial Custody",
+      "Police Custody",
+      "Remand"
+    ],
+    "she": [
+      "Arrest",
+      "Rape",
+      "Quo Warranto",
+      "Quo Warranto"
+    ],
+    "suspected": [
+      "Arrest",
+      "Arrest Warrant"
+    ],
+    "done": [
+      "Arrest",
+      "Culpable homicide not amounting to murder"
+    ],
+    "passed": [
+      "Arrest Warrant",
+      "Executing court",
+      "Statute",
+      "Certiorari",
+      "Certiorari"
+    ],
+    "magistrate": [
+      "Arrest Warrant",
+      "Complaint",
+      "District",
+      "Inquiry",
+      "Investigation",
+      "Judicial Custody",
+      "Original Jurisdiction",
+      "Remand"
+    ],
+    "authorising": [
+      "Arrest Warrant"
+    ],
+    "enforcement": [
+      "Arrest Warrant",
+      "Execution",
+      "Interrogation"
+    ],
+    "agency": [
+      "Arrest Warrant"
+    ],
+    "property": [
+      "Arson",
+      "Attachment",
+      "Pre",
+      "Search Warrant",
+      "Theft"
+    ],
+    "voluntary": [
+      "Arson",
+      "Waiver"
+    ],
+    "burning": [
+      "Arson"
+    ],
+    "setting": [
+      "Arson",
+      "Pleadings"
+    ],
+    "fire": [
+      "Arson"
+    ],
+    "threat": [
+      "Assault"
+    ],
+    "attempt": [
+      "Assault"
+    ],
+    "use": [
+      "Assault"
+    ],
+    "criminal": [
+      "Assault",
+      "Bail",
+      "Beyond Reasonable Doubt",
+      "Complaint",
+      "Criminal Procedure Code",
+      "Execution",
+      "Indian Penal Code",
+      "Malice",
+      "Mens Rea"
+    ],
+    "force": [
+      "Assault"
+    ],
+    "individual": [
+      "Assault",
+      "Hearsay",
+      "Indigent person",
+      "Mandamus",
+      "Habeas Corpus",
+      "Mandamus",
+      "Habeas Corpus"
+    ],
+    "actual": [
+      "Assault"
+    ],
+    "contact": [
+      "Assault"
+    ],
+    "creditors": [
+      "Attachment"
+    ],
+    "seizing": [
+      "Attachment"
+    ],
+    "attaching": [
+      "Attachment"
+    ],
+    "assets": [
+      "Attachment"
+    ],
+    "including": [
+      "Attachment",
+      "Record"
+    ],
+    "bank": [
+      "Attachment"
+    ],
+    "accounts": [
+      "Attachment"
+    ],
+    "satisfy": [
+      "Attachment",
+      "Burden of proof"
+    ],
+    "institution": [
+      "Backlog"
+    ],
+    "period": [
+      "Backlog"
+    ],
+    "disposal": [
+      "Backlog"
+    ],
+    "per": [
+      "Backlog",
+      "Pendency"
+    ],
+    "report": [
+      "Backlog",
+      "FIR",
+      "Pendency"
+    ],
+    "bail": [
+      "Bail",
+      "Personal Bond",
+      "Surety"
+    ],
+    "release": [
+      "Bail",
+      "Personal Bond"
+    ],
+    "conditions": [
+      "Bail"
+    ],
+    "referred": [
+      "Bail"
+    ],
+    "temporary": [
+      "Bail"
+    ],
+    "started": [
+      "Bail"
+    ],
+    "convict": [
+      "Beyond Reasonable Doubt"
+    ],
+    "beyond": [
+      "Beyond Reasonable Doubt"
+    ],
+    "reasonable": [
+      "Beyond Reasonable Doubt"
+    ],
+    "doubt": [
+      "Beyond Reasonable Doubt"
+    ],
+    "level": [
+      "Beyond Reasonable Doubt",
+      "Statute"
+    ],
+    "proof": [
+      "Beyond Reasonable Doubt",
+      "Burden of proof"
+    ],
+    "required": [
+      "Beyond Reasonable Doubt",
+      "Investigation",
+      "Mens Rea",
+      "Surety"
+    ],
+    "burden": [
+      "Burden of proof"
+    ],
+    "prove": [
+      "Burden of proof",
+      "Evidence"
+    ],
+    "narayan": [
+      "Burden of proof"
+    ],
+    "dastane": [
+      "Burden of proof"
+    ],
+    "standard": [
+      "Burden of proof"
+    ],
+    "punishment": [
+      "Capital punishment",
+      "Charge sheet",
+      "Commutation",
+      "Fine"
+    ],
+    "capital": [
+      "Capital punishment"
+    ],
+    "death": [
+      "Capital punishment",
+      "Culpable homicide not amounting to murder",
+      "Legal representative",
+      "Robbery"
+    ],
+    "penalty": [
+      "Capital punishment"
+    ],
+    "involves": [
+      "Capital punishment"
+    ],
+    "convicted": [
+      "Capital punishment",
+      "Commutation",
+      "Fine"
+    ],
+    "life": [
+      "Capital punishment"
+    ],
+    "india": [
+      "Capital punishment",
+      "Criminal Procedure Code",
+      "Fundamental Rights",
+      "Indian Penal Code",
+      "Legislative Assembly",
+      "Lok Adalats"
+    ],
+    "number": [
+      "Case Number",
+      "Cause List"
+    ],
+    "unique": [
+      "Case Number"
+    ],
+    "identification": [
+      "Case Number"
+    ],
+    "provided": [
+      "Case Number"
+    ],
+    "each": [
+      "Case Number",
+      "District",
+      "Record"
+    ],
+    "three": [
+      "Case Number",
+      "Judiciary",
+      "Separation of Powers"
+    ],
+    "components": [
+      "Case Number"
+    ],
+    "type": [
+      "Case Number",
+      "Delay"
+    ],
+    "said": [
+      "Case Number"
+    ],
+    "stage": [
+      "Case Status",
+      "Prima facie"
+    ],
+    "within": [
+      "Case Status",
+      "District",
+      "Remand",
+      "Special Courts"
+    ],
+    "list": [
+      "Cause List"
+    ],
+    "issued": [
+      "Cause List",
+      "Order",
+      "Writs",
+      "Mandamus",
+      "Prohibition",
+      "Quo Warranto",
+      "Mandamus",
+      "Prohibition",
+      "Quo Warranto",
+      "Certiorari"
+    ],
+    "registry": [
+      "Cause List"
+    ],
+    "matters": [
+      "Cause List"
+    ],
+    "heard": [
+      "Cause List",
+      "Date of Hearing",
+      "Hearsay"
+    ],
+    "day": [
+      "Cause List"
+    ],
+    "bench": [
+      "Cause List"
+    ],
+    "hall": [
+      "Cause List"
+    ],
+    "set": [
+      "Cause of action"
+    ],
+    "facts": [
+      "Cause of action",
+      "Commissions",
+      "Mitigating Circumstances",
+      "Pleadings",
+      "Rejoinder",
+      "Trial"
+    ],
+    "circumstances": [
+      "Cause of action",
+      "Mandatory minimum sentence",
+      "Mitigating Circumstances"
+    ],
+    "sufficient": [
+      "Cause of action"
+    ],
+    "initiate": [
+      "Cause of action"
+    ],
+    "action": [
+      "Cause of action",
+      "Commutation",
+      "Decree Holder",
+      "Plaintiff",
+      "Recusal",
+      "Suit"
+    ],
+    "against": [
+      "Cause of action",
+      "Counterclaim",
+      "Court Notice/Summons",
+      "Defendant",
+      "Fundamental Rights",
+      "Judgment debtor",
+      "Order",
+      "Rape",
+      "Respondent",
+      "Set off",
+      "Suit"
+    ],
+    "another": [
+      "Cause of action",
+      "Hearsay",
+      "Pre",
+      "Suit",
+      "Tort",
+      "Habeas Corpus",
+      "Habeas Corpus"
+    ],
+    "police": [
+      "Charge sheet",
+      "Complaint",
+      "FIR",
+      "Police Custody",
+      "Remand"
+    ],
+    "days": [
+      "Charge sheet"
+    ],
+    "years": [
+      "Charge sheet",
+      "Juvenile"
+    ],
+    "charge": [
+      "Charge sheet",
+      "Disposal"
+    ],
+    "sheet": [
+      "Charge sheet"
+    ],
+    "refers": [
+      "Charge sheet",
+      "Jurisdiction",
+      "Mens Rea",
+      "Pecuniary jurisdiction",
+      "Pendency"
+    ],
+    "circumstantial": [
+      "Circumstantial Evidence"
+    ],
+    "indirect": [
+      "Circumstantial Evidence"
+    ],
+    "direct": [
+      "Circumstantial Evidence"
+    ],
+    "observation": [
+      "Circumstantial Evidence"
+    ],
+    "face": [
+      "Circumstantial Evidence"
+    ],
+    "does": [
+      "Circumstantial Evidence",
+      "Indigent person"
+    ],
+    "codified": [
+      "Civil Procedure Code"
+    ],
+    "procedural": [
+      "Civil Procedure Code",
+      "Procedural"
+    ],
+    "administration": [
+      "Civil Procedure Code",
+      "Criminal Procedure Code",
+      "Criminal"
+    ],
+    "civil": [
+      "Civil Procedure Code",
+      "Defendant",
+      "Execution",
+      "Interlocutory Application",
+      "Original Jurisdiction",
+      "Substantive",
+      "Suit",
+      "Tort",
+      "Quo Warranto",
+      "Quo Warranto"
+    ],
+    "encompasses": [
+      "Civil"
+    ],
+    "business": [
+      "Civil",
+      "Proceedings"
+    ],
+    "contracts": [
+      "Civil"
+    ],
+    "estates": [
+      "Civil"
+    ],
+    "domestic": [
+      "Civil"
+    ],
+    "family": [
+      "Civil"
+    ],
+    "relations": [
+      "Civil"
+    ],
+    "accidents": [
+      "Civil"
+    ],
+    "appointed": [
+      "Commissions"
+    ],
+    "ascertain": [
+      "Commissions"
+    ],
+    "investigate": [
+      "Commissions"
+    ],
+    "needed": [
+      "Commissions"
+    ],
+    "decide": [
+      "Commissions",
+      "Judge",
+      "Jurisdiction",
+      "Trial"
+    ],
+    "usually": [
+      "Commissions",
+      "Court Hall",
+      "Examination in chief"
+    ],
+    "given": [
+      "Commissions",
+      "Commutation",
+      "Decree Holder",
+      "Dispute",
+      "Judgment debtor",
+      "Judgment",
+      "Legislative Assembly",
+      "Order"
+    ],
+    "specific": [
+      "Commissions"
+    ],
+    "executive": [
+      "Commutation",
+      "Executive",
+      "Separation of Powers"
+    ],
+    "officer": [
+      "Commutation",
+      "Proceedings"
+    ],
+    "substitute": [
+      "Commutation"
+    ],
+    "less": [
+      "Commutation"
+    ],
+    "severe": [
+      "Commutation"
+    ],
+    "allegation": [
+      "Complaint"
+    ],
+    "orally": [
+      "Complaint"
+    ],
+    "writing": [
+      "Complaint"
+    ],
+    "stating": [
+      "Complaint"
+    ],
+    "final": [
+      "Conviction",
+      "Disposal",
+      "Judgment"
+    ],
+    "adjudication": [
+      "Conviction"
+    ],
+    "finding": [
+      "Conviction"
+    ],
+    "claim": [
+      "Counterclaim",
+      "Execution",
+      "Implied bar",
+      "Set off"
+    ],
+    "plaintiff": [
+      "Counterclaim",
+      "Hand Summons/dasti summons",
+      "Plaint",
+      "Prayer",
+      "Rejoinder",
+      "Set off",
+      "Written statement"
+    ],
+    "defendant": [
+      "Counterclaim",
+      "Exculpatory Evidence",
+      "Hand Summons/dasti summons",
+      "Rejoinder",
+      "Set off",
+      "Written statement"
+    ],
+    "answer": [
+      "Counterclaim",
+      "Interrogation",
+      "Plea",
+      "Summons"
+    ],
+    "raised": [
+      "Counterclaim",
+      "Objection"
+    ],
+    "room": [
+      "Court Hall"
+    ],
+    "judicial": [
+      "Court Hall",
+      "Delay",
+      "Judicial Custody",
+      "Judiciary",
+      "Original Jurisdiction",
+      "Proceedings",
+      "Separation of Powers",
+      "Special Courts",
+      "Tribunals",
+      "Prohibition",
+      "Certiorari",
+      "Prohibition"
+    ],
+    "proceedings": [
+      "Court Hall",
+      "Investigation",
+      "Order",
+      "Transcript"
+    ],
+    "carried": [
+      "Court Hall"
+    ],
+    "out": [
+      "Court Hall",
+      "Theft"
+    ],
+    "halls": [
+      "Court Hall"
+    ],
+    "described": [
+      "Court Hall"
+    ],
+    "numbers": [
+      "Court Hall"
+    ],
+    "assigned": [
+      "Court Hall"
+    ],
+    "official": [
+      "Court Notice/Summons",
+      "District",
+      "Judge",
+      "Transcript",
+      "Habeas Corpus",
+      "Habeas Corpus"
+    ],
+    "sends": [
+      "Court Notice/Summons"
+    ],
+    "informing": [
+      "Court Notice/Summons"
+    ],
+    "filed": [
+      "Court Notice/Summons",
+      "Date of Institution",
+      "Defendant",
+      "Habeas corpus",
+      "Interlocutory Application",
+      "Representative suit",
+      "Respondent",
+      "Written statement"
+    ],
+    "indicates": [
+      "Court Notice/Summons"
+    ],
+    "main": [
+      "Criminal Procedure Code",
+      "Indian Penal Code",
+      "Judiciary"
+    ],
+    "legislation": [
+      "Criminal Procedure Code"
+    ],
+    "procedure": [
+      "Criminal Procedure Code"
+    ],
+    "substantive": [
+      "Criminal Procedure Code",
+      "Indian Penal Code",
+      "Merits"
+    ],
+    "citizen": [
+      "Criminal"
+    ],
+    "pertains": [
+      "Criminal"
+    ],
+    "crimes": [
+      "Criminal"
+    ],
+    "requires": [
+      "Criminal"
+    ],
+    "penal": [
+      "Criminal"
+    ],
+    "justice": [
+      "Criminal",
+      "Gram Nyayalayas"
+    ],
+    "involving": [
+      "Criminal"
+    ],
+    "examination": [
+      "Cross",
+      "Examination in chief"
+    ],
+    "witness": [
+      "Cross",
+      "Evidence",
+      "Examination in chief",
+      "Testimony"
+    ],
+    "cross": [
+      "Cross",
+      "Examination in chief",
+      "Set off"
+    ],
+    "opposite": [
+      "Cross"
+    ],
+    "called": [
+      "Cross",
+      "District",
+      "Examination in chief",
+      "Recusal"
+    ],
+    "gives": [
+      "Cross"
+    ],
+    "opposing": [
+      "Cross"
+    ],
+    "opportunity": [
+      "Cross"
+    ],
+    "point": [
+      "Cross"
+    ],
+    "causing": [
+      "Culpable homicide not amounting to murder"
+    ],
+    "likely": [
+      "Culpable homicide not amounting to murder"
+    ],
+    "cause": [
+      "Culpable homicide not amounting to murder",
+      "Forgery",
+      "Robbery",
+      "Search Warrant"
+    ],
+    "caused": [
+      "Culpable homicide not amounting to murder",
+      "Tort"
+    ],
+    "intention": [
+      "Culpable homicide not amounting to murder",
+      "Malice"
+    ],
+    "bodily": [
+      "Culpable homicide not amounting to murder"
+    ],
+    "injury": [
+      "Culpable homicide not amounting to murder",
+      "Forgery",
+      "Tort"
+    ],
+    "registered": [
+      "Date of Institution"
+    ],
+    "decree": [
+      "Decree Holder",
+      "Executing court",
+      "Execution",
+      "Judgment debtor"
+    ],
+    "favour": [
+      "Decree Holder"
+    ],
+    "whom": [
+      "Decree Holder",
+      "Defendant",
+      "Judgment debtor",
+      "Respondent",
+      "Summons"
+    ],
+    "directing": [
+      "Decree Holder"
+    ],
+    "other": [
+      "Decree Holder",
+      "Exhibit",
+      "Inquiry",
+      "Objection",
+      "Precedent",
+      "Vakalatnama"
+    ],
+    "take": [
+      "Decree Holder",
+      "Delay"
+    ],
+    "formal": [
+      "Decree",
+      "Writs"
+    ],
+    "conclusively": [
+      "Decree"
+    ],
+    "resolves": [
+      "Decree"
+    ],
+    "issues": [
+      "Decree"
+    ],
+    "determines": [
+      "Decree"
+    ],
+    "rights": [
+      "Decree",
+      "Dispute",
+      "Fundamental Rights",
+      "Judgment",
+      "Notice",
+      "Substantive",
+      "Waiver"
+    ],
+    "suit": [
+      "Defendant",
+      "Representative suit"
+    ],
+    "delay": [
+      "Deferred Sentence"
+    ],
+    "sentence": [
+      "Deferred Sentence",
+      "Juvenile",
+      "Mandatory minimum sentence"
+    ],
+    "future": [
+      "Deferred Sentence"
+    ],
+    "disposed": [
+      "Delay"
+    ],
+    "resolution": [
+      "Disposal",
+      "Lok Adalats",
+      "Mediation",
+      "Tribunals"
+    ],
+    "dismissal": [
+      "Disposal"
+    ],
+    "judgement": [
+      "Disposal",
+      "Judgment debtor",
+      "Review"
+    ],
+    "records": [
+      "Disposal",
+      "Forgery"
+    ],
+    "often": [
+      "Disposal"
+    ],
+    "specify": [
+      "Disposal"
+    ],
+    "nature": [
+      "Disposal",
+      "Original Jurisdiction"
+    ],
+    "conflict": [
+      "Dispute"
+    ],
+    "claims": [
+      "Dispute",
+      "Plaint",
+      "Waiver"
+    ],
+    "rise": [
+      "Dispute"
+    ],
+    "subject": [
+      "Dispute",
+      "Jurisdiction"
+    ],
+    "litigation": [
+      "Dispute"
+    ],
+    "district": [
+      "District"
+    ],
+    "administrative": [
+      "District"
+    ],
+    "unit": [
+      "District"
+    ],
+    "state": [
+      "District",
+      "Fundamental Rights",
+      "Statute",
+      "Writs"
+    ],
+    "headed": [
+      "District"
+    ],
+    "things": [
+      "Evidence"
+    ],
+    "information": [
+      "Evidence",
+      "FIR"
+    ],
+    "brought": [
+      "Evidence",
+      "Rejoinder",
+      "Suit"
+    ],
+    "documents": [
+      "Evidence",
+      "Forgery",
+      "Record",
+      "Registry"
+    ],
+    "computers": [
+      "Evidence"
+    ],
+    "conducted": [
+      "Ex Parte",
+      "Inquiry"
+    ],
+    "absence": [
+      "Ex Parte"
+    ],
+    "side": [
+      "Examination in chief"
+    ],
+    "chief": [
+      "Examination in chief"
+    ],
+    "followed": [
+      "Examination in chief"
+    ],
+    "lawyers": [
+      "Examination in chief"
+    ],
+    "establishes": [
+      "Exculpatory Evidence"
+    ],
+    "innocence": [
+      "Exculpatory Evidence",
+      "Trial"
+    ],
+    "executes": [
+      "Executing court"
+    ],
+    "generally": [
+      "Executing court",
+      "Respondent",
+      "Special Courts"
+    ],
+    "execution": [
+      "Execution"
+    ],
+    "enable": [
+      "Execution"
+    ],
+    "holder": [
+      "Execution"
+    ],
+    "benefits": [
+      "Execution"
+    ],
+    "government": [
+      "Executive",
+      "Judiciary",
+      "Legislature",
+      "Separation of Powers",
+      "Special Courts",
+      "Habeas Corpus",
+      "Habeas Corpus"
+    ],
+    "sole": [
+      "Executive"
+    ],
+    "responsibility": [
+      "Executive"
+    ],
+    "effecting": [
+      "Executive"
+    ],
+    "enforcing": [
+      "Executive"
+    ],
+    "laws": [
+      "Executive",
+      "Legislature"
+    ],
+    "electronic": [
+      "Exhibit",
+      "Forgery"
+    ],
+    "device": [
+      "Exhibit"
+    ],
+    "item": [
+      "Exhibit"
+    ],
+    "introduced": [
+      "Exhibit"
+    ],
+    "during": [
+      "Exhibit",
+      "Interlocutory Application",
+      "Order"
+    ],
+    "fine": [
+      "Fine"
+    ],
+    "sum": [
+      "Fine"
+    ],
+    "money": [
+      "Fine",
+      "Set off"
+    ],
+    "imposed": [
+      "Fine"
+    ],
+    "first": [
+      "FIR",
+      "Original Jurisdiction",
+      "Prima facie"
+    ],
+    "fir": [
+      "FIR"
+    ],
+    "written": [
+      "FIR",
+      "Interpretation",
+      "Pleadings",
+      "Rejoinder",
+      "Substantive",
+      "Writs"
+    ],
+    "prepared": [
+      "FIR"
+    ],
+    "receive": [
+      "FIR"
+    ],
+    "about": [
+      "FIR"
+    ],
+    "false": [
+      "Forgery"
+    ],
+    "making": [
+      "Forgery"
+    ],
+    "damage": [
+      "Forgery"
+    ],
+    "public": [
+      "Forgery",
+      "Judge"
+    ],
+    "charter": [
+      "Fundamental Rights"
+    ],
+    "contained": [
+      "Fundamental Rights"
+    ],
+    "constitution": [
+      "Fundamental Rights",
+      "Interpretation"
+    ],
+    "enforced": [
+      "Fundamental Rights"
+    ],
+    "debtor": [
+      "Garnishee"
+    ],
+    "garnishee": [
+      "Garnishee"
+    ],
+    "whose": [
+      "Garnishee"
+    ],
+    "debt": [
+      "Garnishee"
+    ],
+    "attached": [
+      "Garnishee"
+    ],
+    "village": [
+      "Gram Nyayalayas"
+    ],
+    "courts": [
+      "Gram Nyayalayas",
+      "Original Jurisdiction"
+    ],
+    "instituted": [
+      "Gram Nyayalayas",
+      "Pendency"
+    ],
+    "gram": [
+      "Gram Nyayalayas"
+    ],
+    "nyayalayas": [
+      "Gram Nyayalayas"
+    ],
+    "speedy": [
+      "Gram Nyayalayas"
+    ],
+    "easy": [
+      "Gram Nyayalayas"
+    ],
+    "access": [
+      "Gram Nyayalayas"
+    ],
+    "writ": [
+      "Habeas corpus",
+      "Writs",
+      "Prohibition",
+      "Quo Warranto",
+      "Certiorari",
+      "Prohibition",
+      "Quo Warranto",
+      "Certiorari"
+    ],
+    "detention": [
+      "Habeas corpus",
+      "Judicial Custody"
+    ],
+    "high": [
+      "Habeas corpus",
+      "Original Jurisdiction",
+      "Writs",
+      "Certiorari"
+    ],
+    "supreme": [
+      "Habeas corpus",
+      "Writs",
+      "Certiorari"
+    ],
+    "habeas": [
+      "Habeas corpus"
+    ],
+    "corpus": [
+      "Habeas corpus"
+    ],
+    "used": [
+      "Habeas corpus",
+      "Respondent"
+    ],
+    "giving": [
+      "Hand Summons/dasti summons"
+    ],
+    "hand": [
+      "Hand Summons/dasti summons"
+    ],
+    "personally": [
+      "Hand Summons/dasti summons"
+    ],
+    "testimony": [
+      "Hearsay"
+    ],
+    "personal": [
+      "Hearsay",
+      "Personal Bond"
+    ],
+    "saying": [
+      "Hearsay",
+      "Plea"
+    ],
+    "killing": [
+      "Homicide"
+    ],
+    "human": [
+      "Homicide"
+    ],
+    "right": [
+      "Implied bar",
+      "Pre",
+      "Procedural"
+    ],
+    "barred": [
+      "Implied bar"
+    ],
+    "necessary": [
+      "Implied bar"
+    ],
+    "implication": [
+      "Implied bar"
+    ],
+    "statute": [
+      "Implied bar",
+      "Interpretation"
+    ],
+    "contract": [
+      "Implied bar"
+    ],
+    "general": [
+      "Implied bar"
+    ],
+    "principles": [
+      "Implied bar"
+    ],
+    "possess": [
+      "Indigent person"
+    ],
+    "financial": [
+      "Indigent person"
+    ],
+    "means": [
+      "Indigent person",
+      "Judicial Custody",
+      "Lok Adalats",
+      "Mens Rea",
+      "Police Custody",
+      "Prima facie",
+      "Theft"
+    ],
+    "afford": [
+      "Indigent person"
+    ],
+    "fees": [
+      "Indigent person"
+    ],
+    "paid": [
+      "Indigent person"
+    ],
+    "plaint": [
+      "Indigent person"
+    ],
+    "every": [
+      "Inquiry"
+    ],
+    "inquiry": [
+      "Inquiry"
+    ],
+    "code": [
+      "Indian Penal Code"
+    ],
+    "covers": [
+      "Indian Penal Code"
+    ],
+    "aspects": [
+      "Indian Penal Code"
+    ],
+    "determining": [
+      "Interpretation",
+      "Judgment"
+    ],
+    "intended": [
+      "Interpretation"
+    ],
+    "meaning": [
+      "Interpretation"
+    ],
+    "application": [
+      "Interlocutory Application"
+    ],
+    "pendency": [
+      "Interlocutory Application",
+      "Pendency"
+    ],
+    "proceeding": [
+      "Interlocutory Application",
+      "Review"
+    ],
+    "seeking": [
+      "Interlocutory Application"
+    ],
+    "relief": [
+      "Interlocutory Application",
+      "Pleadings",
+      "Prayer"
+    ],
+    "agencies": [
+      "Interrogation"
+    ],
+    "questioning": [
+      "Interrogation"
+    ],
+    "obligated": [
+      "Interrogation"
+    ],
+    "investigation": [
+      "Investigation",
+      "Remand"
+    ],
+    "like": [
+      "Investigation"
+    ],
+    "includes": [
+      "Investigation"
+    ],
+    "question": [
+      "Issues",
+      "Recusal"
+    ],
+    "authorised": [
+      "Judge"
+    ],
+    "hear": [
+      "Judge",
+      "Jurisdiction"
+    ],
+    "liable": [
+      "Judgment debtor"
+    ],
+    "pay": [
+      "Judgment debtor"
+    ],
+    "perform": [
+      "Judgment debtor",
+      "Mandamus",
+      "Mandamus"
+    ],
+    "terms": [
+      "Judgment debtor"
+    ],
+    "reasoning": [
+      "Judgment"
+    ],
+    "lodged": [
+      "Judicial Custody",
+      "Police Custody"
+    ],
+    "prison": [
+      "Judicial Custody"
+    ],
+    "magistrates": [
+      "Judicial Custody"
+    ],
+    "judiciary": [
+      "Judiciary"
+    ],
+    "organs": [
+      "Judiciary"
+    ],
+    "also": [
+      "Judiciary",
+      "Plaintiff"
+    ],
+    "jurisdiction": [
+      "Jurisdiction",
+      "Original Jurisdiction",
+      "Pecuniary jurisdiction",
+      "Mandamus",
+      "Mandamus"
+    ],
+    "power": [
+      "Jurisdiction",
+      "Legislature"
+    ],
+    "matter": [
+      "Jurisdiction"
+    ],
+    "interpret": [
+      "Jurisdiction"
+    ],
+    "age": [
+      "Juvenile"
+    ],
+    "juvenile": [
+      "Juvenile"
+    ],
+    "boys": [
+      "Juvenile"
+    ],
+    "girls": [
+      "Juvenile"
+    ],
+    "serve": [
+      "Juvenile"
+    ],
+    "until": [
+      "Juvenile"
+    ],
+    "twenty": [
+      "Juvenile"
+    ],
+    "practices": [
+      "Lawyer"
+    ],
+    "deceased": [
+      "Legal representative"
+    ],
+    "heir": [
+      "Legal representative"
+    ],
+    "represents": [
+      "Legal representative"
+    ],
+    "after": [
+      "Legal representative",
+      "Surety"
+    ],
+    "legislature": [
+      "Legislative Assembly"
+    ],
+    "name": [
+      "Legislative Assembly"
+    ],
+    "countries": [
+      "Legislative Assembly"
+    ],
+    "branch": [
+      "Legislative Assembly",
+      "Legislature",
+      "Special Courts"
+    ],
+    "legislative": [
+      "Legislative Assembly",
+      "Separation of Powers",
+      "Statute"
+    ],
+    "country": [
+      "Legislature"
+    ],
+    "lawsuit": [
+      "Litigant",
+      "Plaintiff"
+    ],
+    "alternative": [
+      "Lok Adalats",
+      "Mediation"
+    ],
+    "developed": [
+      "Lok Adalats"
+    ],
+    "roughly": [
+      "Lok Adalats"
+    ],
+    "people": [
+      "Lok Adalats"
+    ],
+    "forum": [
+      "Lok Adalats"
+    ],
+    "commit": [
+      "Malice",
+      "Robbery"
+    ],
+    "minimum": [
+      "Mandatory minimum sentence"
+    ],
+    "prescribed": [
+      "Mandatory minimum sentence"
+    ],
+    "certain": [
+      "Mandatory minimum sentence"
+    ],
+    "serious": [
+      "Mandatory minimum sentence"
+    ],
+    "offences": [
+      "Mandatory minimum sentence"
+    ],
+    "irrespective": [
+      "Mandatory minimum sentence"
+    ],
+    "reduces": [
+      "Mandatory minimum sentence"
+    ],
+    "form": [
+      "Mediation",
+      "Proceedings"
+    ],
+    "choose": [
+      "Mediation"
+    ],
+    "third": [
+      "Mediation"
+    ],
+    "neutral": [
+      "Mediation"
+    ],
+    "help": [
+      "Mediation"
+    ],
+    "mind": [
+      "Mens Rea"
+    ],
+    "latin": [
+      "Mens Rea",
+      "Prima facie"
+    ],
+    "mens": [
+      "Mens Rea"
+    ],
+    "rea": [
+      "Mens Rea"
+    ],
+    "intent": [
+      "Mens Rea"
+    ],
+    "grounds": [
+      "Merits"
+    ],
+    "mitigating": [
+      "Mitigating Circumstances"
+    ],
+    "appear": [
+      "Mitigating Circumstances",
+      "Personal Bond",
+      "Summons",
+      "Vakalatnama"
+    ],
+    "mitigate": [
+      "Mitigating Circumstances"
+    ],
+    "seriousness": [
+      "Mitigating Circumstances"
+    ],
+    "rendering": [
+      "Mitigating Circumstances"
+    ],
+    "actions": [
+      "Mitigating Circumstances",
+      "Objection"
+    ],
+    "mode": [
+      "Modus Operandi"
+    ],
+    "way": [
+      "Modus Operandi",
+      "Prima facie"
+    ],
+    "commits": [
+      "Modus Operandi"
+    ],
+    "notification": [
+      "Notice"
+    ],
+    "aware": [
+      "Notice"
+    ],
+    "affecting": [
+      "Notice"
+    ],
+    "obligations": [
+      "Notice"
+    ],
+    "duties": [
+      "Notice",
+      "Substantive",
+      "Tribunals"
+    ],
+    "argument": [
+      "Objection"
+    ],
+    "contention": [
+      "Objection"
+    ],
+    "direction": [
+      "Order"
+    ],
+    "orders": [
+      "Order"
+    ],
+    "original": [
+      "Original Jurisdiction"
+    ],
+    "states": [
+      "Original Jurisdiction"
+    ],
+    "pecuniary": [
+      "Pecuniary jurisdiction"
+    ],
+    "monetary": [
+      "Pecuniary jurisdiction"
+    ],
+    "value": [
+      "Pecuniary jurisdiction"
+    ],
+    "adjudicated": [
+      "Pecuniary jurisdiction"
+    ],
+    "bond": [
+      "Personal Bond"
+    ],
+    "agreement": [
+      "Personal Bond",
+      "Settlement"
+    ],
+    "condition": [
+      "Personal Bond"
+    ],
+    "hearings": [
+      "Personal Bond"
+    ],
+    "comply": [
+      "Personal Bond"
+    ],
+    "presents": [
+      "Petitioner"
+    ],
+    "petition": [
+      "Petitioner",
+      "Respondent"
+    ],
+    "contains": [
+      "Plaint"
+    ],
+    "remedies": [
+      "Plaint",
+      "Prayer"
+    ],
+    "prayed": [
+      "Plaint"
+    ],
+    "initiates": [
+      "Plaintiff"
+    ],
+    "prosecution": [
+      "Plea bargain"
+    ],
+    "plea": [
+      "Plea bargain",
+      "Plea"
+    ],
+    "bargaining": [
+      "Plea bargain"
+    ],
+    "negotiation": [
+      "Plea bargain"
+    ],
+    "agrees": [
+      "Plea bargain"
+    ],
+    "plead": [
+      "Plea bargain",
+      "Vakalatnama"
+    ],
+    "exchange": [
+      "Plea bargain"
+    ],
+    "give": [
+      "Plea"
+    ],
+    "whether": [
+      "Plea"
+    ],
+    "presentation": [
+      "Pleadings"
+    ],
+    "litigants": [
+      "Pleadings"
+    ],
+    "forth": [
+      "Pleadings"
+    ],
+    "upon": [
+      "Pleadings"
+    ],
+    "claiming": [
+      "Pleadings"
+    ],
+    "lock": [
+      "Police Custody"
+    ],
+    "station": [
+      "Police Custody"
+    ],
+    "ordered": [
+      "Police Custody",
+      "Remand"
+    ],
+    "maximum": [
+      "Police Custody"
+    ],
+    "prayer": [
+      "Prayer"
+    ],
+    "portion": [
+      "Prayer"
+    ],
+    "complaint": [
+      "Prayer",
+      "Summons"
+    ],
+    "describes": [
+      "Prayer"
+    ],
+    "seek": [
+      "Prayer"
+    ],
+    "precedent": [
+      "Precedent"
+    ],
+    "principle": [
+      "Precedent"
+    ],
+    "rule": [
+      "Precedent"
+    ],
+    "established": [
+      "Precedent",
+      "Tribunals"
+    ],
+    "previous": [
+      "Precedent"
+    ],
+    "binding": [
+      "Precedent"
+    ],
+    "emption": [
+      "Pre"
+    ],
+    "preferential": [
+      "Pre"
+    ],
+    "purchase": [
+      "Pre"
+    ],
+    "enjoy": [
+      "Pre"
+    ],
+    "sight": [
+      "Prima facie"
+    ],
+    "evaluate": [
+      "Prima facie"
+    ],
+    "initial": [
+      "Prima facie"
+    ],
+    "see": [
+      "Prima facie"
+    ],
+    "there": [
+      "Prima facie"
+    ],
+    "comprises": [
+      "Procedural"
+    ],
+    "rules": [
+      "Procedural"
+    ],
+    "prescribes": [
+      "Procedural"
+    ],
+    "steps": [
+      "Procedural",
+      "Stage of the Case"
+    ],
+    "having": [
+      "Procedural"
+    ],
+    "duty": [
+      "Procedural"
+    ],
+    "judicially": [
+      "Procedural"
+    ],
+    "manner": [
+      "Proceedings"
+    ],
+    "conducts": [
+      "Proceedings"
+    ],
+    "sexual": [
+      "Rape"
+    ],
+    "intercourse": [
+      "Rape"
+    ],
+    "woman": [
+      "Rape"
+    ],
+    "without": [
+      "Rape",
+      "Theft"
+    ],
+    "consent": [
+      "Rape"
+    ],
+    "coercion": [
+      "Rape"
+    ],
+    "misrepresentation": [
+      "Rape"
+    ],
+    "fraud": [
+      "Rape"
+    ],
+    "record": [
+      "Record",
+      "Transcript"
+    ],
+    "maintained": [
+      "Record"
+    ],
+    "pleadings": [
+      "Record"
+    ],
+    "withdraw": [
+      "Recusal"
+    ],
+    "himself": [
+      "Recusal"
+    ],
+    "bias": [
+      "Recusal"
+    ],
+    "office": [
+      "Registry",
+      "Quo Warranto",
+      "Quo Warranto"
+    ],
+    "receives": [
+      "Registry"
+    ],
+    "maintains": [
+      "Registry"
+    ],
+    "filing": [
+      "Registry"
+    ],
+    "pleading": [
+      "Rejoinder"
+    ],
+    "explains": [
+      "Rejoinder"
+    ],
+    "rebuts": [
+      "Rejoinder"
+    ],
+    "additional": [
+      "Rejoinder"
+    ],
+    "completed": [
+      "Remand"
+    ],
+    "hours": [
+      "Remand"
+    ],
+    "send": [
+      "Remand"
+    ],
+    "back": [
+      "Remand"
+    ],
+    "behalf": [
+      "Representative suit"
+    ],
+    "themselves": [
+      "Representative suit"
+    ],
+    "others": [
+      "Representative suit"
+    ],
+    "same": [
+      "Representative suit"
+    ],
+    "interest": [
+      "Representative suit",
+      "Right"
+    ],
+    "term": [
+      "Respondent"
+    ],
+    "appeals": [
+      "Respondent"
+    ],
+    "respondent": [
+      "Respondent"
+    ],
+    "review": [
+      "Review"
+    ],
+    "own": [
+      "Review"
+    ],
+    "error": [
+      "Review"
+    ],
+    "mistake": [
+      "Review"
+    ],
+    "regard": [
+      "Review"
+    ],
+    "legally": [
+      "Right"
+    ],
+    "protected": [
+      "Right"
+    ],
+    "instant": [
+      "Robbery"
+    ],
+    "theft": [
+      "Robbery",
+      "Theft"
+    ],
+    "wrongful": [
+      "Robbery"
+    ],
+    "restraint": [
+      "Robbery"
+    ],
+    "hurt": [
+      "Robbery"
+    ],
+    "robbery": [
+      "Robbery"
+    ],
+    "signed": [
+      "Search Warrant"
+    ],
+    "probable": [
+      "Search Warrant"
+    ],
+    "directs": [
+      "Search Warrant"
+    ],
+    "owners": [
+      "Search Warrant"
+    ],
+    "private": [
+      "Search Warrant"
+    ],
+    "allow": [
+      "Search Warrant"
+    ],
+    "constitutional": [
+      "Separation of Powers"
+    ],
+    "separate": [
+      "Separation of Powers"
+    ],
+    "branches": [
+      "Separation of Powers"
+    ],
+    "dues": [
+      "Set off"
+    ],
+    "kind": [
+      "Set off"
+    ],
+    "recovery": [
+      "Set off"
+    ],
+    "raises": [
+      "Set off"
+    ],
+    "reached": [
+      "Settlement"
+    ],
+    "resolve": [
+      "Settlement"
+    ],
+    "bodies": [
+      "Special Courts"
+    ],
+    "address": [
+      "Special Courts"
+    ],
+    "only": [
+      "Special Courts"
+    ],
+    "area": [
+      "Special Courts"
+    ],
+    "passes": [
+      "Stage of the Case"
+    ],
+    "body": [
+      "Statute",
+      "Prohibition",
+      "Certiorari",
+      "Prohibition"
+    ],
+    "municipal": [
+      "Statute"
+    ],
+    "central": [
+      "Statute"
+    ],
+    "statutory": [
+      "Substantive"
+    ],
+    "creates": [
+      "Substantive"
+    ],
+    "defines": [
+      "Substantive"
+    ],
+    "powers": [
+      "Substantive"
+    ],
+    "summon": [
+      "Summons"
+    ],
+    "commands": [
+      "Summons",
+      "Habeas Corpus",
+      "Habeas Corpus"
+    ],
+    "served": [
+      "Summons"
+    ],
+    "surety": [
+      "Surety"
+    ],
+    "guarantees": [
+      "Surety"
+    ],
+    "attend": [
+      "Surety"
+    ],
+    "granted": [
+      "Surety"
+    ],
+    "presented": [
+      "Testimony",
+      "Trial"
+    ],
+    "oath": [
+      "Testimony"
+    ],
+    "dishonest": [
+      "Theft"
+    ],
+    "removal": [
+      "Theft"
+    ],
+    "moveable": [
+      "Theft"
+    ],
+    "possession": [
+      "Theft"
+    ],
+    "wrong": [
+      "Tort"
+    ],
+    "intentional": [
+      "Tort"
+    ],
+    "unintentional": [
+      "Tort"
+    ],
+    "prominent": [
+      "Tort"
+    ],
+    "examples": [
+      "Tort"
+    ],
+    "determine": [
+      "Trial"
+    ],
+    "guilt": [
+      "Trial"
+    ],
+    "structured": [
+      "Trial"
+    ],
+    "tribunals": [
+      "Tribunals"
+    ],
+    "institutions": [
+      "Tribunals"
+    ],
+    "discharging": [
+      "Tribunals"
+    ],
+    "quasi": [
+      "Tribunals",
+      "Prohibition",
+      "Certiorari",
+      "Prohibition"
+    ],
+    "advocate": [
+      "Vakalatnama"
+    ],
+    "empowered": [
+      "Vakalatnama"
+    ],
+    "renunciation": [
+      "Waiver"
+    ],
+    "privileges": [
+      "Waiver"
+    ],
+    "defence": [
+      "Written statement"
+    ],
+    "countering": [
+      "Written statement"
+    ],
+    "allegations": [
+      "Written statement"
+    ],
+    "asking": [
+      "Writs"
+    ],
+    "refrain": [
+      "Writs"
+    ],
+    "superior": [
+      "Mandamus",
+      "Mandamus"
+    ],
+    "ask": [
+      "Mandamus",
+      "Mandamus"
+    ],
+    "restrained": [
+      "Habeas Corpus",
+      "Habeas Corpus"
+    ],
+    "produce": [
+      "Habeas Corpus",
+      "Habeas Corpus"
+    ],
+    "prisoner": [
+      "Habeas Corpus",
+      "Habeas Corpus"
+    ],
+    "designated": [
+      "Habeas Corpus",
+      "Habeas Corpus"
+    ],
+    "extraordinary": [
+      "Prohibition",
+      "Prohibition"
+    ],
+    "commanding": [
+      "Prohibition",
+      "Prohibition"
+    ],
+    "inferior": [
+      "Prohibition",
+      "Certiorari",
+      "Prohibition",
+      "Certiorari"
+    ],
+    "keep": [
+      "Prohibition",
+      "Prohibition"
+    ],
+    "view": [
+      "Quo Warranto",
+      "Quo Warranto"
+    ],
+    "restrain": [
+      "Quo Warranto",
+      "Quo Warranto"
+    ],
+    "holding": [
+      "Quo Warranto",
+      "Quo Warranto"
+    ],
+    "entitled": [
+      "Quo Warranto",
+      "Quo Warranto"
+    ],
+    "quash": [
+      "Certiorari",
+      "Certiorari"
+    ],
+    "already": [
+      "Certiorari",
+      "Certiorari"
+    ]
+  },
+  "variant_index": {
+    "accomplice": "Accomplice",
+    "accused person": "Accused person",
+    "accused-person": "Accused person",
+    "acknowledgement": "Acknowledgement",
+    "acquaintance-rape": "Acquaintance Rape",
+    "acquaintance rape": "Acquaintance Rape",
+    "acquittal": "Acquittal",
+    "actus-reus": "Actus Reus",
+    "actus reus": "Actus Reus",
+    "adjournment": "Adjournment",
+    "adjudication": "Adjudication",
+    "admissible evidence": "Admissible Evidence",
+    "admissible-evidence": "Admissible Evidence",
+    "admission": "Admission",
+    "advocate": "Advocate",
+    "affidavit": "Affidavit",
+    "appeal": "Appeal",
+    "appearance": "Appearance",
+    "appellant": "Appellant",
+    "appellate (also see jurisdiction)": "Appellate (also see Jurisdiction)",
+    "appellate-(also-see-jurisdiction)": "Appellate (also see Jurisdiction)",
+    "appellate also see jurisdiction": "Appellate (also see Jurisdiction)",
+    "arrears": "Arrears",
+    "arrest": "Arrest",
+    "arrest warrant": "Arrest Warrant",
+    "arrest-warrant": "Arrest Warrant",
+    "arson": "Arson",
+    "assault": "Assault",
+    "attachment": "Attachment",
+    "backlog": "Backlog",
+    "bail": "Bail",
+    "beyond reasonable doubt": "Beyond Reasonable Doubt",
+    "beyond-reasonable-doubt": "Beyond Reasonable Doubt",
+    "burden-of-proof": "Burden of proof",
+    "burden of proof": "Burden of proof",
+    "capital punishment": "Capital punishment",
+    "capital-punishment": "Capital punishment",
+    "case-number": "Case Number",
+    "case number": "Case Number",
+    "case status": "Case Status",
+    "case-status": "Case Status",
+    "cause list": "Cause List",
+    "cause-list": "Cause List",
+    "cause-of-action": "Cause of action",
+    "cause of action": "Cause of action",
+    "charge sheet": "Charge sheet",
+    "charge-sheet": "Charge sheet",
+    "circumstantial evidence": "Circumstantial Evidence",
+    "circumstantial-evidence": "Circumstantial Evidence",
+    "civil procedure code": "Civil Procedure Code",
+    "civil-procedure-code": "Civil Procedure Code",
+    "civil": "Civil",
+    "commissions": "Commissions",
+    "commutation": "Commutation",
+    "complaint": "Complaint",
+    "conviction": "Conviction",
+    "counterclaim": "Counterclaim",
+    "court hall": "Court Hall",
+    "court-hall": "Court Hall",
+    "court notice/summons": "Court Notice/Summons",
+    "court-notice/summons": "Court Notice/Summons",
+    "court noticesummons": "Court Notice/Summons",
+    "criminal procedure code": "Criminal Procedure Code",
+    "criminal-procedure-code": "Criminal Procedure Code",
+    "criminal": "Criminal",
+    "cross": "Cross",
+    "culpable homicide not amounting to murder": "Culpable homicide not amounting to murder",
+    "culpable-homicide-not-amounting-to-murder": "Culpable homicide not amounting to murder",
+    "date of hearing": "Date of Hearing",
+    "date-of-hearing": "Date of Hearing",
+    "date of institution": "Date of Institution",
+    "date-of-institution": "Date of Institution",
+    "decree-holder": "Decree Holder",
+    "decree holder": "Decree Holder",
+    "decree": "Decree",
+    "defendant": "Defendant",
+    "deferred sentence": "Deferred Sentence",
+    "deferred-sentence": "Deferred Sentence",
+    "delay": "Delay",
+    "disposal": "Disposal",
+    "dispute": "Dispute",
+    "district": "District",
+    "evidence": "Evidence",
+    "ex parte": "Ex Parte",
+    "ex-parte": "Ex Parte",
+    "examination in chief": "Examination in chief",
+    "examination-in-chief": "Examination in chief",
+    "exculpatory evidence": "Exculpatory Evidence",
+    "exculpatory-evidence": "Exculpatory Evidence",
+    "executing court": "Executing court",
+    "executing-court": "Executing court",
+    "execution": "Execution",
+    "executive": "Executive",
+    "exhibit": "Exhibit",
+    "fine": "Fine",
+    "fir": "FIR",
+    "forgery": "Forgery",
+    "fundamental rights": "Fundamental Rights",
+    "fundamental-rights": "Fundamental Rights",
+    "garnishee": "Garnishee",
+    "gram nyayalayas": "Gram Nyayalayas",
+    "gram-nyayalayas": "Gram Nyayalayas",
+    "habeas corpus": "Habeas Corpus",
+    "habeas-corpus": "Habeas Corpus",
+    "hand summons/dasti summons": "Hand Summons/dasti summons",
+    "hand summonsdasti summons": "Hand Summons/dasti summons",
+    "hand-summons/dasti-summons": "Hand Summons/dasti summons",
+    "hearsay": "Hearsay",
+    "homicide": "Homicide",
+    "implied-bar": "Implied bar",
+    "implied bar": "Implied bar",
+    "indigent-person": "Indigent person",
+    "indigent person": "Indigent person",
+    "inquiry": "Inquiry",
+    "indian-penal-code": "Indian Penal Code",
+    "indian penal code": "Indian Penal Code",
+    "interpretation": "Interpretation",
+    "interlocutory application": "Interlocutory Application",
+    "interlocutory-application": "Interlocutory Application",
+    "interrogation": "Interrogation",
+    "investigation": "Investigation",
+    "issues": "Issues",
+    "judge": "Judge",
+    "judgment debtor": "Judgment debtor",
+    "judgment-debtor": "Judgment debtor",
+    "judgment": "Judgment",
+    "judicial custody": "Judicial Custody",
+    "judicial-custody": "Judicial Custody",
+    "judiciary": "Judiciary",
+    "jurisdiction": "Jurisdiction",
+    "juvenile": "Juvenile",
+    "lawyer": "Lawyer",
+    "legal representative": "Legal representative",
+    "legal-representative": "Legal representative",
+    "legislative assembly": "Legislative Assembly",
+    "legislative-assembly": "Legislative Assembly",
+    "legislature": "Legislature",
+    "litigant": "Litigant",
+    "lok-adalats": "Lok Adalats",
+    "lok adalats": "Lok Adalats",
+    "malice": "Malice",
+    "mandatory minimum sentence": "Mandatory minimum sentence",
+    "mandatory-minimum-sentence": "Mandatory minimum sentence",
+    "mediation": "Mediation",
+    "mens-rea": "Mens Rea",
+    "mens rea": "Mens Rea",
+    "merits": "Merits",
+    "mitigating circumstances": "Mitigating Circumstances",
+    "mitigating-circumstances": "Mitigating Circumstances",
+    "modus operandi": "Modus Operandi",
+    "modus-operandi": "Modus Operandi",
+    "notice": "Notice",
+    "objection": "Objection",
+    "order": "Order",
+    "original jurisdiction": "Original Jurisdiction",
+    "original-jurisdiction": "Original Jurisdiction",
+    "pecuniary jurisdiction": "Pecuniary jurisdiction",
+    "pecuniary-jurisdiction": "Pecuniary jurisdiction",
+    "pendency": "Pendency",
+    "personal bond": "Personal Bond",
+    "personal-bond": "Personal Bond",
+    "petitioner": "Petitioner",
+    "plaint": "Plaint",
+    "plaintiff": "Plaintiff",
+    "plea bargain": "Plea bargain",
+    "plea-bargain": "Plea bargain",
+    "plea": "Plea",
+    "pleadings": "Pleadings",
+    "police-custody": "Police Custody",
+    "police custody": "Police Custody",
+    "prayer": "Prayer",
+    "precedent": "Precedent",
+    "pre": "Pre",
+    "prima-facie": "Prima facie",
+    "prima facie": "Prima facie",
+    "procedural": "Procedural",
+    "proceedings": "Proceedings",
+    "rape": "Rape",
+    "record": "Record",
+    "recusal": "Recusal",
+    "registry": "Registry",
+    "rejoinder": "Rejoinder",
+    "remand": "Remand",
+    "representative suit": "Representative suit",
+    "representative-suit": "Representative suit",
+    "respondent": "Respondent",
+    "review": "Review",
+    "right": "Right",
+    "robbery": "Robbery",
+    "search warrant": "Search Warrant",
+    "search-warrant": "Search Warrant",
+    "separation of powers": "Separation of Powers",
+    "separation-of-powers": "Separation of Powers",
+    "set-off": "Set off",
+    "set off": "Set off",
+    "settlement": "Settlement",
+    "special courts": "Special Courts",
+    "special-courts": "Special Courts",
+    "stage of the case": "Stage of the Case",
+    "stage-of-the-case": "Stage of the Case",
+    "statute": "Statute",
+    "substantive": "Substantive",
+    "suit": "Suit",
+    "summons": "Summons",
+    "surety": "Surety",
+    "testimony": "Testimony",
+    "theft": "Theft",
+    "tort": "Tort",
+    "transcript": "Transcript",
+    "trial": "Trial",
+    "tribunals": "Tribunals",
+    "vakalatnama": "Vakalatnama",
+    "waiver": "Waiver",
+    "written statement": "Written statement",
+    "written-statement": "Written statement",
+    "writs": "Writs",
+    "mandamus": "Mandamus",
+    "prohibition": "Prohibition",
+    "quo warranto": "Quo Warranto",
+    "quo-warranto": "Quo Warranto",
+    "certiorari": "Certiorari"
+  }
+}

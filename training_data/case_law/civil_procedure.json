@@ -1,0 +1,128 @@
+[
+  {
+    "case_id": "AIR_2011_SC_275",
+    "case_name": "K.K. Velusamy vs. N. Palanisamy",
+    "court": "Supreme Court of India",
+    "year": 2011,
+    "citation": "(2011) 11 SCC 275",
+    "facts": "The case concerned the inherent powers of courts under Section 151 of the Code of Civil Procedure (CPC) to recall their own orders to prevent abuse of process of law and to meet the ends of justice.",
+    "legal_issues": [
+      "Scope and limitation of inherent powers of courts under Section 151, CPC.",
+      "Whether courts can recall or review their orders in absence of specific provisions."
+    ],
+    "judgment": "The Supreme Court held that inherent powers under Section 151 CPC can be exercised sparingly and only when there is no specific provision in the CPC to deal with the situation. The courts have the power to recall their orders to prevent miscarriage of justice or abuse of process.",
+    "legal_reasoning": "The Court emphasized that inherent powers are residual and should not be used to override express provisions of the CPC. The power must be exercised cautiously to balance finality of litigation and justice.",
+    "legal_principle": "Inherent powers under Section 151 CPC are to be exercised sparingly to prevent abuse of process and meet ends of justice.",
+    "relevant_sections": [
+      "Section 151, Code of Civil Procedure, 1908"
+    ],
+    "keywords": [
+      "inherent powers",
+      "Section 151 CPC",
+      "recall of orders",
+      "abuse of process",
+      "ends of justice"
+    ]
+  },
+  {
+    "case_id": "AIR_1992_SC_31",
+    "case_name": "Byram Pestonji Gariwala vs. Union Bank of India",
+    "court": "Supreme Court of India",
+    "year": 1992,
+    "citation": "(1992) 1 SCC 31",
+    "facts": "The dispute related to the compromise of a suit under Order XXIII Rule 3 CPC, where parties entered into a lawful settlement agreement and sought to have the suit decreed accordingly.",
+    "legal_issues": [
+      "Validity and procedure for compromise of suits under Order XXIII Rule 3 CPC.",
+      "Whether courts can pass decree in terms of compromise even if the compromise is partial."
+    ],
+    "judgment": "The Supreme Court held that when parties enter into a lawful compromise, the court must record the compromise and pass a decree in terms of the agreement. The compromise should not be contrary to law or public policy.",
+    "legal_reasoning": "The Court underscored the judicial policy favoring amicable settlements and the finality of disputes through compromise. The court must ensure the compromise is lawful and voluntary.",
+    "legal_principle": "Compromise of suits under Order XXIII Rule 3 CPC must be recorded and decreed if lawful and voluntary.",
+    "relevant_sections": [
+      "Order XXIII Rule 3, Code of Civil Procedure, 1908"
+    ],
+    "keywords": [
+      "compromise of suits",
+      "Order XXIII Rule 3",
+      "amicable settlement",
+      "decree",
+      "judicial policy"
+    ]
+  },
+  {
+    "case_id": "AIR_2005_SC_344",
+    "case_name": "Salem Advocate Bar Association vs. Union of India",
+    "court": "Supreme Court of India",
+    "year": 2005,
+    "citation": "(2005) 6 SCC 344",
+    "facts": "The case challenged the constitutional validity of amendments made to the CPC in 2002 aimed at expediting litigation and promoting Alternative Dispute Resolution (ADR) mechanisms.",
+    "legal_issues": [
+      "Constitutional validity of procedural amendments to CPC.",
+      "Role and scope of ADR under amended CPC provisions."
+    ],
+    "judgment": "The Supreme Court upheld the constitutional validity of the 2002 amendments to the CPC. It recognized ADR mechanisms as effective tools to reduce pendency and delay in civil litigation.",
+    "legal_reasoning": "The Court emphasized the importance of procedural reforms in ensuring speedy justice and reducing backlog. ADR was held to be consistent with the constitutional mandate of access to justice.",
+    "legal_principle": "Procedural amendments promoting ADR under CPC are constitutionally valid and necessary for judicial efficiency.",
+    "relevant_sections": [
+      "Amendments to CPC, 2002",
+      "Sections related to ADR in CPC"
+    ],
+    "keywords": [
+      "CPC amendments",
+      "Alternative Dispute Resolution",
+      "judicial efficiency",
+      "constitutional validity",
+      "speedy justice"
+    ]
+  },
+  {
+    "case_id": "AIR_1968_SC_662",
+    "case_name": "Dhulabhai vs. State of Madhya Pradesh",
+    "court": "Supreme Court of India",
+    "year": 1968,
+    "citation": "(1968) 3 SCR 662",
+    "facts": "The case dealt with the jurisdiction of civil courts under Section 9 CPC, specifically when civil courts are barred from entertaining suits due to statutory or other provisions.",
+    "legal_issues": [
+      "Scope of jurisdiction of civil courts under Section 9 CPC.",
+      "Tests to determine ouster of civil court jurisdiction."
+    ],
+    "judgment": "The Supreme Court held that civil courts have jurisdiction to try all suits of a civil nature unless jurisdiction is expressly or impliedly barred by statute. The Court laid down tests to decide when jurisdiction is ousted.",
+    "legal_reasoning": "The Court reasoned that jurisdictional bars must be clear and unambiguous. The presumption is in favor of jurisdiction unless expressly excluded.",
+    "legal_principle": "Civil courts have general jurisdiction under Section 9 CPC unless expressly or impliedly barred.",
+    "relevant_sections": [
+      "Section 9, Code of Civil Procedure, 1908"
+    ],
+    "keywords": [
+      "civil court jurisdiction",
+      "Section 9 CPC",
+      "jurisdictional bar",
+      "tests for ouster",
+      "civil suits"
+    ]
+  },
+  {
+    "case_id": "AIR_2006_SC_498",
+    "case_name": "Baldev Singh vs. Manohar Singh",
+    "court": "Supreme Court of India",
+    "year": 2006,
+    "citation": "(2006) 6 SCC 498",
+    "facts": "The case involved the amendment of pleadings under Order VI Rule 17 CPC, focusing on whether amendments should be allowed liberally or restricted to prevent prejudice.",
+    "legal_issues": [
+      "Principles governing amendment of pleadings under Order VI Rule 17 CPC.",
+      "Balancing justice with procedural fairness."
+    ],
+    "judgment": "The Supreme Court ruled that amendments should be allowed liberally unless they cause irreparable prejudice or harm to the opposite party. Amendments should facilitate the final resolution of the controversy.",
+    "legal_reasoning": "The Court emphasized that procedural rules should not be used to defeat substantive justice. Amendments promote fair trial and avoid multiplicity of proceedings.",
+    "legal_principle": "Amendments of pleadings under Order VI Rule 17 CPC are to be allowed liberally to ensure justice.",
+    "relevant_sections": [
+      "Order VI Rule 17, Code of Civil Procedure, 1908"
+    ],
+    "keywords": [
+      "amendment of pleadings",
+      "Order VI Rule 17",
+      "procedural fairness",
+      "liberal approach",
+      "final resolution"
+    ]
+  }
+]

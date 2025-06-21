@@ -1,0 +1,119 @@
+{
+  "consumer_helpline": {
+    "state_helpline": "1800-345-2808",
+    "support_numbers": ["033-2252 2304", "033-2209 3700"],
+    "email": "cad-wb@nic.in",
+    "online_portal": "www.wbconsumers.gov.in"
+  },
+  "national_consumer_helpline": {
+    "toll_free": "1800-11-4000",
+    "alternate_number": "1915",
+    "portal": "consumerhelpline.gov.in"
+  },
+  "police_stations": {
+    "Anandapur_PS": {
+      "phone": ["6292258804", "033-24435000", "033-24438000"],
+      "email": "ps.anandapur@kolkatapolice.gov.in",
+      "address": "757 Madurdaha, Hossainpur, Kolkata"
+    },
+    "Common_stations": [
+      {
+        "name": "Lalbazar Police Station",
+        "phone": ["033-22143230", "033-22143024"]
+      },
+      {
+        "name": "Gariahat Police Station",
+        "phone": ["033-24863702", "033-24863703"]
+      },
+      {
+        "name": "Park Street Police Station",
+        "phone": ["033-22268321", "033-22832100"]
+      }
+    ],
+    "head_quarters": {
+      "Kolkata Police HQ": {
+        "phone": "+91 33 2214 5000",
+        "email": null,
+        "address": "Lalbazar, Kolkata"
+      },
+      "Traffic Control Room": {
+        "phone": ["+91 33 2214 3644", "+91 33 2242 7248", "+91 33 2214 1476", "+91 33 2214 1475", "Toll Free 1073"]
+      }
+    }
+  },
+  "court_addresses": {
+    "City_Civil_Court": {
+      "address": "2 & 3 Kiran Sankar Roy Road, Kolkata-70000",
+      "phone": ["033-22543600", "033-22430359"],
+      "email": "chiefjudgecitycrt@gmail.com"
+    },
+    "City_Sessions_Court": {
+      "address": "Kolkata, West Bengal 700001",
+      "phone": "033-2213-9347",
+      "email": "chiefjudgesessions@gmail.com"
+    },
+    "Calcutta_High_Court": {
+      "address": "3, Esplanade Row West, Kolkata-700001",
+      "phone": ["033-2254-8000", "033-2248-7485", "033-2248-7487"],
+      "email": null
+    }
+  },
+  "gov_office_timings": {
+    "consumer_affairs_dept": "Mon–Fri 10:00–17:00 (assumed standard)",
+    "police_stations": "24×7 emergency",
+    "courts": "Mon–Fri approx. 10:00–17:00 (check specific court)"
+  },
+  "nodal_officers": {
+    "consumer_affairs_ps": {
+      "name": "Smt. Roshni Sen, IAS",
+      "phone": "033-2252 0624"
+    },
+    "city_police_commissioner": {
+      "name": "Manoj Kumar Verma, IPS",
+      "office": "Lalbazar, Kolkata"
+    }
+  },
+  "ConsumerHelpline": {
+    "TollFreeNumbers": ["1800114000", "1915"],
+    "SMSNumber": "8800001915",
+    "OperatingHours": "08:00 AM to 08:00 PM, All days except National Holidays",
+    "OnlinePortals": [
+      "https://consumerhelpline.gov.in",
+      "https://consumerhelpline.gov.in/user/track-complaint.php",
+      "UMANG APP"
+    ],
+    "OtherContact": {
+      "SMS24Hrs": "8130009809",
+      "Phone": "011-23762077 (charges apply)"
+    },
+    "NodalOfficer": {
+      "Designation": "Project Director",
+      "Organization": "National Consumer Helpline, Centre for Consumer Studies, Indian Institute of Public Administration",
+      "Address": "I.P Estate, Ring Road, New Delhi-110002"
+    }
+  },
+  "PoliceStationContactDetails": {
+    "Note": "Specific police station contact details vary by district and state. Police officers maintain lists of mobile numbers for supervisory and sector patrolling parties, available at district police election cells and control rooms.",
+    "Reference": "Handbook for Police Officers, CEO Sikkim"
+  },
+  "CourtAddressesAndContactInfo": {
+    "Note": "No specific court addresses or contacts were found in the search results. Typically, court information is available on respective state or district judiciary websites."
+  },
+  "GovernmentOfficeTimings": {
+    "ConsumerHelpline": "09:30 AM to 05:30 PM, Monday to Saturday",
+    "Note": "Timings for other government offices vary and are not specified in the search results."
+  },
+  "OnlinePortalLinks": {
+    "NationalConsumerHelpline": "https://consumerhelpline.gov.in",
+    "ComplaintTracking": "https://consumerhelpline.gov.in/user/track-complaint.php",
+    "UMANGApp": "Available on app stores for grievance registration"
+  },
+  "NodalOfficerDetails": {
+    "ConsumerHelplineProjectDirector": {
+      "Name": "Not specified",
+      "Designation": "Project Director",
+      "Organization": "National Consumer Helpline, Centre for Consumer Studies, Indian Institute of Public Administration",
+      "Address": "I.P Estate, Ring Road, New Delhi-110002"
+    }
+  }
+}

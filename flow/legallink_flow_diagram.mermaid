@@ -1,0 +1,58 @@
+graph TD
+    A[User Query Input] --> B{Query Classification<br/>Ollama 3.2B}
+    
+    B --> C[Consumer Protection]
+    B --> D[Criminal Law/Threats]
+    B --> E[Family Law]
+    B --> F[Property Law]
+    B --> G[Other Legal Areas]
+    
+    C --> H[Urgency Assessment<br/>Low Priority]
+    D --> I[Urgency Assessment<br/>CRITICAL Priority]
+    E --> J[Urgency Assessment<br/>Medium Priority]
+    F --> K[Urgency Assessment<br/>Medium Priority]
+    G --> L[Urgency Assessment<br/>Variable Priority]
+    
+    H --> M[Retrieve Knowledge]
+    I --> N[Immediate Threat Protocol]
+    J --> M
+    K --> M
+    L --> M
+    
+    N --> N1[Flag for Immediate<br/>Advocate Connection]
+    N --> N2[Generate Emergency<br/>Legal Guidance]
+    N1 --> O
+    N2 --> O
+    
+    M --> M1[Local Legal KB<br/>Search]
+    M --> M2[Indian Kanoon<br/>Case Law Search]
+    M --> M3[Vector DB<br/>Similar Cases]
+    
+    M1 --> O[Knowledge Synthesis]
+    M2 --> O
+    M3 --> O
+    
+    O --> P[Response Generation<br/>Ollama 3.2B]
+    
+    P --> Q[Legal Response Structure:<br/>• Executive Summary<br/>• Legal Process Steps<br/>• Required Documents<br/>• Timeline<br/>• Red Flags<br/>• Laws Applicable]
+    
+    Q --> R[Language Simplification<br/>Gemini API]
+    
+    R --> S[Simplified Response:<br/>• Easy Language<br/>• Hindi-English Mix<br/>• Legal Terms Explained]
+    
+    S --> T{Advocate Recommendation<br/>Required?}
+    
+    T -->|Yes - Critical/Complex| U[Trigger Advocate<br/>Matching System]
+    T -->|No - Informational| V[Provide Self-Help<br/>Guidance]
+    
+    U --> W[Present Matched<br/>Advocates to User]
+    V --> X[Final Response<br/>with Disclaimer]
+    W --> X
+    
+    X --> Y[User Receives:<br/>• Structured Legal Guidance<br/>• Relevant Case Law<br/>• Next Steps<br/>• Advocate Options]
+    
+    style A fill:#e1f5fe
+    style I fill:#ffebee
+    style N fill:#ffcdd2
+    style U fill:#fff3e0
+    style Y fill:#e8f5e8

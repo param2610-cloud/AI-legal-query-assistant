@@ -1,0 +1,58 @@
+{
+  "procedure_type": "Public Interest Litigation (PIL)",
+  "legal_framework": {
+    "primary_articles": ["Article 32 SC", "Article 226 HC"],
+    "reference": "Judicially evolved through Supreme Court rulings"
+  },
+  "applicable_scenarios": [
+    "Environmental degradation",
+    "Human rights violations",
+    "Corruption in public administration",
+    "Social welfare and public interest issues"
+  ],
+  "steps": [
+    "Draft PIL petition naming public interest cause",
+    "File in High Court (under Article 226) or Supreme Court (Article 32)",
+    "Court issues notices or seeks response from State/public authority",
+    "Preliminary hearing on admission/referral",
+    "Full hearing with stakeholder representations",
+    "Court issues directions (e.g., policy change, enforcement)",
+    "Court monitors implementation via review"
+  ],
+  "required_documents": [
+    "PIL petition stating public interest",
+    "Supporting affidavits/reports/statistics",
+    "Government departmental reports (if any)"
+  ],
+  "timeline": {
+    "initial_directions": "A few weeks to months",
+    "implementation": "Ongoing (monitored via review hearings)"
+  },
+  "fees": {
+    "court_fee": "Nominal or waived for public welfare cases"
+  },
+  "jurisdiction": {
+    "file_in": [
+      "High Court in that State",
+      "Supreme Court for national issues"
+    ]
+  },
+  "relief_available": [
+    "Writs: mandamus, prohibition, certiorari, habeas corpus",
+    "Policy/instructional directives to government",
+    "Compensation for affected groups"
+  ],
+  "special_provisions": {
+    "relaxed_standing": "Anyone can file on behalf of public",
+    "monitoring_panel": "Court may appoint amicus curiae"
+  },
+  "appeals": {
+    "HC_orders": "Appealable in Supreme Court",
+    "SC_orders": "Only by review petition"
+  },
+  "important_notes": [
+    "Subjective filter applied to prevent misuse",
+    "Focus on systemic issues rather than individual grievance",
+    "Court retains supervisory jurisdiction"
+  ]
+}

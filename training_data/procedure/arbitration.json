@@ -1,0 +1,62 @@
+{
+  "procedure_type": "Arbitration / ADR",
+  "legal_framework": {
+    "primary_act": "Arbitration and Conciliation Act, 1996",
+    "reference_sections": ["Sections 7–9 (reference), 11 (appointment), 31 (award), 34 (setting aside)"]
+  },
+  "applicable_scenarios": [
+    "Commercial contract disputes with arbitration clause",
+    "International trade disputes",
+    "Non-performance disputes under construction/service contracts"
+  ],
+  "steps": [
+    "Invoke arbitration clause or agreement via notice",
+    "Appoint arbitrator(s) by parties or appointing authority",
+    "Hold preliminary meeting to set timelines",
+    "Exchange statements of claim and defence",
+    "Conduct document disclosure & inspection",
+    "Proceed with hearings (documentary/oral evidence)",
+    "Arbitrator issues reasoned award (Section 31)",
+    "Party may apply to set aside award within 3 months (extendable to 6 months) under Section 34",
+    "Enforce award like court decree"
+  ],
+  "required_documents": [
+    "Arbitration agreement",
+    "Claim statement and evidence",
+    "Joint application or appointment documents",
+    "Correspondence about arbitration"
+  ],
+  "timeline": {
+    "award": "Typically 6–18 months (faster than courts)",
+    "challenge": "Within 3 (+30) months under Section 34"
+  },
+  "fees": {
+    "arbitrator_fees": "Per agreement (varies widely)",
+    "institutional_costs": "If institutional arbitration used",
+    "court_fee": "Nominal for enforcement or challenge"
+  },
+  "jurisdiction": {
+    "domestic": "Covered under Act within India",
+    "international": "Schedule 2 applies to foreign-seated arbitration, may be excluded",
+    "court_referral": "Per CPC Section 89"
+  },
+  "relief_available": [
+    "Monetary award",
+    "Specific performance clauses enforceable via award",
+    "Interest, costs"
+  ],
+  "special_provisions": {
+    "interim_measures": "Available under Sections 9 & 17 (pre- and post-award)",
+    "expedited_arbitration": "Optional per Section 29B"
+  },
+  "appeals": {
+    "to_set_aside_award": "Under Section 34 within time limit",
+    "enforcement": "Decree can be challenged under Section 47"
+  },
+  "important_notes": [
+    "Award is binding and enforceable as court decree",
+    "Court interference limited, only under narrow grounds",
+    "Parties can agree to fast-track procedures",
+    "Interim measures can be sought before courts or arbitrator"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "procedure_type": "Family Court Proceeding",
+  "legal_framework": {
+    "primary_act": "Family Courts Act, 1984"
+  },
+  "applicable_scenarios": [
+    "Child custody and visitation",
+    "Maintenance/alimony orders",
+    "Domestic violence cases",
+    "Division of household goods"
+  ],
+  "steps": [
+    "File petition specifying relief sought",
+    "Preliminary hearing & interim orders (e.g., maintenance)",
+    "Mediation attempt (Family Court mandate)",
+    "Evidence collection & witness statements",
+    "Final hearing & judgment",
+    "Enforcement of orders (e.g., custody, support)"
+  ],
+  "required_documents": [
+    "Marriage certificate",
+    "Child’s birth certificate",
+    "Income/family details",
+    "Domestic violence evidence (if applicable)"
+  ],
+  "timeline": {
+    "interim_orders": "Within weeks",
+    "final_resolution": "6 months–2 years"
+  },
+  "fees": {
+    "court_fee": "Varies by state",
+    "lawyer_fee": "₹10k–₹50k+"
+  },
+  "jurisdiction": {
+    "territorial": "Family Court nearest shared residence",
+    "subject_matter": "Family law matters only"
+  },
+  "relief_available": [
+    "Child custody & visitation",
+    "Spousal/child maintenance",
+    "Protection orders under DV Act"
+  ],
+  "special_provisions": {
+    "mandatory_mediation": "Pre-trial mediation under Section 7",
+    "child_best_interest": "Paramount in custody decisions"
+  },
+  "appeals": {
+    "final_orders": "Appealable in High Court within 30 days"
+  },
+  "important_notes": [
+    "Proceedings are informal & confidential",
+    "Mediation reduces conflict and delays",
+    "Child’s welfare is primary consideration",
+    "Orders are enforceable like decrees"
+  ]
+}

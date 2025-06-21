@@ -1,0 +1,130 @@
+{
+  "procedure_type": "Property Dispute Filing",
+  "legal_framework": {
+    "primary_acts": [
+      "Transfer of Property Act, 1882",
+      "Indian Registration Act, 1908",
+      "Indian Succession Act, 1925",
+      "Limitation Act, 1963",
+      "Specific Relief Act, 1963",
+      "Benami Transactions Prohibition Act, 1988"
+    ]
+  },
+  "applicable_scenarios": [
+    "Title/title deed disputes",
+    "Boundary or encroachment issues",
+    "Inheritance or succession conflicts",
+    "Illegal possession or transfer",
+    "Land acquisition appeals"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "title": "Identify Dispute & Gather Documents",
+      "details": [
+        "Identify type: title, boundary, encroachment etc.",
+        "Collect deeds, agreements, tax receipts, encumbrance certificate" 
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Pre-litigation Notice",
+      "purpose": "Serve legal notice to opponent for resolution"
+    },
+    {
+      "step": 3,
+      "title": "Alternative Dispute Resolution (Optional)",
+      "methods": ["Mediation", "Arbitration"]
+    },
+    {
+      "step": 4,
+      "title": "File Plaint / Complaint",
+      "details": [
+        "Draft plaint with parties, facts, cause, relief",
+        "File in civil court having territorial jurisdiction"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Serve Summons",
+      "details": ["Court issues notice to defendant"]
+    },
+    {
+      "step": 6,
+      "title": "Defendant's Written Statement",
+      "timeline": "Usually 30 days"
+    },
+    {
+      "step": 7,
+      "title": "Framing of Issues & Evidence",
+      "details": [
+        "Court frames issues",
+        "Document exchange & witness testimonies"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Interim Relief / Stay Orders",
+      "details": [
+        "File under Order XXXIX CPC for stay",
+        "Maintain status quo temporarily" 
+      ]
+    },
+    {
+      "step": 9,
+      "title": "Final Hearing & Judgment",
+      "details": ["Court decides ownership, boundary, injunction", "Decree issued"]
+    },
+    {
+      "step": 10,
+      "title": "Appeal (if any)",
+      "details": ["Can appeal in higher court within specified time"]
+    }
+  ],
+  "required_documents": [
+    "Title deeds (sale, gift, partition deeds)",
+    "Encumbrance certificates",
+    "Registered sale/purchase agreement",
+    "Mutation records, survey/sketch map",
+    "Property tax receipts",
+    "FIR or criminal complaint (if encroachment)",
+    "Pre-litigation notice copy"
+  ],
+  "timeline": {
+    "initial": "Few months (pre-litigation, ADR)",
+    "trial": "1–5 years (can extend longer)" 
+  },
+  "fees": {
+    "court_fee": "As per state rules based on property value",
+    "advocate_fee": "₹10,000–₹1 lakh+ depending on case scope"
+  },
+  "jurisdiction": {
+    "territorial": "Where property is located",
+    "subject_matter": "Civil courts, sometimes revenue courts"
+  },
+  "relief_available": [
+    "Declaration of title or ownership",
+    "Possession",
+    "Injunction (permanent/interim)",
+    "Partition orders",
+    "Damages (if applicable)",
+    "Alteration in revenue records"
+  ],
+  "special_provisions": {
+    "stay_orders": {
+      "under": "Order XXXIX CPC",
+      "purpose": "Prevent irreparable injury or status quo changes" 
+    },
+    "NRI_disputes": "Power of attorney, local representation needed" 
+  },
+  "appeals": {
+    "time_limit": "30 days (lower to district/sessions court)",
+    "grounds": "Errors of law or fact"
+  },
+  "important_notes": [
+    "Proper documentation is critical",
+    "Stay orders preserve position till dispute resolved",
+    "ADR encouraged to cut costs/time",
+    "Revenue land vs. judicial court distinction"
+  ]
+}

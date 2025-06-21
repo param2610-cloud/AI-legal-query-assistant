@@ -1,0 +1,106 @@
+{
+  "procedure_type": "Divorce Filing",
+  "legal_framework": {
+    "primary_acts": [
+      "Hindu Marriage Act, 1955",
+      "Special Marriage Act, 1954",
+      "Indian Divorce Act, 1869",
+      "Muslim Personal Law",
+      "Parsi Marriage & Divorce Act, 1936"
+    ],
+    "governing_sections": ["Section 13B (HMA)", "Section 10A (Christian Divorce)", "Mutual consent provisions in other personal laws"]
+  },
+  "applicable_scenarios": [
+    "Mutual consent divorce",
+    "Contested divorce (fault grounds: adultery, cruelty, desertion)",
+    "Inter-religious and inter-caste marriages",
+    "Maintenance, alimony, child custody, property disputes"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "title": "Draft & File Petition",
+      "subtypes": {
+        "mutual_consent": [
+          "Draft Memorandum of Understanding (MoU) outlining asset division, maintenance, custody",
+          "File joint petition in Family Court/District Court"
+        ],
+        "contested": [
+          "One spouse files petition citing grounds",
+          "Serve petition to respondent"
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "title": "First Motion Hearing",
+      "details": [
+        "Court verifies marriage, separation (≥1 year for mutual)",
+        "Issues notice to other spouse"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Cooling-Off Period",
+      "duration": "6 months (usually)",
+      "waiver_possible": true,
+      "notes": "Cooling-off may be 6–8 months, possible waiver under special circumstances" 
+    },
+    {
+      "step": 4,
+      "title": "Second Motion/Contested Hearing",
+      "details": [
+        "Consent reaffirmed (mutual) or trial held (contested)",
+        "Arguments on evidence and testimony"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Final Decree",
+      "details": ["Court passes divorce decree", "Orders on maintenance, custody, property"]
+    }
+  ],
+  "required_documents": [
+    "Marriage certificate or proof",
+    "Separation proof (e.g., joint MoU statements)",
+    "Government IDs (Aadhaar, PAN, passports)",
+    "Income proof (for alimony)",
+    "MoU/agreement (mutual)",
+    "Grounds documentation (contested)"
+  ],
+  "timeline": {
+    "mutual": "6–18 months (includes cooling-off) depending on court",
+    "contested": "Often 2–5 years or more"
+  },
+  "fees": {
+    "court_fee": "Varies by state and Act",
+    "advocate_fee": "₹15,000–₹50,000+ depending on complexity"
+  },
+  "jurisdiction": {
+    "where_to_file": [
+      "Family Court/District Court at last shared residence",
+      "Place of solemnization or wife’s residence"
+    ]
+  },
+  "relief_available": [
+    "Absolute divorce",
+    "Alimony / maintenance",
+    "Child custody & visitation",
+    "Property settlement",
+    "Costs"
+  ],
+  "special_provisions": {
+    "cooling_off_waiver": "Possible under urgent circumstances" ,
+    "joint_petitions_only_mutual": "Only mutual consent allows joint filing"
+  },
+  "appeals": {
+    "time_limit": "30 days from decree",
+    "grounds": "Errors in law or fact"
+  },
+  "important_notes": [
+    "Mutual consent, separation of ≥1 year required",
+    "Cooling-off mandatory but may be waived",
+    "Contested divorce takes longer & involves proof",
+    "Custody: best interest of child paramount"
+  ]
+}

@@ -288,3 +288,6 @@ test_data/
 .langchain/
 .langsmith/
 langchain.log
+chroma_db
+chroma_db_caselaw
+chroma_db_comprehensive

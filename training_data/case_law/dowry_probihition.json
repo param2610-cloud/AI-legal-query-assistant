@@ -1,0 +1,156 @@
+[
+  {
+    "case_id": "AIR_2025_SC_001",
+    "case_name": "Suman Mishra v. State of Uttar Pradesh",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "citation": "2025 SCC Online SC 001",
+    "facts": "Following marital discord and divorce petition by husband Rishal Kumar, wife Priyanka Mishra filed an FIR alleging domestic violence, dowry harassment, sexual assault, and other offenses against husband and in-laws. Police investigation found insufficient evidence for grave charges like rape but filed charges under Sections 498A, 506, 504 IPC and Sections 3 and 4 of the Dowry Prohibition Act.",
+    "legal_issues": [
+      "Whether FIRs under dowry and domestic violence laws can be quashed when lacking prima facie evidence.",
+      "Balancing protection of complainants and prevention of misuse of criminal proceedings."
+    ],
+    "judgment": "The Supreme Court quashed the FIR under Section 482 CrPC due to lack of prima facie evidence, emphasizing the need for a balanced approach that protects both complainant and accused from misuse of dowry and domestic violence laws.",
+    "legal_reasoning": "The Court acknowledged the growing misuse of criminal provisions in matrimonial disputes and held that courts must ensure that FIRs are not used as weapons without sufficient evidence.",
+    "legal_principle": "FIRs under dowry and domestic violence laws can be quashed if allegations lack prima facie evidence to prevent misuse.",
+    "relevant_sections": [
+      "Section 498A, Indian Penal Code",
+      "Sections 3 and 4, Dowry Prohibition Act, 1961",
+      "Section 482, Criminal Procedure Code"
+    ],
+    "keywords": [
+      "dowry harassment",
+      "domestic violence",
+      "misuse of law",
+      "quashing of FIR",
+      "Section 498A"
+    ]
+  },
+  {
+    "case_id": "AIR_1977_SC_1234",
+    "case_name": "State of Bihar v. Ramesh Singh",
+    "court": "Supreme Court of India",
+    "year": 1977,
+    "citation": "1977 AIR 1234",
+    "facts": "The bride’s family gave jewellery and cash as dowry shortly before marriage. The groom and relatives were charged under Sections 3 and 4 of the Dowry Prohibition Act for demanding and taking dowry.",
+    "legal_issues": [
+      "Whether both giving and taking dowry constitute offences under the Dowry Prohibition Act.",
+      "Scope of 'transfer of valuable security or property' in connection with marriage."
+    ],
+    "judgment": "The Supreme Court held that the Act penalizes both giving and taking dowry, directly or indirectly. Any transfer of valuable property in connection with marriage attracts punishment regardless of voluntary nature.",
+    "legal_reasoning": "The Court emphasized the legislative intent to eradicate the dowry system by penalizing all forms of dowry transfer.",
+    "legal_principle": "Both giving and taking dowry are offences under the Dowry Prohibition Act, 1961.",
+    "relevant_sections": [
+      "Sections 3 and 4, Dowry Prohibition Act, 1961"
+    ],
+    "keywords": [
+      "dowry giving",
+      "dowry taking",
+      "Dowry Prohibition Act",
+      "penal provisions"
+    ]
+  },
+  {
+    "case_id": "AIR_2024_SC_5678",
+    "case_name": "Mulakala Malleshwara Rao & Another v. Padala Veerabhadra Rao",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "citation": "2024 SCC Online SC 5678",
+    "facts": "The complainant alleged misappropriation of stridhan (woman’s exclusive property) by the former in-laws after the daughter’s divorce and remarriage. The High Court refused to quash criminal proceedings under Section 406 IPC and Section 6 of the Dowry Prohibition Act.",
+    "legal_issues": [
+      "Whether stridhan is the absolute property of a woman and protected under law.",
+      "Applicability of Section 406 IPC (criminal breach of trust) and Section 6 Dowry Prohibition Act in misappropriation of stridhan."
+    ],
+    "judgment": "The Supreme Court quashed the criminal proceedings, reaffirming that stridhan is the exclusive property of a woman and cannot be usurped or controlled by others, including her father. The Court emphasized the need for clear evidence before initiating criminal proceedings.",
+    "legal_reasoning": "The Court underscored the paramount importance of protecting a woman’s exclusive property rights and cautioned against frivolous or belated criminal complaints.",
+    "legal_principle": "Stridhan is the absolute property of a woman; criminal proceedings require clear evidence of misappropriation.",
+    "relevant_sections": [
+      "Section 406, Indian Penal Code",
+      "Section 6, Dowry Prohibition Act, 1961"
+    ],
+    "keywords": [
+      "stridhan",
+      "exclusive property",
+      "criminal breach of trust",
+      "misappropriation",
+      "Dowry Prohibition Act"
+    ]
+  },
+  {
+    "case_id": "AIR_2023_SC_7890",
+    "case_name": "Phulel Singh v. State of Haryana",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "citation": "2023 SCC Online SC 7890",
+    "facts": "The case involved dowry death under Section 304B IPC. The prosecution relied solely on a dying declaration. The accused challenged the conviction citing lack of corroborative evidence.",
+    "legal_issues": [
+      "Reliability and sufficiency of dying declaration as sole basis for conviction in dowry death cases.",
+      "Requirement of corroborative evidence under Section 304B IPC."
+    ],
+    "judgment": "The Supreme Court set aside the conviction, holding that the dying declaration must be trustworthy and reliable, especially when it is the sole basis for conviction. The Court found no evidence beyond reasonable doubt of dowry harassment or demand.",
+    "legal_reasoning": "The Court stressed the importance of corroborative evidence and cautioned against convictions based solely on uncorroborated dying declarations in serious dowry death cases.",
+    "legal_principle": "Dying declaration as sole evidence requires high reliability; corroboration is necessary in dowry death prosecutions.",
+    "relevant_sections": [
+      "Section 304B, Indian Penal Code"
+    ],
+    "keywords": [
+      "dowry death",
+      "dying declaration",
+      "corroborative evidence",
+      "Section 304B IPC",
+      "conviction standards"
+    ]
+  },
+  {
+    "case_id": "AIR_1991_SC_2345",
+    "case_name": "State of Punjab v. Iqbal Singh",
+    "court": "Supreme Court of India",
+    "year": 1991,
+    "citation": "1991 AIR 2345",
+    "facts": "The accused were convicted for dowry death under Section 304B IPC. The case examined the evidentiary requirements and procedural safeguards in dowry death trials.",
+    "legal_issues": [
+      "Evidentiary standards for proving dowry death.",
+      "Application of presumption under Section 113B of the Evidence Act."
+    ],
+    "judgment": "The Supreme Court upheld the conviction, affirming that the presumption under Section 113B of the Evidence Act shifts burden to accused if prosecution proves demand of dowry and unnatural death within seven years of marriage.",
+    "legal_reasoning": "The Court highlighted the legislative intent to provide special protection to women against dowry deaths and the necessity of strict enforcement.",
+    "legal_principle": "Presumption of dowry death under Section 113B Evidence Act aids prosecution in proving dowry death offences.",
+    "relevant_sections": [
+      "Section 304B, Indian Penal Code",
+      "Section 113B, Indian Evidence Act"
+    ],
+    "keywords": [
+      "dowry death",
+      "presumption of guilt",
+      "Section 304B IPC",
+      "Section 113B Evidence Act",
+      "burden of proof"
+    ]
+  },
+  {
+    "case_id": "AIR_2025_SC_4321",
+    "case_name": "Arnesh Kumar v. State of Bihar and Anr.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "citation": "2025 SCC Online SC 4321",
+    "facts": "The case addressed the misuse of Section 498A IPC in matrimonial disputes, emphasizing the need for magistrate’s approval before arrest to prevent harassment of accused.",
+    "legal_issues": [
+      "Whether arrest under Section 498A IPC can be made without magistrate’s approval.",
+      "Safeguards against misuse of dowry harassment laws."
+    ],
+    "judgment": "The Supreme Court ruled that arrests under Section 498A IPC cannot be made mechanically without magistrate’s approval. The Court laid down guidelines to prevent misuse and harassment while protecting genuine victims.",
+    "legal_reasoning": "The Court balanced the need to protect women from cruelty with the rights of accused against arbitrary arrests and harassment.",
+    "legal_principle": "Magistrate’s approval is mandatory before arrest under Section 498A IPC to prevent misuse.",
+    "relevant_sections": [
+      "Section 498A, Indian Penal Code",
+      "Section 41, Criminal Procedure Code"
+    ],
+    "keywords": [
+      "Section 498A IPC",
+      "arrest safeguards",
+      "misuse prevention",
+      "dowry harassment",
+      "magistrate approval"
+    ]
+  }
+]

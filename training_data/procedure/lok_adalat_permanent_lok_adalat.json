@@ -1,0 +1,47 @@
+{
+  "procedure_type": "Lok Adalat",
+  "legal_framework": {
+    "primary_act": "Legal Services Authorities Act, 1987"
+  },
+  "applicable_scenarios": [
+    "Pending civil/dispute cases",
+    "Compoundable criminal cases",
+    "Banking and consumer disputes"
+  ],
+  "steps": [
+    "Case listed by court or referred by parties",
+    "Lok Adalat convened (usually one-day session)",
+    "Conciliatory discussion facilitated by judicial members",
+    "Settlement reached by parties",
+    "Award signed by Lok Adalat judge & secretary",
+    "Award is final, binding & enforceable as decree"
+  ],
+  "required_documents": [
+    "Petition/case papers",
+    "Evidence/documents related to dispute"
+  ],
+  "timeline": {
+    "closure": "Typically resolved within a single session (same day or few days)"
+  },
+  "fees": {
+    "court_fee": "Waived (refunded if already paid)"
+  },
+  "jurisdiction": {
+    "levels": ["National", "State", "District", "Taluk"],
+    "scope": "Disposed with adjudicatory and conciliatory powers"
+  },
+  "relief_available": [
+    "Settlement in disputes",
+    "Compromise decree",
+    "Withdrawal or modification of claims"
+  ],
+  "special_provisions": {
+    "no_appeal": "No appeal; revival via writ petition only",
+    "consent_required": "Only if both parties agree"
+  },
+  "important_notes": [
+    "Focus is on compromise–not trial",
+    "Binding and final nature saves time & cost",
+    "Ideal for simple and amicable disputes"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "procedure_type": "Injunction Application",
+  "legal_framework": {
+    "primary_act": "Code of Civil Procedure, 1908",
+    "reference_orders": ["Order 39 (interim injunction)", "Order 1 Rule 10 (joinder)"]
+  },
+  "applicable_scenarios": [
+    "Preventing sale/transfer of property",
+    "Stopping publication of defamatory content",
+    "Ensuring status quo pending trial",
+    "Enabling or restricting access to property"
+  ],
+  "steps": [
+    "Draft separate application or joint prayer in plaint",
+    "Pay injunction-specific court fee (higher than normal)",
+    "File application with plaint or after filing suit",
+    "Court issues notice to opposite party",
+    "Brief hearing to assess prima facie case, balance of convenience, irreparable harm",
+    "Court grants/rejects interim injunction",
+    "Final injunction decided at trial"
+  ],
+  "required_documents": [
+    "Injunction application",
+    "Evidence showing irreparable loss",
+    "Valuation affidavit (for bond/caution money)",
+    "Supporting pleadings from plaint/written statement"
+  ],
+  "timeline": {
+    "interim_hearing": "Days to weeks",
+    "interim_expires": "Till final decree or further orders"
+  },
+  "fees": {
+    "court_fee": "₹5 k–₹50 k+ depending on claim and court",
+    "security_deposit": "Court may require bond or caution money"
+  },
+  "jurisdiction": {
+    "file_in_court": "Where underlying suit is pending",
+    "subject_matter": "Civil courts/trial courts"
+  },
+  "relief_available": [
+    "Interim/permanent injunctions",
+    "Status quo orders",
+    "Punitive damages for breach"
+  ],
+  "special_provisions": {
+    "ex_parte_injunction": "Allowed in urgent cases until defendant heard",
+    "mandatory_injunction": "To ensure positive acts by defendant"
+  },
+  "appeals": {
+    "from_interim_order": "Typically via revision to High Court",
+    "final_order_appeal": "Within 30 days under Civil Procedure"
+  },
+  "important_notes": [
+    "Prima facie strong case needed",
+    "Balance of convenience heavily considered",
+    "Injunctions are discretionary",
+    "Irreparable harm must be clearly demonstrated"
+  ]
+}

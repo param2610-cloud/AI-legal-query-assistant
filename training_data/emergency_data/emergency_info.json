@@ -1,0 +1,58 @@
+{
+  "emergency_legal_information": {
+    "emergency_helpline_numbers": {
+      "universal_emergency": "112",
+      "police": "100",
+      "ambulance_medical": ["102", "108"],
+      "women_helpline": "181",
+      "women_power_line_UP": "1090",
+      "fire": "101"
+    },
+    "crisis_intervention_protocols": {
+      "NALSA_role": "Coordinates immediate help for disaster victims including natural and manmade disasters, ethnic violence, caste atrocities, floods, droughts, earthquakes, and industrial disasters.",
+      "core_groups": "District level groups including judicial officers, lawyers, doctors, and NGOs to respond immediately after disaster.",
+      "coordination": "Works with government departments and NGOs to ensure relief and legal aid.",
+      "quick_response_teams": "District level teams deployed within 3-6 hours after disaster declaration, equipped with resources and survival kits.",
+      "emergency_operation_centres": "Coordinate overall relief and control activities during disasters.",
+      "suicide_crisis_intervention": "Emphasizes tribal and federal partnerships for behavioral health services for suicidal ideation and postvention."
+    },
+    "immediate_action_checklists": {
+      "emergency_plan": "Prepare escape routes, meeting points, and emergency contacts.",
+      "emergency_bag_essentials": [
+        "water",
+        "non-perishable food",
+        "torch",
+        "batteries",
+        "candles",
+        "matches",
+        "first aid kit",
+        "medicines",
+        "face mask",
+        "sanitizer",
+        "chlorine tablets",
+        "knife",
+        "whistle",
+        "radio",
+        "mobile phone",
+        "charger"
+      ],
+      "disaster_response": [
+        "Quick damage assessment",
+        "Cordon off dangerous areas",
+        "Alert residents door-to-door if needed",
+        "Notify nearby institutions and water treatment plants"
+      ]
+    },
+    "evidence_preservation_guidelines": {
+      "legal_assistance": "NALSA panel lawyers assist victims by ensuring FIR registration, presence during remand and trial proceedings, opposing bail if necessary, and obtaining court orders for witness protection.",
+      "victim_counseling": "Counsel victims before deposition and help access compensation and welfare schemes.",
+      "record_keeping": "Maintain detailed records and follow-up through Management Information Systems (MIS) to track assistance and rehabilitation."
+    },
+    "safety_measures_for_different_situations": {
+      "disasters": "Evacuation routes and assembly points predefined and communicated; police and fire services control traffic and ensure safe evacuation.",
+      "women_safety": "Use helplines 181 and 1090 for immediate assistance, counseling, legal aid, and rescue.",
+      "suicide_prevention": "Tribal communities have access to behavioral health services and crisis intervention as per IHS guidelines.",
+      "general_safety": "Keep emergency numbers handy, have an emergency plan and bag ready, follow instructions from authorities during crises."
+    }
+  }
+}

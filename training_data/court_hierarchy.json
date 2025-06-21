@@ -1,0 +1,89 @@
+{
+  "SupremeCourt": {
+    "jurisdictions": {
+      "original": {
+        "description": "Disputes: Centre vs State(s), State vs State, enforcement of fundamental rights (writs under Article 32)",
+        "constitutionalArticles": ["Article 131", "Article 32"],
+        "specialPowers": ["Transfer cases across High Courts", "International Commercial Arbitration under Arbitration & Conciliation Act, 1996"]
+      },
+      "appellate": {
+        "description": "Appeals from High Courts with certificate (Articles 132/133/134), plus special leave petitions under Article 136 for substantial questions of law or gross injustice",
+        "constitutionalArticles": ["Article 132", "Article 133", "Article 134", "Article 136"]
+      },
+      "advisory": {
+        "description": "President may seek opinion on matters of law or fact of public importance",
+        "constitutionalArticle": "Article 143"
+      },
+      "otherPowers": {
+        "bindingPrecedent": "All courts bound by Supreme Court under Article 141",
+        "completeJustice": "May pass any order necessary under Article 142",
+        "selfReview": "Review (Article 137) and curative petitions",
+        "contempt": "Punish for contempt under Article 129"
+      }
+    }
+  },
+  "HighCourts": {
+    "count": 25,
+    "multiStateUT": [
+      "Bombay", "Calcutta", "Gauhati", "Hyderabad", "Madras", "Punjab & Haryana"
+    ],
+    "jurisdiction": {
+      "original": "Limited; certain civil & criminal matters where subordinate courts lack jurisdiction",
+      "appellate": "Appeals from District/Subordinate Courts",
+      "writ": "Enforce fundamental rights and other purposes under Article 226"
+    },
+    "bindingOnLower": "Decisions bind all courts within their territorial jurisdiction",
+    "constitutionalBasis": "Article 214"
+  },
+  "DistrictCourts": {
+    "jurisdiction": "Civil and criminal matters at district level",
+    "headedBy": "District Judge (civil) & Chief Judicial Magistrate (criminal)",
+    "controlledBy": "State High Court",
+    "appealsTo": "High Court"
+  },
+  "LowerCourts": {
+    "types": ["Munsif’s Court", "Small Causes Court"],
+    "jurisdiction": "Original civil jurisdiction up to capped limits (e.g., Rs. 2,000)",
+    "appointment": "Judicial officers via state PSC exams"
+  },
+  "CommercialCourts": {
+    "establishedUnder": "Commercial Courts Act, 2015",
+    "jurisdiction": "Commercial disputes > Rs. 300,000",
+    "scope": ["Export/import", "Maritime", "Franchising", "IP", "Contracts", "Insurance", "JV", "Investment"],
+    "proceduralNotes": "Apply stricter/expedited procedures"
+  },
+  "Tribunals": {
+    "description": "Specialized/ad-hoc bodies applying natural justice (not CPC/Evidence Act)",
+    "examples": [
+      "Income Tax Appellate Tribunal",
+      "Central Administrative Tribunal",
+      "IPAB",
+      "Railways Claims Tribunal",
+      "Appellate Tribunal for Electricity",
+      "Debts Recovery Tribunal",
+      "CESTAT",
+      "National Company Law Tribunal",
+      "Telecom Disputes Settlement Appellate Tribunal",
+      "Competition Appellate Tribunal",
+      "Rent Controller",
+      "Family Courts",
+      "Consumer Tribunals",
+      "Industrial Tribunals",
+      "Tax Tribunals"
+    ]
+  },
+  "AlternateDisputeResolution": {
+    "mechanisms": ["Lok Adalat", "Negotiation", "Conciliation", "Mediation", "Arbitration"],
+    "legalBasis": {
+      "LokAdalat": "Legal Services Authorities Act, 1987",
+      "CivilADR": "CPC Section 89 (amended 2002)",
+      "Arbitration": "Arbitration & Conciliation Act, 1996 (amended 2015, 2019)"
+    },
+    "institutions": ["Indian Council of Arbitration", "ICADR"],
+    "features": {
+      "lokAdalatAward": "Deemed decree of civil court",
+      "arbitrationBinding": "Legally binding",
+      "fastTrack": "Optional under 2015 amendments"
+    }
+  }
+}

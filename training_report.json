@@ -1,0 +1,25 @@
+{
+  "training_date": "2025-06-22T00:37:05.713278",
+  "collections": {
+    "indian_acts": 646,
+    "legal_terms": 795,
+    "procedures": 17,
+    "forms_templates": 5,
+    "jurisdictional": 3,
+    "case_law": 0,
+    "comprehensive": 1466
+  },
+  "total_documents": 2932,
+  "data_sources_processed": [
+    "indian_acts",
+    "legal_terms",
+    "procedures",
+    "forms_templates",
+    "jurisdictional",
+    "case_law",
+    "geographical",
+    "advocate_data",
+    "emergency_data",
+    "fees"
+  ]
+}

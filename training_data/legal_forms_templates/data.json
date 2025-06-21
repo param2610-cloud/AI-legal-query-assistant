@@ -1,0 +1,133 @@
+{
+  "ConsumerComplaint": {
+    "header": {
+      "court": "<e.g. \"BEFORE THE DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION, [CITY]\">",
+      "complaintNo": "<Complaint No. & Year>",
+      "complainant": {
+        "name": "",
+        "age": "",
+        "address": "",
+        "contact": ""
+      },
+      "respondent": [
+        {
+          "name": "",
+          "address": ""
+        }
+      ]
+    },
+    "synopsis": [
+      {"date": "YYYY‑MM‑DD", "event": "Purchase/Defect observed"},
+      {"date": "", "event": ""}
+    ],
+    "memoOfParties": [
+      {"name": "", "relation": "", "address": ""}
+    ],
+    "statementOfFacts": "Narrative of purchase/service, defect, communication (attach proof)",
+    "causeOfAction": "Legal provisions under Consumer Protection Act, 2019",
+    "jurisdiction": "Pecuniary & territorial (specify forum limits)",
+    "reliefSought": [
+      "Refund ₹_____",
+      "Replacement",
+      "Compensation ₹_____"
+    ],
+    "prayerClause": "Example: \"May kindly grant above reliefs…\"",
+    "verification": {
+      "place": "",
+      "date": "YYYY‑MM‑DD",
+      "deponent": "<Name>",
+      "affirmation": "Solemnly verify that facts are true."
+    },
+    "affidavit": "Oath Commissioner attestation; stamp paper optional",
+    "annexures": [
+      {"tag": "A", "description": "Purchase receipt"},
+      {"tag": "B", "description": "Email communications"}
+    ],
+    "vakalatnama": {
+      "attached": true,
+      "lawyerName": "",
+      "registrationNo": ""
+    }
+  },
+  "AffidavitTemplate": {
+    "heading": "AFFIDAVIT",
+    "venue": "<Before Court/Commission at [City]>",
+    "deponent": {
+      "name": "",
+      "age": "",
+      "address": "",
+      "relationshipToCase": ""
+    },
+    "body": [
+      "I, [Name], do solemnly affirm and state as under:",
+      "1. [First statement of fact]",
+      "2. [Subsequent facts…]"
+    ],
+    "verificationClause": "Verified at [Place] on [Date].",
+    "signature": "<Deponent signature>",
+    "attestation": "<Oath Commissioner / Notary signature & seal>"
+  },
+  "LegalNotice": {
+    "date": "DD/MM/YYYY",
+    "sentVia": "Registered Post/A.D.",
+    "from": {
+      "sender": "",
+      "senderAddress": "",
+      "lawyer": {
+        "name": "",
+        "regNo": "",
+        "address": ""
+      }
+    },
+    "to": {
+      "recipientName": "",
+      "recipientAddress": ""
+    },
+    "subject": "e.g. \"Recovery of dues\"",
+    "opening": "\"UNDER INSTRUCTIONS FROM MY CLIENT, [Name],…\"",
+    "facts": [
+      "Chronology of events",
+      "Dates, places, amounts"
+    ],
+    "violatedProvisions": ["IPC/Contract Act/etc."],
+    "demands": ["Pay ₹___ within __ days"],
+    "consequences": "Legal action if ignored",
+    "reservationOfRights": "All rights reserved",
+    "closing": "Yours faithfully",
+    "signature": "<Sender/Lawyer>",
+    "enclosures": [
+      "Invoice copy",
+      "Correspondence"
+    ]
+  },
+  "DocumentChecklist": {
+    "copiesRequired": "e.g., 5 copies (one per respondent)",
+    "complaint": "With affidavit attached",
+    "affidavit": "Attested by Oath Commissioner",
+    "annexures": [
+      "Bills/invoices",
+      "Communications (email/letters)"
+    ],
+    "vakalatnama": "If represented by advocate",
+    "interimApplications": "If seeking interim relief"
+  },
+  "FIRTemplate": {
+    "to": "Officer‑in‑Charge, Police Station [Name]",
+    "complainant": {
+      "name": "",
+      "age": "",
+      "address": "",
+      "contact": ""
+    },
+    "factsChronology": [
+      {"date": "", "event": "Incident description"},
+      {"date": "", "event": ""}
+    ],
+    "ipcSections": ["e.g. 379, 188 of IPC"],
+    "verification": {
+      "place": "",
+      "date": "YYYY‑MM‑DD",
+      "signature": "<Complainant signature>"
+    }
+  }
+}

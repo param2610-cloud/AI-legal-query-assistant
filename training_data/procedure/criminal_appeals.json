@@ -1,0 +1,53 @@
+{
+  "procedure_type": "Criminal Appeal",
+  "legal_framework": {
+    "primary_act": "Code of Criminal Procedure, 1973",
+    "reference_sections": ["Section 372 (from magistrate to Sessions)", "Section 385 (from Sessions to HC)", "Section 395 (to SC)"]
+  },
+  "applicable_scenarios": [
+    "Conviction or acquittal in criminal trial",
+    "Sentencing issues",
+    "Legal or factual error in trial"
+  ],
+  "steps": [
+    "File appeal within time limit (30–90 days)",
+    "Serve appeal memo to respondent/public prosecutor",
+    "Court admits appeal & lists for hearing",
+    "Parties file grounds of appeal",
+    "Hear appeal with arguments",
+    "High Court/Supreme Court issues judgment"
+  ],
+  "required_documents": [
+    "Certified trial court judgment",
+    "Appeal memo",
+    "Bail bond/certified copy",
+    "Grounds of appeal"
+  ],
+  "timeline": {
+    "magistrate to Sessions": "30 days",
+    "Sessions to HC": "60 days",
+    "HC to SC": "90 days (SLP under Article 136)"
+  },
+  "fees": {
+    "court_fee": "Nominal for filing appeal",
+    "lawyer_fee": "₹5k–₹50k depending on complexity"
+  },
+  "jurisdiction": {
+    "hierarchy": "Magistrate → Sessions → High Court → Supreme Court"
+  },
+  "relief_available": [
+    "Acquittal",
+    "Reduction of sentence",
+    "Retrial order"
+  ],
+  "special_provisions": {
+    "revision": "HC can revise lower courts as per Sections 397–401 CrPC",
+    "bail_continuation": "Bail continues during appeal unless suspended"
+  },
+  "important_notes": [
+    "Strict timelines must be followed",
+    "Appeal grounds must be clearly argued",
+    "Public Prosecutor must be served",
+    "Appeals are de novo or limited review depending on court"
+  ]
+}

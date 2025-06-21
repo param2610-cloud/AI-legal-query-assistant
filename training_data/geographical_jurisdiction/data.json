@@ -1,0 +1,615 @@
+{
+  "west_bengal_jurisdiction_data": {
+    "geographic_mapping": {
+      "kolkata": {
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "major_areas": {
+          "salt_lake": {
+            "pincode": "700064",
+            "area_name": "Salt Lake City, Sector V",
+            "coordinates": {
+              "latitude": 22.5726,
+              "longitude": 88.4357
+            },
+            "court_jurisdiction": {
+              "civil_court": "Alipore Court",
+              "criminal_court": "Bankshall Court",
+              "consumer_forum": "Kolkata District Consumer Forum",
+              "registration_office": "Sub-Registrar Office, Salt Lake"
+            }
+          },
+          "park_street": {
+            "pincode": "700016",
+            "area_name": "Park Street, Central Kolkata",
+            "coordinates": {
+              "latitude": 22.5524,
+              "longitude": 88.3506
+            },
+            "court_jurisdiction": {
+              "civil_court": "Calcutta High Court (Original Side)",
+              "criminal_court": "Presidency Magistrate Court",
+              "consumer_forum": "Kolkata District Consumer Forum",
+              "registration_office": "Sub-Registrar Office, Park Street"
+            }
+          },
+          "new_town": {
+            "pincode": "700157",
+            "area_name": "New Town, Action Area I",
+            "coordinates": {
+              "latitude": 22.5958,
+              "longitude": 88.4719
+            },
+            "court_jurisdiction": {
+              "civil_court": "Barasat Court",
+              "criminal_court": "Barasat Court",
+              "consumer_forum": "North 24 Parganas District Consumer Forum",
+              "registration_office": "Sub-Registrar Office, New Town"
+            }
+          },
+          "ballygunge": {
+            "pincode": "700019",
+            "area_name": "Ballygunge",
+            "coordinates": {
+              "latitude": 22.5326,
+              "longitude": 88.3673
+            },
+            "court_jurisdiction": {
+              "civil_court": "Alipore Court",
+              "criminal_court": "Alipore Court",
+              "consumer_forum": "Kolkata District Consumer Forum",
+              "registration_office": "Sub-Registrar Office, Ballygunge"
+            }
+          }
+        }
+      },
+      "howrah": {
+        "district": "Howrah",
+        "state": "West Bengal",
+        "major_areas": {
+          "howrah_station": {
+            "pincode": "711101",
+            "area_name": "Howrah Station Area",
+            "coordinates": {
+              "latitude": 22.5804,
+              "longitude": 88.3426
+            },
+            "court_jurisdiction": {
+              "civil_court": "Howrah District Court",
+              "criminal_court": "Howrah District Court",
+              "consumer_forum": "Howrah District Consumer Forum",
+              "registration_office": "Sub-Registrar Office, Howrah"
+            }
+          },
+          "shibpur": {
+            "pincode": "711102",
+            "area_name": "Shibpur",
+            "coordinates": {
+              "latitude": 22.5636,
+              "longitude": 88.3289
+            },
+            "court_jurisdiction": {
+              "civil_court": "Howrah District Court",
+              "criminal_court": "Howrah District Court",
+              "consumer_forum": "Howrah District Consumer Forum",
+              "registration_office": "Sub-Registrar Office, Shibpur"
+            }
+          },
+          "bally": {
+            "pincode": "711201",
+            "area_name": "Bally",
+            "coordinates": {
+              "latitude": 22.6533,
+              "longitude": 88.3417
+            },
+            "court_jurisdiction": {
+              "civil_court": "Howrah District Court",
+              "criminal_court": "Howrah District Court",
+              "consumer_forum": "Howrah District Consumer Forum",
+              "registration_office": "Sub-Registrar Office, Bally"
+            }
+          }
+        }
+      }
+    },
+    "court_hierarchy": {
+      "calcutta_high_court": {
+        "name": "Calcutta High Court",
+        "address": "Esplanade, Kolkata - 700001",
+        "jurisdiction": "West Bengal, Jharkhand, Andaman & Nicobar Islands",
+        "contact": {
+          "phone": "033-2254-8065",
+          "email": "registrar@calcuttahighcourt.gov.in",
+          "website": "www.calcuttahighcourt.gov.in"
+        },
+        "working_hours": {
+          "court_hours": "10:30 AM - 4:30 PM",
+          "filing_hours": "10:30 AM - 4:00 PM",
+          "holidays": "All Sundays, Saturdays (alternate), gazetted holidays"
+        },
+        "original_side_jurisdiction": {
+          "civil_suits_above": "₹2,00,000",
+          "company_matters": "All company law matters",
+          "admiralty_cases": "All maritime disputes"
+        }
+      },
+      "kolkata_civil_courts": {
+        "alipore_court": {
+          "name": "Civil Court, Alipore",
+          "address": "Judges Court Road, Alipore, Kolkata - 700027",
+          "contact": {
+            "phone": "033-2479-5432",
+            "email": "civilcourtalipore@wb.gov.in"
+          },
+          "jurisdiction": {
+            "areas_covered": ["South Kolkata", "Ballygunge", "Salt Lake"],
+            "pecuniary_limits": {
+              "junior_civil_judge": "₹3,00,000",
+              "senior_civil_judge": "₹20,00,000",
+              "district_judge": "Unlimited"
+            }
+          },
+          "judges": {
+            "total_judges": 12,
+            "civil_judges": 8,
+            "criminal_judges": 4,
+            "average_case_load": 380
+          }
+        },
+        "bankshall_court": {
+          "name": "Bankshall Court",
+          "address": "Strand Road, Kolkata - 700001",
+          "contact": {
+            "phone": "033-2230-8954",
+            "email": "bankshallcourt@wb.gov.in"
+          },
+          "jurisdiction": {
+            "areas_covered": ["Central Kolkata", "North Kolkata"],
+            "specialization": ["Criminal cases", "Motor accident claims"]
+          }
+        }
+      },
+      "howrah_district_court": {
+        "name": "Howrah District Court",
+        "address": "Court Street, Howrah - 711101",
+        "contact": {
+          "phone": "033-2638-4721",
+          "email": "districtcourthowrah@wb.gov.in"
+        },
+        "jurisdiction": {
+          "areas_covered": ["Howrah District", "Hooghly (some areas)"],
+          "pecuniary_limits": {
+            "junior_civil_judge": "₹3,00,000",
+            "senior_civil_judge": "₹20,00,000",
+            "district_judge": "Unlimited"
+          }
+        },
+        "judges": {
+          "total_judges": 15,
+          "civil_judges": 9,
+          "criminal_judges": 6,
+          "average_case_load": 420
+        }
+      }
+    },
+    "court_selection_matrix": {
+      "consumer_protection": {
+        "up_to_20_lakh": {
+          "kolkata": {
+            "court": "Kolkata District Consumer Forum",
+            "address": "Beliaghata, Kolkata - 700010",
+            "filing_fee": "₹100",
+            "jurisdiction_rule": "Place of purchase OR consumer residence"
+          },
+          "howrah": {
+            "court": "Howrah District Consumer Forum",
+            "address": "Shibpur, Howrah - 711102",
+            "filing_fee": "₹100",
+            "jurisdiction_rule": "Place of purchase OR consumer residence"
+          }
+        },
+        "20_lakh_to_1_crore": {
+          "court": "West Bengal State Consumer Commission",
+          "address": "Kendriya Bhawan, Salt Lake, Kolkata - 700091",
+          "filing_fee": "₹500",
+          "jurisdiction_rule": "State where cause of action arose"
+        },
+        "above_1_crore": {
+          "court": "National Consumer Commission",
+          "address": "New Delhi",
+          "filing_fee": "₹5000",
+          "jurisdiction_rule": "Pan-India jurisdiction"
+        }
+      },
+      "property_disputes": {
+        "up_to_3_lakh": {
+          "court": "Junior Civil Judge",
+          "kolkata_fees": "₹150 + 1% of dispute value",
+          "howrah_fees": "₹150 + 1% of dispute value",
+          "stamp_duty": "West Bengal rate applicable"
+        },
+        "3_lakh_to_20_lakh": {
+          "court": "Senior Civil Judge",
+          "kolkata_fees": "₹300 + 1% of dispute value",
+          "howrah_fees": "₹300 + 1% of dispute value",
+          "stamp_duty": "West Bengal rate applicable"
+        },
+        "above_20_lakh": {
+          "court": "District Judge",
+          "kolkata_fees": "₹500 + 1% up to ₹1 crore, then 0.5%",
+          "howrah_fees": "₹500 + 1% up to ₹1 crore, then 0.5%",
+          "high_court_original_side": "Above ₹2 lakh in Kolkata"
+        }
+      },
+      "criminal_cases": {
+        "punishable_up_to_3_years": {
+          "court": "Judicial Magistrate",
+          "kolkata_courts": ["Bankshall Court", "Alipore Court"],
+          "howrah_courts": ["Howrah District Court"],
+          "examples": ["Simple hurt", "Cheating", "Criminal breach of trust", "IPC 323", "IPC 420"]
+        },
+        "punishable_above_3_years": {
+          "court": "Sessions Court",
+          "kolkata_court": "Sessions Court, Alipore",
+          "howrah_court": "Sessions Court, Howrah",
+          "examples": ["Murder", "Rape", "Dacoity", "IPC 302", "IPC 376"]
+        }
+      }
+    },
+    "property_valuation_data": {
+      "kolkata_rates": {
+        "salt_lake_sector_v": {
+          "circle_rate_per_sqft": {
+            "residential": 12000,
+            "commercial": 18000,
+            "office_space": 15000
+          },
+          "market_rate_per_sqft": {
+            "residential": 14000,
+            "commercial": 22000,
+            "office_space": 18000
+          },
+          "registration_office": "Sub-Registrar Office, Salt Lake",
+          "stamp_duty_rates": {
+            "male_buyer": "7%",
+            "female_buyer": "6%",
+            "joint_ownership": "6%"
+          }
+        },
+        "park_street": {
+          "circle_rate_per_sqft": {
+            "residential": 20000,
+            "commercial": 35000,
+            "office_space": 28000
+          },
+          "market_rate_per_sqft": {
+            "residential": 25000,
+            "commercial": 40000,
+            "office_space": 32000
+          },
+          "registration_office": "Sub-Registrar Office, Park Street"
+        },
+        "ballygunge": {
+          "circle_rate_per_sqft": {
+            "residential": 15000,
+            "commercial": 25000,
+            "office_space": 20000
+          },
+          "market_rate_per_sqft": {
+            "residential": 18000,
+            "commercial": 28000,
+            "office_space": 23000
+          },
+          "registration_office": "Sub-Registrar Office, Ballygunge"
+        }
+      },
+      "howrah_rates": {
+        "howrah_station_area": {
+          "circle_rate_per_sqft": {
+            "residential": 8000,
+            "commercial": 12000,
+            "industrial": 6000
+          },
+          "market_rate_per_sqft": {
+            "residential": 9500,
+            "commercial": 15000,
+            "industrial": 7500
+          },
+          "registration_office": "Sub-Registrar Office, Howrah"
+        },
+        "shibpur": {
+          "circle_rate_per_sqft": {
+            "residential": 10000,
+            "commercial": 15000,
+            "industrial": 8000
+          },
+          "market_rate_per_sqft": {
+            "residential": 12000,
+            "commercial": 18000,
+            "industrial": 9500
+          },
+          "registration_office": "Sub-Registrar Office, Shibpur"
+        }
+      }
+    },
+    "registration_jurisdiction": {
+      "kolkata_registration_offices": {
+        "salt_lake_office": {
+          "address": "FD Block, Salt Lake, Kolkata - 700064",
+          "areas_covered": ["Salt Lake", "New Town", "Rajarhat"],
+          "contact": "033-2334-5678",
+          "working_hours": "11:00 AM - 4:00 PM"
+        },
+        "park_street_office": {
+          "address": "Park Street, Kolkata - 700016",
+          "areas_covered": ["Park Street", "Camac Street", "Theatre Road"],
+          "contact": "033-2265-4321"
+        },
+        "ballygunge_office": {
+          "address": "Ballygunge Circular Road, Kolkata - 700019",
+          "areas_covered": ["Ballygunge", "Gariahat", "Rashbehari"],
+          "contact": "033-2440-9876"
+        }
+      },
+      "howrah_registration_offices": {
+        "howrah_main_office": {
+          "address": "GT Road, Howrah - 711101",
+          "areas_covered": ["Howrah Station Area", "Belur", "Liluah"],
+          "contact": "033-2638-5432"
+        },
+        "shibpur_office": {
+          "address": "Shibpur Road, Howrah - 711102",
+          "areas_covered": ["Shibpur", "Botanical Garden Area"],
+          "contact": "033-2648-7654"
+        }
+      },
+      "west_bengal_registration_rules": {
+        "stamp_duty_rates": {
+          "residential_property": {
+            "male_buyer": "7%",
+            "female_buyer": "6%",
+            "joint_ownership": "6%"
+          },
+          "commercial_property": "7%",
+          "industrial_property": "7%"
+        },
+        "registration_fee": "1% of property value",
+        "minimum_charges": {
+          "stamp_duty": "₹100",
+          "registration_fee": "₹60"
+        },
+        "additional_fees": {
+          "mutation_fee": "₹100",
+          "certified_copy": "₹20 per page"
+        }
+      }
+    },
+    "specialized_courts": {
+      "family_courts": {
+        "kolkata_family_court": {
+          "address": "Alipore, Kolkata - 700027",
+          "jurisdiction": "Kolkata Municipal Corporation area",
+          "contact": "033-2479-6543"
+        },
+        "howrah_family_court": {
+          "address": "Howrah - 711101",
+          "jurisdiction": "Howrah District",
+          "contact": "033-2638-7890"
+        }
+      },
+      "motor_accident_tribunals": {
+        "kolkata_mact": {
+          "address": "Alipore Court Complex, Kolkata",
+          "jurisdiction": "Kolkata and adjoining areas"
+        },
+        "howrah_mact": {
+          "address": "Howrah District Court Complex",
+          "jurisdiction": "Howrah District"
+        }
+      },
+      "labour_courts": {
+        "kolkata_labour_court": {
+          "address": "Brabourne Road, Kolkata - 700001",
+          "jurisdiction": "Industrial disputes in Kolkata"
+        }
+      }
+    },
+    "court_performance_analytics": {
+      "kolkata_courts_2023": {
+        "alipore_court": {
+          "total_cases_filed": 15600,
+          "cases_disposed": 12800,
+          "disposal_rate": "82%",
+          "average_disposal_time": {
+            "property_disputes": "18 months",
+            "consumer_complaints": "10 months",
+            "criminal_cases": "15 months",
+            "family_disputes": "24 months"
+          },
+          "judge_performance": {
+            "civil_judge_1": {
+              "disposal_rate": "88%",
+              "specialization": "Property disputes",
+              "average_hearing_gap": "18 days"
+            },
+            "civil_judge_2": {
+              "disposal_rate": "85%",
+              "specialization": "Consumer cases",
+              "average_hearing_gap": "21 days"
+            }
+          }
+        }
+      },
+      "howrah_court_2023": {
+        "total_cases_filed": 13200,
+        "cases_disposed": 10500,
+        "disposal_rate": "80%",
+        "average_disposal_time": {
+          "property_disputes": "20 months",
+          "consumer_complaints": "12 months",
+          "criminal_cases": "16 months"
+        }
+      }
+    },
+    "accessibility_data": {
+      "kolkata_court_access": {
+        "alipore_court": {
+          "nearest_metro": "Kalighat Metro (1.5 km)",
+          "bus_routes": ["S4", "S5", "AC38"],
+          "taxi_fare_from_howrah": "₹200-300",
+          "parking": "Limited parking available",
+          "nearby_facilities": {
+            "lawyer_chambers": "100+ advocates within 1km",
+            "document_services": "Multiple xerox, notary services",
+            "banks": "SBI, PNB within 500m"
+          }
+        },
+        "bankshall_court": {
+          "nearest_metro": "Esplanade Metro (0.5 km)",
+          "bus_routes": ["Multiple city buses"],
+          "taxi_fare_from_salt_lake": "₹150-250",
+          "parking": "Street parking only"
+        }
+      },
+      "howrah_court_access": {
+        "nearest_railway": "Howrah Station (2 km)",
+        "bus_routes": ["Multiple local buses"],
+        "auto_fare_from_station": "₹50-80",
+        "parking": "Court complex parking available"
+      }
+    },
+    "west_bengal_specific_rules": {
+      "property_registration": {
+        "mandatory_documents": [
+          "Municipal clearance certificate",
+          "Non-encumbrance certificate",
+          "Survey settlement records",
+          "Building plan approval (if applicable)"
+        ],
+        "time_limits": {
+          "registration_completion": "4 months from agreement date",
+          "stamp_duty_payment": "Within 30 days of execution"
+        },
+        "special_provisions": {
+          "refugee_property": "Special provisions under West Bengal Land Reforms Act",
+          "cooperative_housing": "Additional clearances required"
+        }
+      },
+      "consumer_protection": {
+        "west_bengal_rules": [
+          "E-filing mandatory for claims above ₹5 lakh",
+          "Bengali language support in district forums",
+          "Special fast-track courts for senior citizens"
+        ],
+        "mediation_centers": [
+          "Lok Adalat Kolkata - 1st Saturday of every month",
+          "Consumer Mediation Center - Salt Lake",
+          "Howrah Lok Adalat - 2nd Saturday"
+        ]
+      }
+    },
+    "fee_calculator": {
+      "property_registration_kolkata": {
+        "salt_lake_example": {
+          "property_value": 5000000,
+          "circle_rate_applicable": true,
+          "stamp_duty": 300000,
+          "registration_fee": 50000,
+          "additional_charges": {
+            "scanning_fee": 50,
+            "mutation_fee": 100,
+            "certified_copy": 200
+          },
+          "total_cost": 350350
+        }
+      },
+      "court_fees": {
+        "civil_suit_kolkata": {
+          "calculation": "₹150 + 1% of suit value",
+          "minimum": "₹150",
+          "maximum": "₹7500"
+        },
+        "high_court_original_side": {
+          "calculation": "₹1000 + 2% of suit value",
+          "minimum": "₹1000",
+          "maximum": "₹25000"
+        }
+      }
+    },
+    "ml_training_features": {
+      "court_recommendation_data": [
+        {
+          "case_type": "property_dispute",
+          "dispute_value": 800000,
+          "user_location": "Salt Lake, Kolkata",
+          "property_location": "Salt Lake, Kolkata",
+          "urgency_level": "normal",
+          "language_preference": "Bengali",
+          "recommended_court": "Senior Civil Judge, Alipore Court",
+          "reasoning": "Dispute value between ₹3L-₹20L, same locality jurisdiction"
+        },
+        {
+          "case_type": "consumer_complaint",
+          "dispute_value": 50000,
+          "user_location": "Howrah Station",
+          "service_location": "Park Street, Kolkata",
+          "urgency_level": "high",
+          "language_preference": "English",
+          "recommended_court": "Kolkata District Consumer Forum",
+          "reasoning": "Service location in Kolkata, under ₹20L limit"
+        },
+        {
+          "case_type": "criminal_case",
+          "offense_type": "cheating",
+          "punishment_range": "up_to_3_years",
+          "user_location": "Shibpur, Howrah",
+          "incident_location": "Howrah",
+          "recommended_court": "Judicial Magistrate, Howrah District Court",
+          "reasoning": "Local jurisdiction, magistrate level offense"
+        }
+      ],
+      "property_valuation_data": [
+        {
+          "location": "Salt Lake Sector V",
+          "coordinates": [22.5726, 88.4357],
+          "property_type": "residential",
+          "size_sqft": 1200,
+          "age_years": 5,
+          "amenities": ["metro_access", "it_hub", "malls"],
+          "estimated_value": 16800000,
+          "circle_rate": 14400000,
+          "market_rate": 16800000
+        },
+        {
+          "location": "Park Street",
+          "coordinates": [22.5524, 88.3506],
+          "property_type": "commercial",
+          "size_sqft": 800,
+          "age_years": 15,
+          "amenities": ["commercial_hub", "metro", "restaurants"],
+          "estimated_value": 32000000,
+          "circle_rate": 28000000,
+          "market_rate": 32000000
+        }
+      ]
+    },
+    "api_integration_endpoints": {
+      "west_bengal_ecourts": {
+        "url": "https://ecourts.gov.in/ecourts_home/static/districts/wb/",
+        "data_available": "Case status, hearing dates, cause lists"
+      },
+      "wb_registration_department": {
+        "url": "https://www.wbregistration.gov.in/",
+        "data_available": "Circle rates, registration status"
+      },
+      "wb_land_records": {
+        "url": "https://banglarbhumi.gov.in/",
+        "data_available": "Property records, mutation status"
+      },
+      "consumer_forum_wb": {
+        "url": "https://wb.consumercourt.gov.in/",
+        "data_available": "Consumer complaint status"
+      }
+    }
+  }
+}

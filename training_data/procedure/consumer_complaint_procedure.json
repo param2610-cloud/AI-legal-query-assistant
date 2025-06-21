@@ -1,0 +1,332 @@
+    {
+    "procedure_type": "Consumer Complaint Filing",
+    "legal_framework": {
+        "primary_act": "Consumer Protection Act, 2019",
+        "replaced_act": "Consumer Protection Act, 1986",
+        "enforcement_authority": "Central Consumer Protection Authority (CCPA)"
+    },
+    "applicable_scenarios": [
+        "Defective goods purchased by consumer",
+        "Deficient services availed by consumer",
+        "Unfair or restrictive trade practices by trader/service provider",
+        "Overcharging beyond agreed price for goods/services",
+        "Sale of hazardous goods/services that endanger life or property",
+        "Misleading advertisements",
+        "Breach of warranty or guarantee terms"
+    ],
+    "consumer_rights": [
+        "Right to Safety - Protection against hazardous goods/services",
+        "Right to Information - Access to accurate product/service information",
+        "Right to Choose - Access to variety of goods/services at competitive prices",
+        "Right to be Heard - Due consideration at appropriate forums",
+        "Right to Redressal - Seek remedy against unfair practices",
+        "Right to Consumer Education - Acquire knowledge to be informed consumer"
+    ],
+    "procedure_steps": [
+        {
+        "step": 1,
+        "title": "Pre-complaint Notice (Optional but Recommended)",
+        "description": "Send formal notice to service provider/trader",
+        "details": [
+            "Intimate the company about the grievance",
+            "Explain the defect/deficiency in goods/services",
+            "Mention unfair trade practices if any",
+            "Provide opportunity for amicable settlement",
+            "Set reasonable time limit for response (typically 15-30 days)"
+        ],
+        "purpose": "Attempt resolution without litigation"
+        },
+        {
+        "step": 2,
+        "title": "Determine Appropriate Forum",
+        "description": "Select correct consumer forum based on claim value",
+        "details": [
+            "District Consumer Disputes Redressal Commission (DCDRC) - Up to ₹1 crore",
+            "State Consumer Disputes Redressal Commission (SCDRC) - ₹1 crore to ₹10 crore",
+            "National Consumer Disputes Redressal Commission (NCDRC) - Above ₹10 crore"
+        ]
+        },
+        {
+        "step": 3,
+        "title": "Draft Consumer Complaint",
+        "description": "Prepare formal written complaint",
+        "mandatory_contents": [
+            "Complainant's name, address, and description",
+            "Details of opposite party (trader/service provider)",
+            "Clear statement of facts and grievances",
+            "Chronological sequence of events",
+            "Nature of defect/deficiency",
+            "Relief/compensation sought",
+            "Verification and signature of complainant"
+        ]
+        },
+        {
+        "step": 4,
+        "title": "Gather Supporting Documents",
+        "description": "Collect all relevant evidence and documentation"
+        },
+        {
+        "step": 5,
+        "title": "Pay Court Fees",
+        "description": "Pay requisite fees as per forum and claim value"
+        },
+        {
+        "step": 6,
+        "title": "File Complaint with Affidavit",
+        "description": "Submit complaint along with sworn affidavit confirming truthfulness"
+        },
+        {
+        "step": 7,
+        "title": "Service of Notice",
+        "description": "Forum issues notice to opposite party for response"
+        },
+        {
+        "step": 8,
+        "title": "Opposite Party Response",
+        "description": "Respondent files written statement/counter-affidavit"
+        },
+        {
+        "step": 9,
+        "title": "Evidence and Hearings",
+        "description": "Both parties present evidence and arguments"
+        },
+        {
+        "step": 10,
+        "title": "Final Order",
+        "description": "Forum passes final judgment with relief if complaint is proved"
+        }
+    ],
+    "required_documents": [
+        {
+        "category": "Purchase/Transaction Proof",
+        "documents": [
+            "Original receipt/bill/invoice",
+            "Payment proof (bank statement, card statement)",
+            "Delivery challans/receipts",
+            "Online transaction screenshots/confirmations"
+        ]
+        },
+        {
+        "category": "Product/Service Documentation",
+        "documents": [
+            "Warranty/guarantee certificate",
+            "Product manual/instruction booklet",
+            "Service agreement/contract",
+            "Packaging details and labels"
+        ]
+        },
+        {
+        "category": "Communication Records",
+        "documents": [
+            "Correspondence with company (emails, letters)",
+            "Pre-complaint legal notice sent",
+            "Company's response to notice (if any)",
+            "Service complaint tickets/reference numbers"
+        ]
+        },
+        {
+        "category": "Evidence of Defect/Deficiency",
+        "documents": [
+            "Photographs of defective product",
+            "Expert opinion/technical report",
+            "Medical reports (if health impact)",
+            "Video evidence of service deficiency"
+        ]
+        },
+        {
+        "category": "Legal Documents",
+        "documents": [
+            "Duly filled complaint form",
+            "Affidavit verifying complaint facts",
+            "Authority letter (if filed through advocate)",
+            "Copy of consumer's identity proof"
+        ]
+        }
+    ],
+    "timeline": {
+        "filing_limitation": {
+        "period": "2 years from cause of action",
+        "cause_of_action_examples": [
+            "Date of purchase of defective goods",
+            "Date of availing deficient service",
+            "Date of discovery of defect/deficiency",
+            "Date of unfair trade practice occurrence"
+        ],
+        "condonation_of_delay": {
+            "possible": true,
+            "section": "Section 69, Consumer Protection Act 2019",
+            "valid_reasons": [
+            "Prolonged illness or medical emergency",
+            "Lack of awareness of defect/deficiency",
+            "Misplaced or incomplete documentation",
+            "Continuous attempts at amicable settlement"
+            ]
+        }
+        },
+        "typical_proceedings_timeline": {
+        "notice_issuance": "7-15 days after filing",
+        "opposite_party_response": "30-45 days from notice",
+        "first_hearing": "30-60 days from filing",
+        "evidence_completion": "3-6 months",
+        "final_order": "6-18 months (varies by complexity)",
+        "appeal_period": "45 days from order date"
+        },
+        "fast_track_provisions": {
+        "available_for": "Claims up to ₹5 lakhs",
+        "timeline": "90 days from filing",
+        "conditions": "Simple and straightforward cases"
+        }
+    },
+    "fees": {
+        "district_forum": {
+        "up_to_1_lakh_aay_cardholders": "No fee",
+        "up_to_1_lakh_others": "₹100",
+        "1_lakh_to_5_lakhs": "₹500",
+        "5_lakhs_to_10_lakhs": "₹1,000",
+        "10_lakhs_to_20_lakhs": "₹2,000",
+        "20_lakhs_to_50_lakhs": "₹5,000 (Old: ₹1,000)",
+        "50_lakhs_to_1_crore": "₹10,000 (Old: ₹2,000)"
+        },
+        "state_forum": {
+        "20_lakhs_to_50_lakhs": "₹5,000",
+        "50_lakhs_to_1_crore": "₹10,000",
+        "1_crore_to_2_crores": "₹2,500 (Old fee structure)",
+        "2_crores_to_4_crores": "₹3,000 (Old fee structure)",
+        "4_crores_to_6_crores": "₹4,000 (Old fee structure)",
+        "6_crores_to_8_crores": "₹5,000 (Old fee structure)",
+        "8_crores_to_10_crores": "₹6,000 (Old fee structure)"
+        },
+        "national_forum": {
+        "above_1_crore": "₹25,000",
+        "above_5_crores": "₹50,000",
+        "above_10_crores": "₹1,00,000 (Old: ₹7,500)"
+        },
+        "payment_methods": [
+        "Demand draft of nationalised bank",
+        "Postal order",
+        "Electronic payment (online)",
+        "Bank guarantee (for large amounts)"
+        ],
+        "fee_utilization": "Consumer Welfare Fund at respective levels"
+    },
+    "jurisdiction": {
+        "district_forum": {
+        "monetary_jurisdiction": "Up to ₹1 crore",
+        "territorial_jurisdiction": [
+            "Where opposite party resides/carries business",
+            "Where complainant resides/carries business", 
+            "Where cause of action arose"
+        ],
+        "composition": {
+            "president": "District Judge or qualified person",
+            "members": "Two other members (including one woman)"
+        }
+        },
+        "state_forum": {
+        "monetary_jurisdiction": "₹1 crore to ₹10 crore",
+        "appellate_jurisdiction": "Appeals from District Forums",
+        "territorial_jurisdiction": "Within the state",
+        "composition": {
+            "president": "High Court Judge or qualified person",
+            "members": "At least four members (including one woman)"
+        }
+        },
+        "national_forum": {
+        "monetary_jurisdiction": "Above ₹10 crore",
+        "appellate_jurisdiction": "Appeals from State Forums",
+        "original_jurisdiction": [
+            "Unfair contracts",
+            "Misleading advertisements",
+            "Significant consumer issues"
+        ],
+        "territorial_jurisdiction": "Pan-India",
+        "composition": {
+            "president": "Supreme Court Judge or qualified person",
+            "members": "At least four members (including one woman)"
+        }
+        }
+    },
+    "relief_available": [
+        {
+        "type": "Monetary Relief",
+        "details": [
+            "Refund of price paid",
+            "Compensation for loss/damage",
+            "Punitive damages for gross negligence",
+            "Cost of litigation"
+        ]
+        },
+        {
+        "type": "Specific Relief",
+        "details": [
+            "Replacement of defective goods",
+            "Rectification of service deficiency",
+            "Removal of defects at trader's cost",
+            "Withdrawal of hazardous goods from market"
+        ]
+        },
+        {
+        "type": "Preventive Relief",
+        "details": [
+            "Injunction against unfair trade practices",
+            "Prohibition of misleading advertisements",
+            "Directions for proper labeling",
+            "Recall of unsafe products"
+        ]
+        }
+    ],
+    "special_provisions": {
+        "class_action_suits": {
+        "minimum_consumers": "Numerous consumers with same interest",
+        "common_grievance": "Required against same trader/manufacturer",
+        "representative_action": "Can be filed by consumer groups/NGOs"
+        },
+        "product_liability": {
+        "strict_liability": "Manufacturer liable without proving negligence",
+        "covered_defects": [
+            "Manufacturing defects",
+            "Design defects", 
+            "Marketing/warning defects"
+        ],
+        "compensation": "For harm caused by defective products"
+        },
+        "e_commerce_protection": {
+        "marketplace_liability": "Platform liable for third-party sellers",
+        "country_of_origin": "Mandatory disclosure required",
+        "return_policy": "Clear terms mandatory"
+        }
+    },
+    "appeals": {
+        "from_district_to_state": {
+        "time_limit": "45 days from order",
+        "grounds": "Questions of law and fact",
+        "fee": "As applicable to State Forum"
+        },
+        "from_state_to_national": {
+        "time_limit": "45 days from order", 
+        "grounds": "Substantial questions of law",
+        "fee": "As applicable to National Forum"
+        },
+        "from_national_to_supreme_court": {
+        "time_limit": "30 days from order",
+        "grounds": "Constitutional questions or substantial questions of law",
+        "procedure": "Special Leave Petition under Article 136"
+        }
+    },
+    "advantages": [
+        "No court fee for claims up to ₹1 lakh (for AAY cardholders)",
+        "Simple and expeditious procedure",
+        "No mandatory legal representation required",
+        "Power to award punitive damages",
+        "Specific performance orders possible",
+        "Cost-effective dispute resolution"
+    ],
+    "important_notes": [
+        "Consumer must establish purchase for personal use (not commercial)",
+        "Complaint must be filed within limitation period",
+        "Proper documentation essential for success",
+        "Alternative dispute resolution encouraged",
+        "Enforcement mechanisms available for orders",
+        "False complaints may attract penalties"
+    ]
+    }
